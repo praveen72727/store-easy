@@ -11,6 +11,12 @@ import { SwiperConfigInterface } from 'ngx-swiper-wrapper';
 export class PageComponent {
   active = 1; // Basic Navs
 
+  isCollapsed1 = true;
+  isCollapsed2 = true;
+  isCollapsed3 = true;
+  isCollapsed4 = true;
+  isCollapsed5 = true;
+
   public swiperAutoplayConfig: SwiperConfigInterface = {
     spaceBetween: 30,
     centeredSlides: true,

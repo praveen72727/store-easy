@@ -419,5 +419,119 @@
         </div>
       </section>
     </div>
+    <div class="faq-div p-5">
+      <h1 class="m-0 text-center mb-4">Frequently asked questions</h1>
+      <div>
+        <div class="card question-1">
+          <div class="card-content">
+            <div class="card-body cursor-pointer"
+            (click)="isCollapsed1 = !isCollapsed1"
+                    [attr.aria-expanded]="!isCollapsed1" aria-controls="collapseExample1">
+              <div class="d-flex justify-content-between align-items-center">
+                <h4 class="m-0">
+                  What is Store Easy?
+                </h4>
+                <i class="font-large-1 fa-solid text-bold-900"
+                  [ngClass]="{'fa-plus': isCollapsed1, 'fa-minus': !isCollapsed1}">
+                </i>
+              </div>
+              <div class="mt-2" id="collapseExample1" [ngbCollapse]="isCollapsed1">
+                <p class="m-0 font-medium-3">
+                  Store Easy is a peer-to-peer marketplace that connects individuals in Canada looking for extra storage or parking space. From garages to driveways, you can easily find and rent a variety of spaces to suit your needs.With Store Easy, you can effortlessly search for and secure a location close to you. Enjoy the freedom of flexible rental terms without long-term commitments, and cancel your booking whenever necessary.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card question-2">
+          <div class="card-content">
+            <div class="card-body cursor-pointer"
+            (click)="isCollapsed2 = !isCollapsed2"
+                    [attr.aria-expanded]="!isCollapsed2" aria-controls="collapseExample2">
+              <div class="d-flex justify-content-between align-items-center">
+                <h4 class="m-0">
+                  How can I find the perfect space?
+                </h4>
+                <i class="font-large-1 fa-solid text-bold-900"
+                  [ngClass]="{'fa-plus': isCollapsed2, 'fa-minus': !isCollapsed2}">
+                </i>
+              </div>
+              <div class="mt-2" id="collapseExample2" [ngbCollapse]="isCollapsed2">
+                <p class="m-0 font-medium-3">
+                  Begin by exploring options in your local area. You can refine your search using various criteria, such as size, price, and whether you prefer indoor or outdoor spaces.If you need assistance in locating the ideal space, feel free to reach out to us at (123) 456-7890. We're here to help!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card question-3">
+          <div class="card-content">
+            <div class="card-body cursor-pointer"
+            (click)="isCollapsed3 = !isCollapsed3"
+                    [attr.aria-expanded]="!isCollapsed3" aria-controls="collapseExample3">
+              <div class="d-flex justify-content-between align-items-center">
+                <h4 class="m-0">
+                  How can I cancel my reservation?
+                </h4>
+                <i class="font-large-1 fa-solid text-bold-900"
+                  [ngClass]="{'fa-plus': isCollapsed3, 'fa-minus': !isCollapsed3}">
+                </i>
+              </div>
+              <div class="mt-2" id="collapseExample3" [ngbCollapse]="isCollapsed3">
+                <p class="m-0 font-medium-3">
+                  At Store Easy, we prioritize flexibility. Our process is straightforward, with no complicated contracts or long-term commitments. You can cancel your reservation online in just a few simple steps. Plus, there are no cancellation fees—feel free to end your reservation whenever you need!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card question-4">
+          <div class="card-content">
+            <div class="card-body cursor-pointer"
+            (click)="isCollapsed4 = !isCollapsed4"
+                    [attr.aria-expanded]="!isCollapsed4" aria-controls="collapseExample4">
+              <div class="d-flex justify-content-between align-items-center">
+                <h4 class="m-0">
+                  Is Store Easy secure?
+                </h4>
+                <i class="font-large-1 fa-solid text-bold-900"
+                  [ngClass]="{'fa-plus': isCollapsed4, 'fa-minus': !isCollapsed4}">
+                </i>
+              </div>
+              <div class="mt-2" id="collapseExample4" [ngbCollapse]="isCollapsed4">
+                <p class="m-0 font-medium-3">
+                  Absolutely! At Store Easy, safety is a top priority. All hosts undergo identity verification, and each booking is backed by $1 million in liability coverage. Renters can also opt for additional protection with our property safeguard plans.
+
+                  While Store Easy locations are often more secure than traditional storage facilities, it’s still essential to consider the area when choosing where to park or store your belongings.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card question-5">
+          <div class="card-content">
+            <div class="card-body cursor-pointer"
+            (click)="isCollapsed5 = !isCollapsed5"
+                    [attr.aria-expanded]="!isCollapsed5" aria-controls="collapseExample5">
+              <div class="d-flex justify-content-between align-items-center">
+                <h4 class="m-0">
+                  Can I live or work in the space I rent?
+                </h4>
+                <i class="font-large-1 fa-solid text-bold-900"
+                  [ngClass]="{'fa-plus': isCollapsed5, 'fa-minus': !isCollapsed5}">
+                </i>
+              </div>
+              <div class="mt-2" id="collapseExample5" [ngbCollapse]="isCollapsed5">
+                <p class="m-0 font-medium-3">
+                  No, Store Easy spaces are strictly for storage purposes. Living, working, or staying in any rented space is not allowed.
+
+                  Each host sets their own access hours, so if you need frequent access, be sure to review the specific policies of the space you're considering.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
