@@ -1508,6 +1508,13 @@ var DASHBOARD_ROUTES = [{
       return m.PageModule;
     });
   }
+}, {
+  path: 'storage',
+  loadChildren: function loadChildren() {
+    return __webpack_require__.e(/*! import() */ "src_app_storage_storage_module_ts").then(__webpack_require__.bind(__webpack_require__, /*! ../../storage/storage.module */ 4138)).then(function (m) {
+      return m.StorageModule;
+    });
+  }
 }
 // {
 //   path: 'customer',

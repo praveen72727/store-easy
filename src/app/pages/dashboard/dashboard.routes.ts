@@ -7,6 +7,10 @@ export const DASHBOARD_ROUTES: Routes = [
     path: 'home',
     loadChildren: () => import('../../page/page.module').then((m) => m.PageModule),
   },
+  {
+    path: 'storage',
+    loadChildren: () => import('../../storage/storage.module').then((m) => m.StorageModule),
+  },
   // {
   //   path: 'customer',
   //   loadChildren: () => import('../../customer/customer.module').then((m) => m.CustomerModule),

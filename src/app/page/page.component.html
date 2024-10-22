@@ -14,7 +14,10 @@
             <span class="how-it-works-button-button cursor-pointer p-2 rounded">How it works</span>
           </div>
           <div class="mr-2">
-            <span class="find-storage-button cursor-pointer p-2 rounded">Find Storage</span>
+            <span
+              class="find-storage-button cursor-pointer p-2 rounded"
+              [routerLink]="['/dashboard/storage/search-hosts']"
+              >Find Storage</span>
           </div>
           <div ngbDropdown>
             <button class="btn storage-type-button mr-2" id="dropdownBasic1" ngbDropdownToggle>Storage Type</button>
