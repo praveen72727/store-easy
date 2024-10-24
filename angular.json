@@ -28,8 +28,9 @@
               "src/assets",
               "src/favicon.ico"
             ],
+            "baseHref": "/",
             "styles": [
-              
+
               "node_modules/perfect-scrollbar/css/perfect-scrollbar.css",
               "node_modules/prismjs/plugins/toolbar/prism-toolbar.css",
               "src/assets/css/animate.min.css",
