@@ -1,1 +1,533 @@
-<p>search-hosts works!</p>
+<section class="search-hosts-section">
+  <div class="search-hosts-div">
+    <div class="header d-flex justify-content-between align-items-center px-3 py-2 bg-white rounded">
+      <div class="left-menu">
+        <div class="logo-div mr-2">
+          <h4 [routerLink]="['/dashboard/home']" class="logo-text m-0 text-bold-900 font-large-1 cursor-pointer">
+            <img width="30px" src="assets/img/icons/store-easy-icons/storage-icon.svg" alt="">
+            Store Easy
+          </h4>
+        </div>
+      </div>
+
+      <div class="right-menu d-flex justify-content-between align-items-center p-2 ">
+          <div class="mr-2">
+            <span class="how-it-works-button-button cursor-pointer p-2 rounded">How it works</span>
+          </div>
+          <div ngbDropdown>
+            <button class="btn storage-type-button mr-2" id="storage-type-dropdown" ngbDropdownToggle>Storage Type</button>
+            <div ngbDropdownMenu aria-labelledby="storage-type-dropdown">
+              <button class="dropdown-item w-100">Self Storage</button>
+              <button class="dropdown-item w-100">Garages</button>
+              <button class="dropdown-item w-100">RV Storage</button>
+              <button class="dropdown-item w-100">RV Storage</button>
+              <button class="dropdown-item w-100">Boat Storage</button>
+              <button class="dropdown-item w-100">Car Storage</button>
+              <button class="dropdown-item w-100">Truck Parking</button>
+              <button class="dropdown-item w-100">Monthly Parking</button>
+              <button class="dropdown-item w-100">Long-term Parking</button>
+              <button class="dropdown-item w-100">Fleet Parking</button>
+            </div>
+          </div>
+          <div ngbDropdown>
+            <button class="btn location-button mr-2" id="locations-dropdown" ngbDropdownToggle>Locations</button>
+            <div ngbDropdownMenu aria-labelledby="locations-dropdown">
+              <button class="dropdown-item w-100">Alberta</button>
+              <button class="dropdown-item w-100">British Columbia</button>
+              <button class="dropdown-item w-100">Manitoba</button>
+              <button class="dropdown-item w-100">New Brunswick</button>
+              <button class="dropdown-item w-100">Newfoundland and Labrador</button>
+              <button class="dropdown-item w-100">Nova Scotia</button>
+              <button class="dropdown-item w-100">Ontario</button>
+              <button class="dropdown-item w-100">Prince Edward Island</button>
+              <button class="dropdown-item w-100">Quebec</button>
+              <button class="dropdown-item w-100">Saskatchewan</button>
+            </div>
+          </div>
+          <div>
+            <button class="btn btn-outline-info">Become a Host</button>
+          </div>
+      </div>
+    </div>
+    <div class="primary-search-filters-div">
+      <div class="card px-3 py-2">
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="primary-filters d-flex">
+              <div class="mr-2" ngbDropdown>
+                <button class="btn border primary-filter-dropdown-button mr-1" id="primary-filter-dropdown-price" ngbDropdownToggle>Price</button>
+                <div ngbDropdownMenu aria-labelledby="primary-filter-dropdown-price">
+                  <button class="dropdown-item w-100">Less than $100</button>
+                  <button class="dropdown-item w-100">$100 - $200</button>
+                  <button class="dropdown-item w-100">$200 - $300</button>
+                  <button class="dropdown-item w-100">$300 and above</button>
+                </div>
+              </div>
+              <div class="mr-2" ngbDropdown>
+                <button class="btn border primary-filter-dropdown-button mr-1" id="primary-filter-dropdown-storage-type" ngbDropdownToggle>Storage type</button>
+                <div ngbDropdownMenu aria-labelledby="primary-filter-dropdown-storage-type">
+                  <button class="dropdown-item w-100">Items</button>
+                  <button class="dropdown-item w-100">Vehicles</button>
+                  <button class="dropdown-item w-100">Trailer</button>
+                  <button class="dropdown-item w-100">RV/Camper</button>
+                  <button class="dropdown-item w-100">Boat</button>
+                  <button class="dropdown-item w-100">Oversized</button>
+                </div>
+              </div>
+              <div class="mr-2" ngbDropdown>
+                <button class="btn border primary-filter-dropdown-button mr-1" id="primary-filter-dropdown-exposure" ngbDropdownToggle>Exposure</button>
+                <div ngbDropdownMenu aria-labelledby="primary-filter-dropdown-exposure">
+                  <button class="dropdown-item w-100">Indoor</button>
+                  <button class="dropdown-item w-100">Outdoor - covered</button>
+                  <button class="dropdown-item w-100">Outdoor - uncovered</button>
+                </div>
+              </div>
+              <div class="mr-2" ngbDropdown>
+                <button class="btn border primary-filter-dropdown-button mr-1" id="primary-filter-dropdown-features" ngbDropdownToggle>Features</button>
+                <div ngbDropdownMenu aria-labelledby="primary-filter-dropdown-features">
+                  <button class="dropdown-item w-100">No Stairs</button>
+                  <button class="dropdown-item w-100">Private Entrance</button>
+                  <button class="dropdown-item w-100">Private Space</button>
+                  <button class="dropdown-item w-100">Pet Free</button>
+                  <button class="dropdown-item w-100">Smoke Free</button>
+                </div>
+              </div>
+              <div ngbDropdown>
+                <button class="btn border primary-filter-dropdown-button mr-1" id="primary-filter-dropdown-sortby" ngbDropdownToggle>Sort by</button>
+                <div ngbDropdownMenu aria-labelledby="primary-filter-dropdown-sortby">
+                  <button class="dropdown-item w-100">Recommended</button>
+                  <button class="dropdown-item w-100">Price (Low to High)</button>
+                  <button class="dropdown-item w-100">Price (High to Low)</button>
+                  <button class="dropdown-item w-100">Closest</button>
+                  <button class="dropdown-item w-100">Size (Big to Small)</button>
+                  <button class="dropdown-item w-100">Size (Small to Big)</button>
+                </div>
+              </div>
+            </div>
+            <div class="primary-search">
+              <div class="middle-menu-div">
+                <div class="d-flex justify-content-center align-items-center">
+                  <div class="p-1">
+                    <div class="destination-div header-search-inner-each-div px-2 rounded">
+                      <div class="form-group m-0">
+                        <!-- <div>
+                          <label for="fromCity" class="modify-search_inputlbl">CITY, AREA OR POSTAL CODE</label>
+                        </div> -->
+                        <ng-select id="fromCity" class="storages-search-field" [items]="cities" bindLabel="name" placeholder="Select city"
+                          [(ngModel)]="selectedCity">
+                        </ng-select>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- <div class="col-md-2 col-sm-12 p-1">
+                    <div class="check-in-div header-search-inner-each-div px-2 rounded">
+                      <div>
+                        <label for="check_in_date" class="modify-search_inputlbl">CHECK-IN</label>
+                      </div>
+                      <div class="form-group datePicker-div m-0">
+                        <div class="input-group m-0">
+                          <input id="check_in_date" class="form-control" placeholder="yyyy-mm-dd" name="dp"
+                            [(ngModel)]="popupModel1" ngbDatepicker #d2="ngbDatepicker">
+                          <div class="input-group-append">
+                            <div class="input-group-text" (click)="d2.toggle()">
+                              <i class="fa fa-calendar" style="cursor: pointer;"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div> -->
+                  <div class="p-1">
+                    <div class="search-button-div-div rounded">
+                      <button class="btn btn-info px-4 storages-and-parkings-search-button" (click)="showResults()"><i class="fa-solid fa-magnifying-glass mr-1"></i> SEARCH</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="main-body-div">
+      <div class="main-body container py-3">
+        <div class="row">
+          <div class="col-md-3 col-sm-12">
+            <div>
+              <div class="card top-div p-0 m-0 mb-2 h-60">
+                <div class="">
+                  <div class="pt-0">
+                    <div class="button-group p-2">
+                      <button
+                        class="font-11 w-50"
+                        [ngClass]="{ active: selectedButton === 'self' }"
+                        (click)="selectButton('self')"
+                      >
+                        Storage
+                      </button>
+                      <button
+                        class="font-11 w-50"
+                        [ngClass]="{ active: selectedButton === 'team' }"
+                        (click)="selectButton('team')"
+                      >
+                        Parking
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="filter-section rounded border py-3 px-3 d-flex flex-column">
+                <div class="title mb-2 d-flex justify-content-between">
+                  <span class="font-medium-4 text-black text-bold-700">Select Filters</span>
+                  <!-- <button class="btn btn-secondary filter-section-cross p-0 px-2" placement="bottom"
+                    ngbTooltip="close filter" (click)="toggleFilterSection()"><i class="ft-x"></i></button> -->
+                </div>
+                <div class="star-category-div mb-2">
+                  <p class="text-bold-600 mb-2 text-black">Price per month</p>
+                  <div class="mb-1">
+                    <div class="checkbox checkbox-info">
+                      <input type="checkbox" id="under2000" [(ngModel)]="under2000Selected" (change)="filterHotelsMethod()"  value="under2000">
+                      <label class="ml-4" for="under2000"><span>Under $100</span></label>
+                    </div>
+                  </div>
+                  <div class="mb-1">
+                    <div class="checkbox checkbox-info">
+                      <input type="checkbox" id="2000to4000" [(ngModel)]="range2000to4000Selected" (change)="filterHotelsMethod()" value="2000to4000">
+                      <label class="ml-4" for="2000to4000"><span>$100 - $200</span></label>
+                    </div>
+                  </div>
+                  <div class="mb-1">
+                    <div class="checkbox checkbox-info">
+                      <input type="checkbox" id="4000to6000" [(ngModel)]="range4000to6000Selected"  (change)="filterHotelsMethod()" value="4000to6000">
+                      <label class="ml-4" for="4000to6000"><span>$200 - $300</span></label>
+                    </div>
+                  </div>
+                  <div class="">
+                    <div class="checkbox checkbox-info">
+                      <input type="checkbox" id="6000above" [(ngModel)]="above6000Selected" (change)="filterHotelsMethod()" value="6000above">
+                      <label class="ml-4" for="6000above"><span>$300 & above</span></label>
+                    </div>
+                  </div>
+                  <div class="my-2">
+                    <p class="text-bold-600 mb-2 font-small-3">Your Budget (per month)</p>
+                    <div>
+                      <fieldset class="form-group d-flex align-items-center mb-0">
+
+                        <label for="minPrice"></label>
+
+                        <input type="number" class="form-control" id="minPrice" placeholder="Min">
+
+                        <span class="mx-2 font-small-3">to</span>
+
+                        <label for="maxPrice"></label>
+
+                        <input type="number" class="form-control" id="maxPrice" placeholder="Max">
+
+                        <button class="btn btn-info p-0 px-2 py-1 ml-2"><i class="ft-arrow-right text-white"></i></button>
+
+                      </fieldset>
+                    </div>
+                  </div>
+                </div>
+                <!-- <div class="star-category-div">
+                  <p class="text-bold-600 mb-2 text-black">Star Category</p>
+                  <div class="d-flex justify-content-between mb-1">
+                    <div class="checkbox checkbox-info">
+                      <input type="checkbox" id="5-star-check-box" [(ngModel)]="fiveStarSelected" (change)="filterHotelsMethod()">
+                      <label class="ml-4" for="5-star-check-box"><span>5 Star</span></label>
+                    </div>
+                    <div>
+                      <p>(66)</p>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-between mb-1">
+                    <div class="checkbox checkbox-info">
+                      <input type="checkbox" id="4-star-check-box" [(ngModel)]="fourStarSelected" (change)="filterHotelsMethod()">
+                      <label class="ml-4" for="4-star-check-box"><span>4 Star</span></label>
+                    </div>
+                    <div>
+                      <p>(83)</p>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-between">
+                    <div class="checkbox checkbox-info">
+                      <input type="checkbox" id="3-star-check-box" [(ngModel)]="threeStarSelected" (change)="filterHotelsMethod()">
+                      <label class="ml-4" for="3-star-check-box"><span>3 Star</span></label>
+                    </div>
+                    <div>
+                      <p>(46)</p>
+                    </div>
+                  </div>
+                </div> -->
+                <div class="user-rating-div">
+                  <p class="text-bold-600 mb-2 text-black">User Rating</p>
+                  <div class="d-flex justify-content-between mb-1">
+                    <div class="checkbox checkbox-info">
+                      <input type="checkbox" id="excellent-rating">
+                      <label class="ml-4" for="excellent-rating"><span>4.5 & above (Excellent)</span></label>
+                    </div>
+                    <div>
+                      <p>(32)</p>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-between mb-1">
+                    <div class="checkbox checkbox-info">
+                      <input type="checkbox" id="verygood-rating">
+                      <label class="ml-4" for="verygood-rating"><span>4 & above (Very Good)</span></label>
+                    </div>
+                    <div>
+                      <p>(55)</p>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-between">
+                    <div class="checkbox checkbox-info">
+                      <input type="checkbox" id="good-rating">
+                      <label class="ml-4" for="good-rating"><span>3 & above (Good)</span></label>
+                    </div>
+                    <div>
+                      <p>(17)</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="property-type-div mt-2">
+                  <p class="text-bold-600 mb-2 text-black">Storage Type</p>
+                  <div class="d-flex justify-content-between mb-1">
+                    <div class="checkbox checkbox-info">
+                      <input type="checkbox" id="property-type-hotel">
+                      <label class="ml-4" for="property-type-hotel"><span>Unpaved Lot</span></label>
+                    </div>
+                    <div>
+                      <p>(52)</p>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-between mb-1">
+                    <div class="checkbox checkbox-info">
+                      <input type="checkbox" id="property-type-hostel">
+                      <label class="ml-4" for="property-type-hostel"><span>Parking Lot</span></label>
+                    </div>
+                    <div>
+                      <p>(27)</p>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-between mb-1">
+                    <div class="checkbox checkbox-info">
+                      <input type="checkbox" id="property-type-apartment">
+                      <label class="ml-4" for="property-type-apartment"><span>Driveway</span></label>
+                    </div>
+                    <div>
+                      <p>(11)</p>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-between mb-1">
+                    <div class="checkbox checkbox-info">
+                      <input type="checkbox" id="property-type-resort">
+                      <label class="ml-4" for="property-type-resort"><span>Garage</span></label>
+                    </div>
+                    <div>
+                      <p>(5)</p>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-between">
+                    <div class="checkbox checkbox-info">
+                      <input type="checkbox" id="property-type-guest-house">
+                      <label class="ml-4" for="property-type-guest-house"><span>Carport</span></label>
+                    </div>
+                    <div>
+                      <p>(1)</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="locality-div mt-2">
+                  <p class="text-bold-600 mb-2 text-black">Locality</p>
+                  <div class="d-flex justify-content-between mb-1">
+                    <div class="checkbox checkbox-info">
+                      <input type="checkbox" id="locality-1">
+                      <label class="ml-4" for="locality-1"><span>Downtown Toronto</span></label>
+                    </div>
+                    <div>
+                      <p>(27)</p>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-between mb-1">
+                    <div class="checkbox checkbox-info">
+                      <input type="checkbox" id="locality-2">
+                      <label class="ml-4" for="locality-2"><span>North York </span></label>
+                    </div>
+                    <div>
+                      <p>(18)</p>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-between mb-1">
+                    <div class="checkbox checkbox-info">
+                      <input type="checkbox" id="locality-3">
+                      <label class="ml-4" for="locality-3"><span>Clarke Quay</span></label>
+                    </div>
+                    <div>
+                      <p>(9)</p>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-between mb-1">
+                    <div class="checkbox checkbox-info">
+                      <input type="checkbox" id="locality-4">
+                      <label class="ml-4" for="locality-4"><span>Scarborough</span></label>
+                    </div>
+                    <div>
+                      <p>(37)</p>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-between mb-1">
+                    <div class="checkbox checkbox-info">
+                      <input type="checkbox" id="locality-5">
+                      <label class="ml-4" for="locality-5"><span>Yorkville</span></label>
+                    </div>
+                    <div>
+                      <p>(22)</p>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-between mb-1">
+                    <div class="checkbox checkbox-info">
+                      <input type="checkbox" id="locality-6">
+                      <label class="ml-4" for="locality-6"><span>Chinatown</span></label>
+                    </div>
+                    <div>
+                      <p>(14)</p>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-between">
+                    <div class="checkbox checkbox-info">
+                      <input type="checkbox" id="locality-7">
+                      <label class="ml-4" for="locality-7"><span>Liberty Village</span></label>
+                    </div>
+                    <div>
+                      <p>(5)</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="filter-save-chnges-button mt-2 mx-auto">
+                  <button class="btn btn-info">Save Changes</button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-9 col-sm-12">
+            <div>
+                <!-- <div class="title-div mb-3">
+                  <h1 class="text-black text-bold-900 font-large-1">56 Storages found in Toronto</h1>
+                </div> -->
+                <div class="results-count-div mb-3">
+                  <p class="m-0 text-black font-medium-1 text-bold-600">56 Results found</p>
+                  <div class="d-flex justify-content-between mt-1">
+                    <p class="m-0 font-small-3">Please select a storage space to continue for booking.</p>
+                    <p class="m-0 font-small-3">Sort by: Recommended</p>
+                  </div>
+                </div>
+                <div class="results-div d-flex flex-column">
+                  <div *ngIf="noHotelsToDisplay">
+                    <!-- <h4 class="text-black mb-3">No Properties Found.</h4> -->
+                    <div class="row">
+                      <div class="col-12 text-center">
+                        <!-- <img src="assets/img/gallery/error.png" alt="" class="img-fluid error-img mt-2" height="300" width="400"> -->
+                        <h1 class="mt-4">Oops..! No storage or parking options available.</h1>
+                        <div class="w-75 error-text mx-auto mt-4">
+                          <p>It looks like there are no listings that match your selected filters.</p>
+                        </div>
+                        <div>
+                          <img width="300" src="assets/img/gallery/no-data-found.jpg" alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hotelCardsDiv border rounded mb-3" *ngFor="let hotel of filteredHotels; let i=index">
+                    <div class="row p-2">
+                      <div class="img-div d-flex flex-column col-md-4">
+                        <div class="px-1 pt-1">
+                          <img class="border-top-left-radius border-top-right-radius" [src]="hotel.bigImg" width="100%"
+                            height="160" alt="">
+                          <div class="heart-symbol-div cursor-pointer" (click)="toggleHeartsymbol(i)">
+                            <svg class="heart-outline" *ngIf="hotel.showHeartSymbol" xmlns="http://www.w3.org/2000/svg"
+                              height="1em" viewBox="0 0 512 512">
+                              <path
+                                d="M225.8 468.2l-2.5-2.3L48.1 303.2C17.4 274.7 0 234.7 0 192.8v-3.3c0-70.4 50-130.8 119.2-144C158.6 37.9 198.9 47 231 69.6c9 6.4 17.4 13.8 25 22.3c4.2-4.8 8.7-9.2 13.5-13.3c3.7-3.2 7.5-6.2 11.5-9c0 0 0 0 0 0C313.1 47 353.4 37.9 392.8 45.4C462 58.6 512 119.1 512 189.5v3.3c0 41.9-17.4 81.9-48.1 110.4L288.7 465.9l-2.5 2.3c-8.2 7.6-19 11.9-30.2 11.9s-22-4.2-30.2-11.9zM239.1 145c-.4-.3-.7-.7-1-1.1l-17.8-20c0 0-.1-.1-.1-.1c0 0 0 0 0 0c-23.1-25.9-58-37.7-92-31.2C81.6 101.5 48 142.1 48 189.5v3.3c0 28.5 11.9 55.8 32.8 75.2L256 430.7 431.2 268c20.9-19.4 32.8-46.7 32.8-75.2v-3.3c0-47.3-33.6-88-80.1-96.9c-34-6.5-69 5.4-92 31.2c0 0 0 0-.1 .1s0 0-.1 .1l-17.8 20c-.3 .4-.7 .7-1 1.1c-4.5 4.5-10.6 7-16.9 7s-12.4-2.5-16.9-7z" />
+                            </svg>
+
+                            <svg class="heart-solid" *ngIf="!(hotel.showHeartSymbol)" xmlns="http://www.w3.org/2000/svg"
+                              height="1em" viewBox="0 0 512 512">
+                              <path
+                                d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z" />
+                            </svg>
+                          </div>
+                        </div>
+                        <div class="d-flex justify-content-between p-1">
+                          <div class="mr-1">
+                            <img class="border-bottom-left-radius" [src]="hotel.thumbImg1"
+                              (mouseenter)="updateBigImage(hotel.bigImg, hotel.thumbImg1)" width="52" height="40"
+                              alt="">
+                          </div>
+                          <div class="mr-1">
+                            <img [src]="hotel.thumbImg2" width="52"
+                              (mouseenter)="updateBigImage(hotel.bigImg, hotel.thumbImg2)" height="40" alt="">
+                          </div>
+                          <div class="mr-1">
+                            <img [src]="hotel.thumbImg3" width="52"
+                              (mouseenter)="updateBigImage(hotel.bigImg, hotel.thumbImg3)" height="40" alt="">
+                          </div>
+                          <div class="position-relative" (mouseenter)="updateBigImage(hotel.bigImg, hotel.thumbImg4)">
+                            <img class="border-bottom-right-radius opacity80" [src]="hotel.thumbImg4" width="52"
+                              height="40" alt="">
+                            <span
+                              class="view-all position-absolute text-white text-nowrap text-bold-900  cursor-pointer">View All</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="info-div col-md-8">
+                        <div>
+                          <span class="badge badge-success font-small-1 mr-1"
+                            [ngClass]="{'badge-success': hotel.badgeRating>=4, 'badge-warning': (hotel.badgeRating>=3 && hotel.badgeRating<4), 'badge-danger': hotel.badgeRating<3}">{{hotel.badgeRating}}/5</span>
+                          <span class="font-small-1">({{hotel.ratings}} Ratings)</span>
+                        </div>
+                        <div class="row mt-2">
+                          <div class="col-md-9 col-sm-12">
+                            <p class="text-black font-medium-3 text-bold-900 cursor-pointer m-0">{{hotel.hotelName}}</p>
+                          </div>
+                          <div class="col-md-3 col-sm-12">
+                            <i class="ft-star-on text-warning" *ngIf="hotel.starRating>=1"></i>
+                            <i class="ft-star-on text-warning" *ngIf="hotel.starRating>=2"></i>
+                            <i class="ft-star-on text-warning" *ngIf="hotel.starRating>=3"></i>
+                            <i class="ft-star-on text-warning" *ngIf="hotel.starRating>=4"></i>
+                            <i class="ft-star-on text-warning" *ngIf="hotel.starRating===5"></i>
+                            <i class="ft-star-on text-light" *ngIf="!(hotel.starRating>=1)"></i>
+                            <i class="ft-star-on text-light" *ngIf="!(hotel.starRating>=2)"></i>
+                            <i class="ft-star-on text-light" *ngIf="!(hotel.starRating>=3)"></i>
+                            <i class="ft-star-on text-light" *ngIf="!(hotel.starRating>=4)"></i>
+                            <i class="ft-star-on text-light" *ngIf="!(hotel.starRating===5)"></i>
+                          </div>
+                        </div>
+                        <div>
+                          <i class="ft-map-pin font-small-2 mr-1"></i>
+                          <span class="font-small-2">{{hotel.location}}</span>
+                        </div>
+                        <div class="d-flex justify-content-between mt-2">
+                          <div>
+                            <span class="badge badge-light">{{hotel.storageType}}</span>
+                          </div>
+                          <div>
+                            <p class="text-right text-black font-medium-3 text-bold-600 m-0">${{hotel.price}}</p>
+                            <p class="text-right text-black font-small-2">per month</p>
+                          </div>
+                        </div>
+                        <div class="text-right mt-1">
+                          <button class="btn btn-info text-center" (click)="checkAvailability()">Reserve</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="pagination-div d-flex flex-end">
+          <ngb-pagination class="ml-auto" [collectionSize]="30" [(page)]="page"></ngb-pagination>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

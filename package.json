@@ -4,7 +4,7 @@
   "license": "",
   "scripts": {
     "ng": "ng serve ",
-    "start": "ng serve --port 4300 --proxy-config proxy.conf.json",
+    "start": "ng serve --port 4400 --proxy-config proxy.conf.json",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -26,6 +26,7 @@
     "@angular/platform-server": "13.1.0",
     "@angular/router": "13.1.0",
     "@ng-bootstrap/ng-bootstrap": "8.0.0",
+    "@ng-select/ng-select": "5.0.9",
     "@ngrx/store": "10.1.0",
     "@ngx-translate/core": "13.0.0",
     "@ngx-translate/http-loader": "6.0.0",

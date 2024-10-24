@@ -1,0 +1,445 @@
+.storage-type-button:hover{
+  border: 1px solid #E0E0E0 !important;
+  box-shadow: none;
+}
+
+.find-storage-button:hover{
+  border: 1px solid #E0E0E0 !important;
+}
+
+.become-host-button:hover{
+  border: 1px solid #E0E0E0 !important;
+}
+
+.location-button:hover{
+  border: 1px solid #E0E0E0 !important;
+  box-shadow: none;
+}
+
+.how-it-works-button-button:hover{
+  border: 1px solid #E0E0E0 !important;
+}
+
+.logo-text{
+  // color:#226CC5;
+  color: #0079e1;
+}
+
+
+///////////////////// copied styles from hotels search results
+
+
+// .search-div {
+//   background-color: #0a223d;
+// }
+
+.modify-search_inputlbl {
+  color: #008cff !important;
+  font-size: 12px !important;
+  font-weight: bold !important;
+}
+
+.daysbadge {
+  right: 10px;
+  bottom: -10px;
+}
+
+.text-bold-900 {
+  font-weight: bold;
+}
+
+// .header-search-inner-each-div {
+//   background-color: rgba(255, 255, 255, 0.1);
+// }
+
+.search-button-div-div button {
+  background: linear-gradient(93deg, #53b2fe, #065af3);
+}
+
+.ng-select-container {
+  background: transparent;
+}
+
+
+.dropdown-select {
+  z-index: 5;
+  left: 0;
+}
+
+.minus,
+.plus {
+  padding: 3px 10px;
+}
+
+.inputQty {
+  width: 50px;
+  text-align: center;
+  border: none;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.datePicker1 {
+  z-index: 699;
+}
+
+// #fromCity .ng-select-container {
+//   background-color: #233951 !important;
+//   color: #ffffff !important;
+//   border: none;
+
+//   .ng-input>input,
+//   .ng-input>input::placeholder {
+//     color: #ffffff;
+//   }
+
+//   .ng-placeholder {
+//     color: #fff;
+//   }
+
+//   .ng-value-container {
+//     padding-left: 0;
+//   }
+// }
+
+.datePicker-div .input-group-append,
+.input-group-text {
+  background-color: #233951;
+  border: none;
+}
+
+.datePicker-div .input-group input {
+  color: #fff;
+  border: none;
+  padding: 0;
+}
+
+.datePicker-div .input-group input::placeholder {
+  color: #fff;
+}
+
+.datePicker-div .input-group-text i {
+  color: #fff;
+}
+
+#Rooms-Guests-input-field {
+  border: none;
+  color: #fff;
+  cursor: context-menu;
+  background-color: #233951;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.groupingCard {
+  height: 100%;
+}
+
+.scrollable-content {
+  height: 200px;
+  overflow-y: auto;
+}
+
+
+.opacity50 {
+  opacity: 0.5;
+}
+
+// #dropdownBasic1 {
+//   background-color: #233951;
+//   color: #fff;
+//   border: none;
+//   cursor: pointer !important;
+//   height: 100%;
+//   padding: 0;
+//   text-align: left;
+// }
+
+// #dropdownBasic1::after {
+//   display: none;
+// }
+
+.unselectable {
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.subHeader-div {
+  background: linear-gradient(180deg, #0c2540, #174476);
+}
+
+.border-top-left-radius {
+  border-top-left-radius: 5px;
+}
+
+.border-top-right-radius {
+  border-top-right-radius: 5px;
+}
+
+.border-bottom-left-radius {
+  border-bottom-left-radius: 5px;
+}
+
+.border-bottom-right-radius {
+  border-bottom-right-radius: 5px;
+}
+
+.heart-symbol-div {
+  right: 30px;
+  top: 12px;
+  position: absolute;
+  display: flex;
+}
+
+.heart-outline {
+  fill: #fff;
+}
+
+.heart-solid {
+  fill: red;
+}
+
+.view-all {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size:9px;
+}
+
+.opacity80 {
+  // opacity: 0.8;
+  filter: brightness(0.4);
+}
+
+.hotels-search-input-field {
+  border: none !important;
+  color: #fff !important;
+}
+
+// .hotels-search-input-field::placeholder{
+//   color:#fff;
+// }
+
+.hotels-search-button {
+  border: none !important;
+}
+
+.hotels-search-button:hover {
+  box-shadow: none;
+}
+
+.filter-section{
+  background-color: #fff;
+  box-shadow: -8px 8px 14px 0 rgba(25, 42, 70, 0.11);
+}
+
+
+
+@media (max-width:767px) {
+  .hotels-search-field {
+    padding-top: 20px;
+  }
+
+  .filter-section {
+    display: none;
+    position: fixed;
+    z-index: 899;
+    background-color: #fff;
+    left: 0;
+    top: 0;
+    padding-top: 60px;
+    padding-bottom: 15px;
+    height: 100vh;
+    overflow-y: scroll;
+  }
+
+  .filter-button {
+    display: block;
+  }
+}
+
+@media (min-width:768px) {
+  .filter-section {
+    display: block !important;
+  }
+
+  .filter-button {
+    display: none;
+  }
+
+  .filter-section-cross {
+    display: none;
+  }
+
+  .filter-save-chnges-button {
+    display: none;
+  }
+}
+
+.filter-button {
+  position: fixed;
+  left: 13%;
+  top: 93.5%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+}
+
+.hotelCardsDiv{
+  background-color: #fff;
+  box-shadow: -8px 8px 14px 0 rgba(25, 42, 70, 0.11);
+}
+
+.hotelCardsDiv:hover {
+  border: 1px solid #2F8BE6 !important;
+  background-color: #EAF0F9 !important;
+}
+
+.button-group {
+  display: flex;
+  // background-color: #f8f9fa;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.button-group button {
+  background-color: #f8f9fa;
+  color: black;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+
+.button-group button.active {
+  // border-bottom: 4px solid #2f8be6;
+  background-color: #2f8be6;
+  color: #fff !important;
+  padding: 10px 15px;
+  border-radius: 0;
+  font-weight: 500;
+  color: #000;
+  border-radius:5px;
+}
+
+.text-black{
+  color:#000000 !important;
+}
+
+.storages-search-field{
+  width: 600px;
+}
+
+.storages-search-field .ng-select-container{
+  // padding:20px 20px;
+  height: 45px !important;
+}
+
+.storages-and-parkings-search-button{
+  height: 45px !important;
+}
+
+.primary-filter-dropdown-button{
+  border: 1px solid #E0E0E0 !important;
+  box-shadow: none !important;
+}
+
+.primary-filter-dropdown-button:focus{
+  background-color: #EBECF0 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

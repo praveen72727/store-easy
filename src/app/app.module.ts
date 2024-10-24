@@ -28,6 +28,8 @@ import { WINDOW_PROVIDERS } from './shared/services/window.service';
 
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 
+import { NgSelectModule} from '@ng-select/ng-select';
+
 var firebaseConfig = {
   apiKey: "YOUR_API_KEY", //YOUR_API_KEY
   authDomain: "YOUR_AUTH_DOMAIN", //YOUR_AUTH_DOMAIN
@@ -51,8 +53,8 @@ export function createTranslateLoader(http: HttpClient) {
 
 @NgModule({
   declarations: [
-    AppComponent, 
-    FullLayoutComponent, 
+    AppComponent,
+    FullLayoutComponent,
     ContentLayoutComponent,
     DashboardComponent
   ],
@@ -64,6 +66,7 @@ export function createTranslateLoader(http: HttpClient) {
     AngularFireModule.initializeApp(firebaseConfig),
     AngularFireAuthModule,
     NgbModule,
+    NgSelectModule,
     NgxSpinnerModule,
     TranslateModule.forRoot({
       loader: {
