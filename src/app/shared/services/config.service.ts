@@ -11,6 +11,7 @@ export interface ITemplateConfig
         };
         navbar: {
           type: string;                     // options: Static & Fixed
+          hidden: boolean;
         }
         sidebar: { //Options for Vertical Side menu
             collapsed: boolean;             // options: true, false
@@ -22,6 +23,7 @@ export interface ITemplateConfig
             */
             backgroundImage: boolean;        // Options: true, false | Set true to show background image
             backgroundImageURL: string;
+            hidden: boolean;
         }
     };
 }
@@ -49,14 +51,16 @@ export class ConfigService {
           hidden: true
         },
         navbar: {
-          type: 'Static'
+          type: 'Static',
+          hidden: true
         },
         sidebar: {
           collapsed: false,
           size: "sidebar-md",
           backgroundColor: "purple-bliss",
           backgroundImage: false,
-          backgroundImageURL: "assets/img/sidebar-bg/01.jpg"
+          backgroundImageURL: "assets/img/sidebar-bg/01.jpg",
+          hidden: true
         }
       }
     };

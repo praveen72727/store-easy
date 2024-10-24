@@ -14,13 +14,12 @@
             <span class="how-it-works-button-button cursor-pointer p-2 rounded text-black">How it works</span>
           </div>
           <div class="mr-2">
-            <a
+            <span
               class="find-storage-button cursor-pointer p-2 rounded text-black"
-              href="/dashboard/storage/search-hosts"
-              target="_blank"
+              [routerLink]="['/dashboard/storage/search-hosts']"
               >
                 Find Storage
-            </a>
+            </span>
 
           </div>
           <div ngbDropdown>

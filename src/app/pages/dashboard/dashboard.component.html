@@ -1,5 +1,5 @@
 <!-- *NAVBAR* starts -->
-<app-navbar (seachTextEmpty)="checkNavbarSeachTextEmpty($event)"></app-navbar>
+<app-navbar (seachTextEmpty)="checkNavbarSeachTextEmpty($event)" *ngIf="!config.layout.navbar.hidden"></app-navbar>
 <!-- *NAVBAR* ends -->
 
 <div
@@ -13,7 +13,8 @@
   <!-- *TOP* Menu ends -->
 
   <!-- *SIDE* Menu starts -->
-  <div
+  <app-sidebar *ngIf="!config.layout.sidebar.hidden"></app-sidebar>
+  <!-- <div
     appSidebar
     *ngIf="menuPosition === 'Side' || displayOverlayMenu"
     [ngClass]="{
@@ -28,13 +29,13 @@
     [attr.data-background-color]="config?.layout.variant === 'Transparent' ? 'black' : bgColor"
     [attr.data-image]="bgImage"
   >
-    <app-sidebar></app-sidebar>
+    <app-sidebar *ngIf="!config.layout.sidebar.hidden"></app-sidebar>
     <div
       class="sidebar-background"
       [ngStyle]="{ 'background-image': 'url(' + bgImage + ')' }"
       *ngIf="config?.layout.sidebar.backgroundImage"
     ></div>
-  </div>
+  </div> -->
   <!-- *SIDE* Menu ends -->
 
   <div class="main-panel">

@@ -16,7 +16,7 @@ import { DASHBOARD_ROUTES } from './pages/dashboard/dashboard.routes';
 const appRoutes: Routes = [
   {
     path: '',
-    redirectTo:  'pages/login', //'dashboard/home'
+    redirectTo:  'dashboard/home', //'dashboard/home'
     pathMatch: 'full',
   },
   {
