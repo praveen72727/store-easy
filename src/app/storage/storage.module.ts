@@ -6,11 +6,13 @@ import { NgSelectModule } from '@ng-select/ng-select';
 
 import { StorageRoutingModule } from './storage-routing.module';
 import { SearchHostsComponent } from './components/search-hosts/search-hosts.component';
+import { StorageDetailsComponent } from './components/storage-details/storage-details.component';
 
 
 @NgModule({
   declarations: [
-    SearchHostsComponent
+    SearchHostsComponent,
+    StorageDetailsComponent
   ],
   imports: [
     CommonModule,

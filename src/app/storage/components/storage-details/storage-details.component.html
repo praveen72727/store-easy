@@ -1,0 +1,310 @@
+<section class="hotel-details-section pb-5">
+  <div class="header d-flex justify-content-between align-items-center px-4 py-2 bg-white rounded">
+    <div class="left-menu">
+      <div class="logo-div mr-2">
+        <h4 [routerLink]="['/dashboard/home']" class="logo-text m-0 font-large-1 cursor-pointer">
+          <img width="30px" src="assets/img/icons/store-easy-icons/storage-icon.svg" alt="">
+          Store Easy
+        </h4>
+      </div>
+    </div>
+    <div class="right-menu d-flex justify-content-between align-items-center p-2 ">
+        <div class="mr-2">
+          <span class="how-it-works-button-button cursor-pointer p-2 rounded text-black">How it works</span>
+        </div>
+        <div class="mr-2">
+          <span
+            class="find-storage-button cursor-pointer p-2 rounded text-black"
+            [routerLink]="['/dashboard/storage/search-hosts']"
+            >
+              Find Storage
+          </span>
+
+        </div>
+        <div ngbDropdown>
+          <button class="btn storage-type-button text-black mr-2" id="dropdownBasic1" ngbDropdownToggle>Storage Type</button>
+          <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+            <button class="dropdown-item w-100">Self Storage</button>
+            <button class="dropdown-item w-100">Garages</button>
+            <button class="dropdown-item w-100">RV Storage</button>
+            <button class="dropdown-item w-100">RV Storage</button>
+            <button class="dropdown-item w-100">Boat Storage</button>
+            <button class="dropdown-item w-100">Car Storage</button>
+            <button class="dropdown-item w-100">Truck Parking</button>
+            <button class="dropdown-item w-100">Monthly Parking</button>
+            <button class="dropdown-item w-100">Long-term Parking</button>
+            <button class="dropdown-item w-100">Fleet Parking</button>
+          </div>
+        </div>
+        <div ngbDropdown>
+          <button class="btn location-button mr-2 text-black" id="dropdownBasic1" ngbDropdownToggle>Locations</button>
+          <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+            <button class="dropdown-item w-100">Alberta</button>
+            <button class="dropdown-item w-100">British Columbia</button>
+            <button class="dropdown-item w-100">Manitoba</button>
+            <button class="dropdown-item w-100">New Brunswick</button>
+            <button class="dropdown-item w-100">Newfoundland and Labrador</button>
+            <button class="dropdown-item w-100">Nova Scotia</button>
+            <button class="dropdown-item w-100">Ontario</button>
+            <button class="dropdown-item w-100">Prince Edward Island</button>
+            <button class="dropdown-item w-100">Quebec</button>
+            <button class="dropdown-item w-100">Saskatchewan</button>
+          </div>
+        </div>
+        <div>
+          <button class="btn btn-outline-info">Become a Host</button>
+        </div>
+    </div>
+  </div>
+  <div class="hotel-details-div">
+    <div class="storage-details-header">
+      <h4 class="text-white text-bold-600 px-3 py-2 mb-3 container">
+        Storage Details
+      </h4>
+    </div>
+    <div class="hotel-title-and-gallery-div container">
+      <div class="hotel-title-div d-flex justify-content-between align-items-center">
+        <div>
+          <div class="d-flex align-items-center">
+            <h4 class="text-black text-bold-600 mr-2">Garage | 15x10</h4>
+            <div class="mb-2">
+              <i class="ft-star-on text-warning"></i>
+              <i class="ft-star-on text-warning"></i>
+              <i class="ft-star-on text-warning"></i>
+              <i class="ft-star-on text-warning"></i>
+              <i class="ft-star-on text-light"></i>
+            </div>
+          </div>
+          <p class="font-small-3 mt-1 text-black"><i class="ft-map-pin mr-1"></i>Scarborough, Toronto, ON | 1.2 km from Bluffer’s Park
+          </p>
+        </div>
+        <div class="d-flex align-items-end">
+          <span class="text-black font-large-1 text-bold-600 mr-3">$225 <span class="text-black font-small-3 text-bold-400">/ month</span></span>
+          <button class="btn btn-info text-white px-4 py-2 font-medium-2">Reserve</button>
+        </div>
+      </div>
+      <div class="hotel-gallery-div mt-2 parent-div-1">
+        <div class="row d-flex align-items-center ">
+          <div class="col-md-6 col-sm-12 align-self-stretch">
+            <div class="img-div d-flex flex-column h-100">
+              <div class="px-1 h-100">
+                <img class="border-top-left-radius border-top-right-radius height-400" [src]=" Hotels_Data[0].bigImg"
+                  width="100%" alt="">
+              </div>
+              <div class="d-flex justify-content-between px-1 pt-1 pb-0 h-100">
+                <div class="mr-1">
+                  <img class="border-bottom-left-radius" [src]="Hotels_Data[0].thumbImg1"
+                    (mouseenter)="updateBigImage(Hotels_Data[0].bigImg, Hotels_Data[0].thumbImg1)" width="100%"
+                    height="100%" alt="">
+                </div>
+                <div class="mr-1">
+                  <img [src]="Hotels_Data[0].thumbImg2" width="100%"
+                    (mouseenter)="updateBigImage(Hotels_Data[0].bigImg, Hotels_Data[0].thumbImg2)" height="100%" alt="">
+                </div>
+                <div class="mr-1">
+                  <img [src]="Hotels_Data[0].thumbImg3" width="100%"
+                    (mouseenter)="updateBigImage(Hotels_Data[0].bigImg, Hotels_Data[0].thumbImg3)" height="100%" alt="">
+                </div>
+                <div class="position-relative last-img-div cursor-pointer"
+                  (mouseenter)="updateBigImage(Hotels_Data[0].bigImg, Hotels_Data[0].thumbImg4)"
+                  (click)="open(content)">
+                  <img class="border-bottom-right-radius filter4 last-img-div" [src]="Hotels_Data[0].thumbImg4"
+                    width="100%" height="100%" alt="">
+                  <span
+                    class="view-all position-absolute text-white text-nowrap text-bold-900 font-small-3 cursor-pointer">View
+                    All</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12 d-flex flex-column align-self-stretch">
+            <div class=" card border rounded p-1 m-0 h-100">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2887.269064359598!2d-79.38963172334785!3d43.642570053117666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34d68bf33a9b%3A0x15edd8c4de1c7581!2sCN%20Tower!5e0!3m2!1sen!2sin!4v1729837633020!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="about-the-hotel-div pt-4 container">
+      <div>
+        <h5 class="text-black text-bold-700 mb-2">Access</h5>
+        <p class="m-0 text-bold-400 font-small-3 mb-2"><i class="fa-solid fa-calendar-days mr-1"></i> Daily | Daytime hours</p>
+        <p class="m-0 text-bold-400 font-small-3 mb-2"><i class="fa-regular fa-clock mr-1"></i> Appointment required before each visit</p>
+      </div>
+      <div>
+        <h5 class="text-black text-bold-700 mb-2 mt-3">Hosted by <span class="text-info mr-2">Json M</span><i class="fa-regular fa-comment-dots cursor-pointer" ngbTooltip="Contact" placement="top"></i></h5>
+        <p class="m-0 text-bold-400 font-small-3 mb-2"><i class="fa-solid fa-address-card mr-1"></i> Identity Verified</p>
+        <p class="m-0 text-bold-400 font-small-3 mb-2"><i class="fa-solid fa-calendar-days mr-1"></i> 46 months rented</p>
+        <p class="m-0 text-bold-400 font-small-3 mb-2"><i class="fa-solid fa-star mr-1 rating-icon"></i> 4.0 (613 Reviews)</p>
+        <p class="m-0 text-bold-400 font-small-3 mb-2"><i class="fa-solid fa-user-large mr-1"></i> Business owner, wealth coach, avid offroader, appreciative of all things outdoors.</p>
+        <p class="m-0 text-bold-400 font-small-3 mb-2"><i class="fa-solid fa-hourglass-start mr-1"></i> Response time: within 38 minutes</p>
+      </div>
+      <div class="about-the-hotel-inner-div mt-3">
+        <h5 class="text-black text-bold-700 mb-2">About Jason M's space</h5>
+        <p class="text-bold-400 font-small-3 mb-2">Extremely safe neighborhood. 10x15 insulated garage stall with extremely high ceilings. 9ft high garage door for vehicles with height. Security cameras. Will require notice before access is granted as security is a top priority.</p>
+      </div>
+      <div class="store-or-park-div mt-3">
+        <h5 class="text-black text-bold-700 mb-2">Features</h5>
+        <div class="d-flex flex-wrap">
+          <div class="item mb-3 d-flex flex-column justify-content-center align-items-center px-3 py-3 border rounded mr-3">
+            <i class="fa-solid fa-lock font-medium-1"></i>
+            <span class="mt-1 text-bold-400 font-small-3">Locked area</span>
+          </div>
+          <div class="item mb-3 d-flex flex-column justify-content-center align-items-center px-3 py-3 border rounded mr-3">
+            <i class="fa-solid fa-video font-medium-3"></i>
+            <span class="mt-1 text-bold-400 font-small-3">Security monitored</span>
+          </div>
+          <div class="item mb-3 d-flex flex-column justify-content-center align-items-center px-3 py-3 border rounded mr-3">
+            <i class="fa-solid fa-joint font-medium-3"></i>
+            <span class="mt-1 text-bold-400 font-small-3">Smoke detectors</span>
+          </div>
+          <div class="item mb-3 d-flex flex-column justify-content-center align-items-center px-3 py-3 border rounded mr-3">
+            <i class="fa-solid fa-snowflake font-medium-3"></i>
+            <span class="mt-1 text-bold-400 font-small-3">Climate controlled</span>
+          </div>
+          <div class="item mb-3 d-flex flex-column justify-content-center align-items-center px-3 py-3 border rounded mr-3">
+            <i class="fa-solid fa-ban-smoking font-medium-3"></i>
+            <span class="mt-1 text-bold-400 font-small-3">Smoke free</span>
+          </div>
+          <div class="item mb-3 d-flex flex-column justify-content-center align-items-center px-3 py-3 border rounded mr-3">
+            <i class="fa-solid fa-dog font-medium-3"></i>
+            <span class="mt-1 text-bold-400 font-small-3">Pet free</span>
+          </div>
+          <div class="item mb-3 d-flex flex-column justify-content-center align-items-center px-3 py-3 border rounded mr-3">
+            <i class="fa-solid fa-stairs font-medium-3"></i>
+            <span class="mt-1 text-bold-400 font-small-3">No stairs</span>
+          </div>
+        </div>
+      </div>
+      <div class="about-the-hotel-inner-div">
+        <h5 class="text-black text-bold-700 mb-2">Host Restrictions</h5>
+        <p class="text-bold-400 font-small-3 mb-2">This host hasn't specified restrictions.</p>
+      </div>
+      <div class="about-the-hotel-inner-div mt-3">
+        <h5 class="text-black text-bold-700 mb-2">Approval and cancellation</h5>
+        <p class="text-bold-400 font-small-3 mb-2"><i class="fa-regular fa-circle-check mr-1"></i> Reservation will be sent for host approval after checkout.</p>
+        <p class="text-bold-400 font-small-3 mb-2"><i class="fa-regular fa-thumbs-up mr-1"></i> Free cancellation within 24 hours.</p>
+      </div>
+      <div class="about-the-hotel-inner-div mt-3">
+        <h5 class="text-black text-bold-700 mb-2">Reviews</h5>
+        <div class="d-flex flex-wrap">
+          <div class="item mb-3 d-flex flex-column justify-content-center align-items-center px-3 py-3 border rounded mr-3 custom-w-140">
+            <!-- <i class="fa-solid fa-lock font-medium-1"></i> -->
+            <span class="font-medium-3 text-bold-600"><i class="fa-solid fa-star mr-1 rating-icon-color"></i> 4.0</span>
+            <span class="mt-1 text-bold-400 font-small-3">Star rating avg</span>
+          </div>
+          <div class="item mb-3 d-flex flex-column justify-content-center align-items-center px-3 py-3 border rounded mr-3 custom-w-140">
+            <span class="font-medium-3 text-bold-600"><i class="fa-solid fa-comment-dots text-info mr-1"></i> 4</span>
+            <span class="mt-1 text-bold-400 font-small-3">Reviews</span>
+          </div>
+          <div class="item mb-3 d-flex flex-column justify-content-center align-items-center px-3 py-3 border rounded mr-3 custom-w-140">
+            <span class="font-medium-3 text-bold-600"><i class="fa-solid fa-calendar-days text-info mr-1"></i> 46</span>
+            <span class="mt-1 text-bold-400 font-small-3">Months rented</span>
+          </div>
+        </div>
+        <div class="storage-reviews-div d-flex mt-2">
+          <div class="mr-2">
+            <span class="reviewer-avatar font-medium-3 text-white text-bold-600 bg-warning reviewer-first-letter">B</span>
+          </div>
+          <div>
+            <div class="d-flex justify-content-between align-items-center">
+              <span class="m-0 text-bold-600">Bhavin P.</span>
+              <span class="bg-light px-2 py-1 rounded font-small-3">Verified renter</span>
+            </div>
+            <p class="m-0 font-small-3">August 2023</p>
+            <p class="m-0 my-1">
+              <i class="fa-solid fa-star rating-icon-color rating-icon-size mr-1"></i>
+              <i class="fa-solid fa-star rating-icon-color rating-icon-size mr-1"></i>
+              <i class="fa-solid fa-star rating-icon-color rating-icon-size mr-1"></i>
+              <i class="fa-solid fa-star rating-icon-color rating-icon-size mr-1"></i>
+              <i class="fa-solid fa-star rating-icon-color rating-icon-size"></i>
+            </p>
+            <p class="m-0 font-small-3">
+              First time using this app and Jason was great!!! Highly recommend to anybody, oversize garage, access as I needed, etc.
+
+              I shipped my brand new Sequoia to his house for an offroading trip through Utah - he accepted the delivery and stored it in the garage until i arrived a few weeks later. Saved me a lot of headache!!
+
+              Communication was easy and fast.
+
+              Highly recommend to anybody! Very trustworthy and safe neighborhood
+            </p>
+          </div>
+        </div>
+        <div class="storage-reviews-div d-flex mt-3">
+          <div class="mr-2">
+            <span class="reviewer-avatar font-medium-3 text-white text-bold-600 bg-info bg-darken-1 reviewer-first-letter">J</span>
+          </div>
+          <div>
+            <div class="d-flex justify-content-between align-items-center">
+              <span class="m-0 text-bold-600">John O.</span>
+              <span class="bg-light px-2 py-1 rounded font-small-3">Verified renter</span>
+            </div>
+            <p class="m-0 font-small-3">June 2023</p>
+            <p class="m-0 my-1">
+              <i class="fa-solid fa-star rating-icon-color rating-icon-size mr-1"></i>
+              <i class="fa-solid fa-star rating-icon-color rating-icon-size mr-1"></i>
+              <i class="fa-solid fa-star rating-icon-color rating-icon-size mr-1"></i>
+              <i class="fa-solid fa-star rating-icon-color rating-icon-size mr-1"></i>
+              <i class="fa-solid fa-star rating-icon-color rating-icon-size"></i>
+            </p>
+            <p class="m-0 font-small-3">
+              This was an awesome experience. Jason was so easy to work with and went above and beyond to help us get our stuff to his house. Such a great guy that's seriously just trying to help people out!
+            </p>
+          </div>
+        </div>
+        <div class="storage-reviews-div d-flex mt-3">
+          <div class="mr-2">
+            <span class="reviewer-avatar font-medium-3 text-white text-bold-600 bg-success bg-darken-1 reviewer-first-letter">L</span>
+          </div>
+          <div>
+            <div class="d-flex justify-content-between align-items-center">
+              <span class="m-0 text-bold-600">Lilly C.</span>
+              <span class="bg-light px-2 py-1 rounded font-small-3">Verified renter</span>
+            </div>
+            <p class="m-0 font-small-3">June 2023</p>
+            <p class="m-0 my-1">
+              <i class="fa-solid fa-star rating-icon-color rating-icon-size mr-1"></i>
+              <i class="fa-regular fa-star mr-1 text-light rating-icon-size"></i>
+              <i class="fa-regular fa-star mr-1 text-light rating-icon-size"></i>
+              <i class="fa-regular fa-star mr-1 text-light rating-icon-size"></i>
+              <i class="fa-regular fa-star mr-1 text-light rating-icon-size"></i>
+            </p>
+            <p class="m-0 font-small-3">
+              I had a difficult time getting access to the space. He was always out of town, specially on the weekends. This was not disclosed when i moved in my items, and I could not get my furniture ontime to work with my business. The place is super big but if you don't have access is no good.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- ------------Hotel Images Gallery Popup Div---------------------- -->
+
+    <div class="hotel-image-gallery-popup-div">
+      <ng-template #content let-c="close" let-d="dismiss">
+        <div class="modal-header">
+          <h4 class="modal-title text-black text-bold-600 ml-2">Garage | 15x10</h4>
+          <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row d-flex">
+            <div class="col-md-3 col-sm-6 align-self-stretch py-2"
+              *ngFor="let hotelImagesGallery of Hotel_Images_Gallery">
+              <img [src]="hotelImagesGallery[0]" alt="" width="100%" height="100%">
+            </div>
+          </div>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-info" (click)="c('Close click')">Close</button>
+        </div>
+      </ng-template>
+    </div>
+
+    <!-- -------------------------------------------- -->
+
+  </div>
+</section>

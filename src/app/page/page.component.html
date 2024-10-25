@@ -1,9 +1,9 @@
 <section class="home-section">
   <div class="home-div">
-    <div class="header d-flex justify-content-between align-items-center px-3 py-2 bg-white rounded">
+    <div class="header d-flex justify-content-between align-items-center px-4 py-2 bg-white rounded">
       <div class="left-menu">
         <div class="logo-div mr-2">
-          <h4 [routerLink]="['/dashboard/home']" class="logo-text m-0 text-bold-900 font-large-1 cursor-pointer">
+          <h4 [routerLink]="['/dashboard/home']" class="logo-text m-0 font-large-1 cursor-pointer">
             <img width="30px" src="assets/img/icons/store-easy-icons/storage-icon.svg" alt="">
             Store Easy
           </h4>
@@ -20,7 +20,6 @@
               >
                 Find Storage
             </span>
-
           </div>
           <div ngbDropdown>
             <button class="btn storage-type-button text-black mr-2" id="dropdownBasic1" ngbDropdownToggle>Storage Type</button>
@@ -65,7 +64,7 @@
       <!-- <div class="banner-div w-50 d-flex justify-content-center align-items-center">
         <img width="50%" src="assets/img/icons/store-easy-icons/banner.jpg" alt="">
       </div> -->
-      <div class="search-bar mt-4">
+      <div class="search-bar mt-4 container">
         <!-- input search -->
         <form action="javascript:;">
           <div class="page-search-input form-group position-relative m-0">
@@ -81,7 +80,7 @@
         <!--/ input search -->
       </div>
     </div>
-    <div class="store-or-park-div p-5">
+    <div class="store-or-park-div p-5 container">
       <h1 class="text-center">What do you plan to store or park?</h1>
       <div class="d-flex flex-wrap mt-4 p-2">
         <div class="item mb-3 cursor-pointer d-flex flex-column justify-content-center align-items-center px-5 py-4 border rounded mr-3">
@@ -114,124 +113,126 @@
         </div>
       </div>
     </div>
-    <div class="how-it-works-div p-5">
-      <h1>How Store Easy works</h1>
-      <div>
-        <div class="">
-          <!-- <div class="">
-            <h4 class="card-title">
-              Basic navs</h4>
-          </div> -->
-          <div class="card-content">
-            <div class="card-body">
-              <ul ngbNav #basicnav="ngbNav" [(activeId)]="active" class="nav-tabs rounded">
-                <li [ngbNavItem]="1">
-                  <a ngbNavLink>Renting</a>
-                  <ng-template ngbNavContent>
-                    <div class="pt-3">
-                      <div class="d-flex align-items-center mb-4">
-                        <div class="mr-4">
-                          <i class="fa-solid fa-location-dot renting-icon-1 font-large-1 bg-white location-icon"></i>
+    <div class="how-it-works-div">
+      <div class="how-it-works-inside-div p-5 container">
+        <h1>How Store Easy works</h1>
+        <div>
+          <div class="">
+            <!-- <div class="">
+              <h4 class="card-title">
+                Basic navs</h4>
+            </div> -->
+            <div class="card-content">
+              <div class="card-body">
+                <ul ngbNav #basicnav="ngbNav" [(activeId)]="active" class="nav-tabs rounded">
+                  <li [ngbNavItem]="1">
+                    <a ngbNavLink>Renting</a>
+                    <ng-template ngbNavContent>
+                      <div class="pt-3">
+                        <div class="d-flex align-items-center mb-4">
+                          <div class="mr-4">
+                            <i class="fa-solid fa-location-dot renting-icon-1 font-large-1 bg-white location-icon"></i>
+                          </div>
+                          <div>
+                            <h3>Find Your Space</h3>
+                            <p class="m-0">Browse available storage or parking spots in your desired location.</p>
+                          </div>
                         </div>
-                        <div>
-                          <h3>Find Your Space</h3>
-                          <p class="m-0">Browse available storage or parking spots in your desired location.</p>
+                        <div class="d-flex align-items-center mb-4">
+                          <div class="mr-4">
+                            <i class="fa-solid fa-star renting-icon-2 font-large-1 bg-white location-icon"></i>
+                          </div>
+                          <div>
+                            <h3>Reserve Quickly</h3>
+                            <p class="m-0">Compare options, check details, and book securely in just a few clicks.</p>
+                          </div>
                         </div>
-                      </div>
-                      <div class="d-flex align-items-center mb-4">
-                        <div class="mr-4">
-                          <i class="fa-solid fa-star renting-icon-2 font-large-1 bg-white location-icon"></i>
-                        </div>
-                        <div>
-                          <h3>Reserve Quickly</h3>
-                          <p class="m-0">Compare options, check details, and book securely in just a few clicks.</p>
-                        </div>
-                      </div>
-                      <div class="d-flex align-items-center">
-                        <div class="mr-4">
-                          <i class="fa-solid fa-dollar-sign renting-icon-3 font-large-1 bg-white location-icon"></i>
-                        </div>
-                        <div>
-                          <h3>Access with Ease</h3>
-                          <p class="m-0">Enjoy flexible and affordable storage or parking, with the option to cancel anytime.</p>
-                        </div>
-                      </div>
-                    </div>
-                  </ng-template>
-                </li>
-                <li [ngbNavItem]="2">
-                  <a ngbNavLink>Hosting</a>
-                  <ng-template ngbNavContent>
-                    <div class="pt-3">
-                      <div class="d-flex align-items-center mb-4">
-                        <div class="mr-4">
-                          <i class="fa-solid fa-dollar-sign hosting-icon-1 font-large-1 bg-white location-icon"></i>
-                        </div>
-                        <div>
-                          <h3>Start Earning Today</h3>
-                          <p class="m-0">List your unused space and turn it into a steady income.</p>
+                        <div class="d-flex align-items-center">
+                          <div class="mr-4">
+                            <i class="fa-solid fa-dollar-sign renting-icon-3 font-large-1 bg-white location-icon"></i>
+                          </div>
+                          <div>
+                            <h3>Access with Ease</h3>
+                            <p class="m-0">Enjoy flexible and affordable storage or parking, with the option to cancel anytime.</p>
+                          </div>
                         </div>
                       </div>
-                      <div class="d-flex align-items-center mb-4">
-                        <div class="mr-4">
-                          <i class="fa-solid fa-circle-user hosting-icon-2 font-large-1 bg-white location-icon"></i>
+                    </ng-template>
+                  </li>
+                  <li [ngbNavItem]="2">
+                    <a ngbNavLink>Hosting</a>
+                    <ng-template ngbNavContent>
+                      <div class="pt-3">
+                        <div class="d-flex align-items-center mb-4">
+                          <div class="mr-4">
+                            <i class="fa-solid fa-dollar-sign hosting-icon-1 font-large-1 bg-white location-icon"></i>
+                          </div>
+                          <div>
+                            <h3>Start Earning Today</h3>
+                            <p class="m-0">List your unused space and turn it into a steady income.</p>
+                          </div>
                         </div>
-                        <div>
-                          <h3>Take Full Control</h3>
-                          <p class="m-0">Decide who rents your space and what can be stored.</p>
+                        <div class="d-flex align-items-center mb-4">
+                          <div class="mr-4">
+                            <i class="fa-solid fa-circle-user hosting-icon-2 font-large-1 bg-white location-icon"></i>
+                          </div>
+                          <div>
+                            <h3>Take Full Control</h3>
+                            <p class="m-0">Decide who rents your space and what can be stored.</p>
+                          </div>
                         </div>
-                      </div>
-                      <div class="d-flex align-items-center">
-                        <div class="mr-4">
-                          <i class="fa-solid fa-shield hosting-icon-3 font-large-1 bg-white location-icon"></i>
-                        </div>
-                        <div>
-                          <h3>Feel Secure</h3>
-                          <p class="m-0">Host with confidence, backed by $1M in liability coverage.</p>
-                        </div>
-                      </div>
-                    </div>
-                  </ng-template>
-                </li>
-                <li [ngbNavItem]="3">
-                  <a ngbNavLink>Business</a>
-                  <ng-template ngbNavContent>
-                    <div class="pt-3">
-                      <div class="d-flex align-items-center mb-4">
-                        <div class="mr-4">
-                          <i class="fa-solid fa-dollar-sign business-icon-1 font-large-1 bg-white location-icon"></i>
-                        </div>
-                        <div>
-                          <h3>Unlock Extra Income</h3>
-                          <p class="m-0">Maximize your unused parking and storage spaces by turning them into steady revenue.</p>
-                        </div>
-                      </div>
-                      <div class="d-flex align-items-center mb-4">
-                        <div class="mr-4">
-                          <i class="fa-solid fa-hand-sparkles business-icon-2 font-large-1 bg-white location-icon"></i>
-                        </div>
-                        <div>
-                          <h3>Effortless Management</h3>
-                          <p class="m-0">We connect you with pre-screened renters; you simply confirm and welcome them.</p>
+                        <div class="d-flex align-items-center">
+                          <div class="mr-4">
+                            <i class="fa-solid fa-shield hosting-icon-3 font-large-1 bg-white location-icon"></i>
+                          </div>
+                          <div>
+                            <h3>Feel Secure</h3>
+                            <p class="m-0">Host with confidence, backed by $1M in liability coverage.</p>
+                          </div>
                         </div>
                       </div>
-                      <div class="d-flex align-items-center">
-                        <div class="mr-4">
-                          <i class="fa-solid fa-money-check-dollar business-icon-3 font-large-1 bg-white location-icon"></i>
+                    </ng-template>
+                  </li>
+                  <li [ngbNavItem]="3">
+                    <a ngbNavLink>Business</a>
+                    <ng-template ngbNavContent>
+                      <div class="pt-3">
+                        <div class="d-flex align-items-center mb-4">
+                          <div class="mr-4">
+                            <i class="fa-solid fa-dollar-sign business-icon-1 font-large-1 bg-white location-icon"></i>
+                          </div>
+                          <div>
+                            <h3>Unlock Extra Income</h3>
+                            <p class="m-0">Maximize your unused parking and storage spaces by turning them into steady revenue.</p>
+                          </div>
                         </div>
-                        <div>
-                          <h3>Hassle-Free Payments</h3>
-                          <p class="m-0">Get paid automatically every month, with detailed reports at your fingertips.</p>
+                        <div class="d-flex align-items-center mb-4">
+                          <div class="mr-4">
+                            <i class="fa-solid fa-hand-sparkles business-icon-2 font-large-1 bg-white location-icon"></i>
+                          </div>
+                          <div>
+                            <h3>Effortless Management</h3>
+                            <p class="m-0">We connect you with pre-screened renters; you simply confirm and welcome them.</p>
+                          </div>
+                        </div>
+                        <div class="d-flex align-items-center">
+                          <div class="mr-4">
+                            <i class="fa-solid fa-money-check-dollar business-icon-3 font-large-1 bg-white location-icon"></i>
+                          </div>
+                          <div>
+                            <h3>Hassle-Free Payments</h3>
+                            <p class="m-0">Get paid automatically every month, with detailed reports at your fingertips.</p>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  </ng-template>
-                </li>
-              </ul>
+                    </ng-template>
+                  </li>
+                </ul>
 
-              <div [ngbNavOutlet]="basicnav" class="mt-2"></div>
+                <div [ngbNavOutlet]="basicnav" class="mt-2"></div>
 
-              <!-- <pre>Active: {{ active }}</pre> -->
+                <!-- <pre>Active: {{ active }}</pre> -->
+              </div>
             </div>
           </div>
         </div>
@@ -241,7 +242,7 @@
       <section id="swiper-autoplay">
         <div class="row">
             <div class="col-12">
-                <div class="card p-0">
+                <div class="card p-0 m-0">
                     <!-- <div class="card-header">
                         <h4 class="card-title">Autoplay</h4>
                     </div> -->
@@ -425,7 +426,7 @@
         </div>
       </section>
     </div>
-    <div class="faq-div p-5">
+    <div class="faq-div p-5 container">
       <h1 class="m-0 text-center mb-4">Frequently asked questions</h1>
       <div>
         <div class="card question-1">

@@ -25,6 +25,11 @@
   color: #0079e1;
 }
 
+.storage-details-header {
+  // //   background: linear-gradient(180deg,#051320,#174476);
+  background-image: linear-gradient(135deg, #0E3885, #2F8BE6);
+}
+
 
 ///////////////////// copied styles from hotels search results
 
@@ -311,7 +316,7 @@ input[type="number"]::-webkit-outer-spin-button {
   background-color: #f8f9fa;
   color: black;
   border: none;
-  padding: 10px 10px;
+  padding: 10px 30px;
   border-radius: 5px;
 }
 
@@ -319,7 +324,7 @@ input[type="number"]::-webkit-outer-spin-button {
   // border-bottom: 4px solid #2f8be6;
   background-color: #2f8be6;
   color: #fff !important;
-  padding: 10px 15px;
+  padding: 10px 30px;
   border-radius: 0;
   font-weight: 500;
   color: #000;
@@ -331,7 +336,7 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 .storages-search-field{
-  width: 400px;
+  width: 500px;
 }
 
 .storages-search-field .ng-select-container{
@@ -346,10 +351,16 @@ input[type="number"]::-webkit-outer-spin-button {
 .primary-filter-dropdown-button{
   border: 1px solid #E0E0E0 !important;
   box-shadow: none !important;
+  color: #ffffff;
 }
 
 .primary-filter-dropdown-button:focus{
   background-color: #EBECF0 !important;
+  color: #000000 !important;
+}
+
+.primary-filter-dropdown-button:hover{
+  color: #ffffff;
 }
 
 

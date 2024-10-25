@@ -1,12 +1,17 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { SearchHostsComponent } from './components/search-hosts/search-hosts.component';
+import { StorageDetailsComponent } from './components/storage-details/storage-details.component';
 
 const routes: Routes = [
    {
    path: 'search-hosts',
    component: SearchHostsComponent,
-   }
+   },
+   {
+    path: 'storage-details',
+    component: StorageDetailsComponent,
+    }
   // {
   //   path: 'all-leads-information-list',
   //   component: LeadsLayoutInfoComponent,

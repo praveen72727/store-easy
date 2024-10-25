@@ -1,6 +1,6 @@
 <section class="search-hosts-section">
   <div class="search-hosts-div">
-    <div class="header d-flex justify-content-between align-items-center px-3 py-2 bg-white rounded">
+    <div class="header d-flex justify-content-between align-items-center px-4 py-2 bg-white rounded">
       <div class="left-menu">
         <div class="logo-div mr-2">
           <h4 [routerLink]="['/dashboard/home']" class="logo-text m-0 text-bold-900 font-large-1 cursor-pointer">
@@ -12,10 +12,18 @@
 
       <div class="right-menu d-flex justify-content-between align-items-center p-2 ">
           <div class="mr-2">
-            <span class="how-it-works-button-button cursor-pointer p-2 rounded">How it works</span>
+            <span class="how-it-works-button-button text-black cursor-pointer p-2 rounded">How it works</span>
+          </div>
+          <div class="mr-2">
+            <span
+              class="find-storage-button cursor-pointer p-2 rounded text-black"
+              [routerLink]="['/dashboard/storage/search-hosts']"
+              >
+                Find Storage
+            </span>
           </div>
           <div ngbDropdown>
-            <button class="btn storage-type-button mr-2" id="storage-type-dropdown" ngbDropdownToggle>Storage Type</button>
+            <button class="btn storage-type-button mr-2 text-black" id="storage-type-dropdown" ngbDropdownToggle>Storage Type</button>
             <div ngbDropdownMenu aria-labelledby="storage-type-dropdown">
               <button class="dropdown-item w-100">Self Storage</button>
               <button class="dropdown-item w-100">Garages</button>
@@ -30,7 +38,7 @@
             </div>
           </div>
           <div ngbDropdown>
-            <button class="btn location-button mr-2" id="locations-dropdown" ngbDropdownToggle>Locations</button>
+            <button class="btn location-button mr-2 text-black" id="locations-dropdown" ngbDropdownToggle>Locations</button>
             <div ngbDropdownMenu aria-labelledby="locations-dropdown">
               <button class="dropdown-item w-100">Alberta</button>
               <button class="dropdown-item w-100">British Columbia</button>
@@ -49,57 +57,86 @@
           </div>
       </div>
     </div>
+    <div class="storage-details-header">
+      <div class="container d-flex justify-content-center align-items-center">
+        <h4 class="text-white text-bold-600 py-2 pl-0 m-0 container">
+          Storage search
+        </h4>
+        <div class="primary-filters d-flex">
+          <div class="mr-2" ngbDropdown>
+            <button class="btn border primary-filter-dropdown-button mr-1" id="primary-filter-dropdown-price" ngbDropdownToggle>Price</button>
+            <div ngbDropdownMenu aria-labelledby="primary-filter-dropdown-price">
+              <button class="dropdown-item w-100">Less than $100</button>
+              <button class="dropdown-item w-100">$100 - $200</button>
+              <button class="dropdown-item w-100">$200 - $300</button>
+              <button class="dropdown-item w-100">$300 and above</button>
+            </div>
+          </div>
+          <div class="mr-2" ngbDropdown>
+            <button class="btn border primary-filter-dropdown-button mr-1" id="primary-filter-dropdown-storage-type" ngbDropdownToggle>Storage type</button>
+            <div ngbDropdownMenu aria-labelledby="primary-filter-dropdown-storage-type">
+              <button class="dropdown-item w-100">Items</button>
+              <button class="dropdown-item w-100">Vehicles</button>
+              <button class="dropdown-item w-100">Trailer</button>
+              <button class="dropdown-item w-100">RV/Camper</button>
+              <button class="dropdown-item w-100">Boat</button>
+              <button class="dropdown-item w-100">Oversized</button>
+            </div>
+          </div>
+          <div class="mr-2" ngbDropdown>
+            <button class="btn border primary-filter-dropdown-button mr-1" id="primary-filter-dropdown-exposure" ngbDropdownToggle>Exposure</button>
+            <div ngbDropdownMenu aria-labelledby="primary-filter-dropdown-exposure">
+              <button class="dropdown-item w-100">Indoor</button>
+              <button class="dropdown-item w-100">Outdoor - covered</button>
+              <button class="dropdown-item w-100">Outdoor - uncovered</button>
+            </div>
+          </div>
+          <div class="mr-2" ngbDropdown>
+            <button class="btn border primary-filter-dropdown-button mr-1" id="primary-filter-dropdown-features" ngbDropdownToggle>Features</button>
+            <div ngbDropdownMenu aria-labelledby="primary-filter-dropdown-features">
+              <button class="dropdown-item w-100">No Stairs</button>
+              <button class="dropdown-item w-100">Private Entrance</button>
+              <button class="dropdown-item w-100">Private Space</button>
+              <button class="dropdown-item w-100">Pet Free</button>
+              <button class="dropdown-item w-100">Smoke Free</button>
+            </div>
+          </div>
+          <div ngbDropdown>
+            <button class="btn border primary-filter-dropdown-button mr-1" id="primary-filter-dropdown-sortby" ngbDropdownToggle>Sort by</button>
+            <div ngbDropdownMenu aria-labelledby="primary-filter-dropdown-sortby">
+              <button class="dropdown-item w-100">Recommended</button>
+              <button class="dropdown-item w-100">Price (Low to High)</button>
+              <button class="dropdown-item w-100">Price (High to Low)</button>
+              <button class="dropdown-item w-100">Closest</button>
+              <button class="dropdown-item w-100">Size (Big to Small)</button>
+              <button class="dropdown-item w-100">Size (Small to Big)</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="primary-search-filters-div">
-      <div class="card px-3 py-2">
-          <div class="d-flex justify-content-between align-items-center">
-            <div class="primary-filters d-flex">
-              <div class="mr-2" ngbDropdown>
-                <button class="btn border primary-filter-dropdown-button mr-1" id="primary-filter-dropdown-price" ngbDropdownToggle>Price</button>
-                <div ngbDropdownMenu aria-labelledby="primary-filter-dropdown-price">
-                  <button class="dropdown-item w-100">Less than $100</button>
-                  <button class="dropdown-item w-100">$100 - $200</button>
-                  <button class="dropdown-item w-100">$200 - $300</button>
-                  <button class="dropdown-item w-100">$300 and above</button>
-                </div>
-              </div>
-              <div class="mr-2" ngbDropdown>
-                <button class="btn border primary-filter-dropdown-button mr-1" id="primary-filter-dropdown-storage-type" ngbDropdownToggle>Storage type</button>
-                <div ngbDropdownMenu aria-labelledby="primary-filter-dropdown-storage-type">
-                  <button class="dropdown-item w-100">Items</button>
-                  <button class="dropdown-item w-100">Vehicles</button>
-                  <button class="dropdown-item w-100">Trailer</button>
-                  <button class="dropdown-item w-100">RV/Camper</button>
-                  <button class="dropdown-item w-100">Boat</button>
-                  <button class="dropdown-item w-100">Oversized</button>
-                </div>
-              </div>
-              <div class="mr-2" ngbDropdown>
-                <button class="btn border primary-filter-dropdown-button mr-1" id="primary-filter-dropdown-exposure" ngbDropdownToggle>Exposure</button>
-                <div ngbDropdownMenu aria-labelledby="primary-filter-dropdown-exposure">
-                  <button class="dropdown-item w-100">Indoor</button>
-                  <button class="dropdown-item w-100">Outdoor - covered</button>
-                  <button class="dropdown-item w-100">Outdoor - uncovered</button>
-                </div>
-              </div>
-              <div class="mr-2" ngbDropdown>
-                <button class="btn border primary-filter-dropdown-button mr-1" id="primary-filter-dropdown-features" ngbDropdownToggle>Features</button>
-                <div ngbDropdownMenu aria-labelledby="primary-filter-dropdown-features">
-                  <button class="dropdown-item w-100">No Stairs</button>
-                  <button class="dropdown-item w-100">Private Entrance</button>
-                  <button class="dropdown-item w-100">Private Space</button>
-                  <button class="dropdown-item w-100">Pet Free</button>
-                  <button class="dropdown-item w-100">Smoke Free</button>
-                </div>
-              </div>
-              <div ngbDropdown>
-                <button class="btn border primary-filter-dropdown-button mr-1" id="primary-filter-dropdown-sortby" ngbDropdownToggle>Sort by</button>
-                <div ngbDropdownMenu aria-labelledby="primary-filter-dropdown-sortby">
-                  <button class="dropdown-item w-100">Recommended</button>
-                  <button class="dropdown-item w-100">Price (Low to High)</button>
-                  <button class="dropdown-item w-100">Price (High to Low)</button>
-                  <button class="dropdown-item w-100">Closest</button>
-                  <button class="dropdown-item w-100">Size (Big to Small)</button>
-                  <button class="dropdown-item w-100">Size (Small to Big)</button>
+      <div class="card px-3 py-2 mt-0">
+          <div class="container d-flex justify-content-between align-items-center">
+            <div class="card top-div p-0 m-0">
+              <div class="">
+                <div class="pt-0">
+                  <div class="button-group">
+                    <button
+                      class="font-11 text-nowrap"
+                      [ngClass]="{ active: selectedButton === 'self' }"
+                      (click)="selectButton('self')"
+                    >
+                      Storage
+                    </button>
+                    <button
+                      class="font-11 text-nowrap"
+                      [ngClass]="{ active: selectedButton === 'team' }"
+                      (click)="selectButton('team')"
+                    >
+                      Parking
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -152,7 +189,7 @@
         <div class="row">
           <div class="col-md-3 col-sm-12">
             <div>
-              <div class="card top-div p-0 m-0 mb-2 h-60">
+              <!-- <div class="card top-div p-0 m-0 mb-2 h-60">
                 <div class="">
                   <div class="pt-0">
                     <div class="button-group p-2">
@@ -173,7 +210,7 @@
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> -->
               <div class="filter-section rounded border py-3 px-3 d-flex flex-column">
                 <div class="title mb-2 d-flex justify-content-between">
                   <span class="font-medium-4 text-black text-bold-700">Select Filters</span>
@@ -414,7 +451,7 @@
                   <h1 class="text-black text-bold-900 font-large-1">56 Storages found in Toronto</h1>
                 </div> -->
                 <div class="results-count-div mb-3">
-                  <p class="m-0 text-black font-medium-1 text-bold-600">56 Results found</p>
+                  <p class="m-0 text-black font-medium-2 text-bold-600">56 Results found</p>
                   <div class="d-flex justify-content-between mt-1">
                     <p class="m-0 font-small-3">Please select a storage space to continue for booking.</p>
                     <p class="m-0 font-small-3">Sort by: Recommended</p>

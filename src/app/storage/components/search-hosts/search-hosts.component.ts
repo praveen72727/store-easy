@@ -187,7 +187,7 @@ export class SearchHostsComponent implements OnInit {
   }
 
   checkAvailability(){
-    // this.router.navigate(['hotel-details']);
+    this.router.navigate(['/dashboard/storage/storage-details']);
   }
 
 }
