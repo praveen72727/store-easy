@@ -1,0 +1,123 @@
+<section class="start-and-duration-section">
+  <div class="header d-flex justify-content-between align-items-center px-4 py-2 bg-white rounded">
+    <div class="left-menu">
+      <div class="logo-div mr-2">
+        <h4 [routerLink]="['/dashboard/home']" class="logo-text m-0 text-bold-900 font-large-1 cursor-pointer">
+          <img width="30px" src="assets/img/icons/store-easy-icons/storage-icon.svg" alt="">
+          Store Easy
+        </h4>
+      </div>
+    </div>
+
+    <div class="right-menu d-flex justify-content-between align-items-center p-2 ">
+        <div class="mr-2">
+          <span class="how-it-works-button-button text-black cursor-pointer p-2 rounded">How it works</span>
+        </div>
+        <div class="mr-2">
+          <span
+            class="find-storage-button cursor-pointer p-2 rounded text-black"
+            [routerLink]="['/dashboard/storage/search-hosts']"
+            >
+              Find Storage
+          </span>
+        </div>
+        <div ngbDropdown>
+          <button class="btn storage-type-button mr-2 text-black" id="storage-type-dropdown" ngbDropdownToggle>Storage Type</button>
+          <div ngbDropdownMenu aria-labelledby="storage-type-dropdown">
+            <button class="dropdown-item w-100">Self Storage</button>
+            <button class="dropdown-item w-100">Garages</button>
+            <button class="dropdown-item w-100">RV Storage</button>
+            <button class="dropdown-item w-100">RV Storage</button>
+            <button class="dropdown-item w-100">Boat Storage</button>
+            <button class="dropdown-item w-100">Car Storage</button>
+            <button class="dropdown-item w-100">Truck Parking</button>
+            <button class="dropdown-item w-100">Monthly Parking</button>
+            <button class="dropdown-item w-100">Long-term Parking</button>
+            <button class="dropdown-item w-100">Fleet Parking</button>
+          </div>
+        </div>
+        <div ngbDropdown>
+          <button class="btn location-button mr-2 text-black" id="locations-dropdown" ngbDropdownToggle>Locations</button>
+          <div ngbDropdownMenu aria-labelledby="locations-dropdown">
+            <button class="dropdown-item w-100">Alberta</button>
+            <button class="dropdown-item w-100">British Columbia</button>
+            <button class="dropdown-item w-100">Manitoba</button>
+            <button class="dropdown-item w-100">New Brunswick</button>
+            <button class="dropdown-item w-100">Newfoundland and Labrador</button>
+            <button class="dropdown-item w-100">Nova Scotia</button>
+            <button class="dropdown-item w-100">Ontario</button>
+            <button class="dropdown-item w-100">Prince Edward Island</button>
+            <button class="dropdown-item w-100">Quebec</button>
+            <button class="dropdown-item w-100">Saskatchewan</button>
+          </div>
+        </div>
+        <div class="mr-2">
+          <span class="how-it-works-button-button cursor-pointer p-2 rounded text-black">
+            <i class="fa-regular fa-circle-user mr-1"></i>
+            Log in</span>
+        </div>
+        <div>
+          <button class="btn btn-outline-info">Become a Host</button>
+        </div>
+    </div>
+  </div>
+  <div class="storage-details-header">
+    <h4 class="text-white text-bold-600 px-3 py-2 mb-3 container">
+      Booking Details
+    </h4>
+  </div>
+  <div class="start-and-duration-div container">
+    <div class="py-3">
+      <h4 class="m-0 mb-2">When do you want to start?</h4>
+      <p class="m-0">Select the day you hope to move-in on. Your host will coordinate with you after approval.</p>
+      <div class="my-3">
+        <form>
+          <div class="form-row mb-3">
+            <div class="col-md-6 col-12">
+              <div class="check-out-div header-search-inner-each-div rounded">
+                <div>
+                  <label for="check_out_date" class="modify-search_inputlbl">Start Date</label>
+                </div>
+                <div class="form-group datePicker-div m-0">
+                  <div class="input-group m-0">
+                    <input id="check_out_date" class="form-control" placeholder="yyyy-mm-dd" name="dp"
+                      [(ngModel)]="popupModel2" ngbDatepicker #d3="ngbDatepicker">
+                    <div class="input-group-append">
+                      <div class="input-group-text" (click)="d3.toggle()">
+                        <i class="fa fa-calendar" style="cursor: pointer;"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="col-md-6 col-12">
+              <div class="form-group mb-2">
+                <label for="estimated-duration">Estimated duration</label>
+                <select id="estimated-duration" name="estimatedDuration" class="form-control">
+                  <option value="aboutAmonth">About a month</option>
+                  <option value="aFewMonths">A few months</option>
+                  <option value="aboutAyear" selected>About a year</option>
+                  <option value="aFewYears">A few years</option>
+                  <option value="indefinitely">Indefinitely</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-12 px-3 py-2 bg-success bg-lighten-4 rounded border mt-3">
+            <p class="m-0 text-bold-600"><i class="fa-solid fa-sack-dollar mr-1"></i> $1,200+ per year average savings</p>
+            <p class="m-0 font-small-3 mt-1">Average Store Easy savings compared to traditional storage facilities</p>
+          </div>
+          <div class="d-flex justify-content-end col-md-6 col-12 p-0">
+            <button type="button" class="btn btn-primary mt-4 font-medium-3 py-2 px-3">Next</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div>
+
+    </div>
+  </div>
+</section>
