@@ -9,6 +9,8 @@ import { Router } from '@angular/router';
 })
 export class StoringTypeComponent implements OnInit {
 
+  test: boolean = false;
+
   bookingForm: FormGroup;
   selectedStorageType: string | null = null;
   rvMode: 'drivable' | 'towable' = 'drivable';
@@ -88,6 +90,7 @@ export class StoringTypeComponent implements OnInit {
       trailerLength: lengthMap[type]
     });
   }
+
 
   selectRVMode(mode: 'drivable' | 'towable'): void {
     this.rvMode = mode;
