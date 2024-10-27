@@ -1,1 +1,263 @@
-<p>protection-plan works!</p>
+<section class="review-booking-section">
+  <div class="review-booking-div">
+    <div class="header d-flex justify-content-between align-items-center px-4 py-2 bg-white rounded">
+      <div class="left-menu">
+        <div class="logo-div mr-2">
+          <h4 [routerLink]="['/dashboard/home']" class="logo-text m-0 text-bold-900 font-large-1 cursor-pointer">
+            <img width="30px" src="assets/img/icons/store-easy-icons/storage-icon.svg" alt="">
+            Store Easy
+          </h4>
+        </div>
+      </div>
+
+      <div class="right-menu d-flex justify-content-between align-items-center p-2 ">
+          <div class="mr-2">
+            <span class="how-it-works-button-button text-black cursor-pointer p-2 rounded">How it works</span>
+          </div>
+          <div class="mr-2">
+            <span
+              class="find-storage-button cursor-pointer p-2 rounded text-black"
+              [routerLink]="['/dashboard/storage/search-hosts']"
+              >
+                Find Storage
+            </span>
+          </div>
+          <div ngbDropdown>
+            <button class="btn storage-type-button mr-2 text-black" id="storage-type-dropdown" ngbDropdownToggle>Storage Type</button>
+            <div ngbDropdownMenu aria-labelledby="storage-type-dropdown">
+              <button class="dropdown-item w-100">Self Storage</button>
+              <button class="dropdown-item w-100">Garages</button>
+              <button class="dropdown-item w-100">RV Storage</button>
+              <button class="dropdown-item w-100">RV Storage</button>
+              <button class="dropdown-item w-100">Boat Storage</button>
+              <button class="dropdown-item w-100">Car Storage</button>
+              <button class="dropdown-item w-100">Truck Parking</button>
+              <button class="dropdown-item w-100">Monthly Parking</button>
+              <button class="dropdown-item w-100">Long-term Parking</button>
+              <button class="dropdown-item w-100">Fleet Parking</button>
+            </div>
+          </div>
+          <div ngbDropdown>
+            <button class="btn location-button mr-2 text-black" id="locations-dropdown" ngbDropdownToggle>Locations</button>
+            <div ngbDropdownMenu aria-labelledby="locations-dropdown">
+              <button class="dropdown-item w-100">Alberta</button>
+              <button class="dropdown-item w-100">British Columbia</button>
+              <button class="dropdown-item w-100">Manitoba</button>
+              <button class="dropdown-item w-100">New Brunswick</button>
+              <button class="dropdown-item w-100">Newfoundland and Labrador</button>
+              <button class="dropdown-item w-100">Nova Scotia</button>
+              <button class="dropdown-item w-100">Ontario</button>
+              <button class="dropdown-item w-100">Prince Edward Island</button>
+              <button class="dropdown-item w-100">Quebec</button>
+              <button class="dropdown-item w-100">Saskatchewan</button>
+            </div>
+          </div>
+          <div class="mr-2">
+            <span class="how-it-works-button-button cursor-pointer p-2 rounded text-black">
+              <i class="fa-regular fa-circle-user mr-1"></i>
+              Log in</span>
+          </div>
+          <div>
+            <button class="btn btn-outline-info">Become a Host</button>
+          </div>
+      </div>
+    </div>
+
+    <div class="storage-details-header">
+      <h4 class="text-white text-bold-600 px-3 py-2 mb-3 container">
+        Select Protection Plan
+      </h4>
+    </div>
+
+    <div class="container">
+      <div class="start-and-duration-div row">
+        <div class="col-md-6 col-12">
+          <h4 class="m-0 mb-3 text-bold-600">Choose your protection plan</h4>
+          <p class="m-0">All plans cover 90% of qualifying losses up to your maximum protection amount.</p>
+          <div class="faq-div">
+            <div>
+              <div class="card question-1" [ngClass]="{'selected-protection-plan':protection_plan_1}">
+                <div class="card-content">
+                  <div class="card-body cursor-pointer"
+                  (click)="protectionPlan1()"
+                          [attr.aria-expanded]="!isCollapsed1" aria-controls="collapseExample1">
+                    <div class="d-flex justify-content-between align-items-center">
+                      <h5 class="m-0 text-bold-600">
+                        Standard
+                      </h5>
+                      <!-- <i class="font-large-1 fa-solid text-bold-900"
+                        [ngClass]="{'fa-plus': isCollapsed1, 'fa-minus': !isCollapsed1}">
+                      </i> -->
+                    </div>
+                    <div class="mt-2" id="collapseExample1" [ngbCollapse]="isCollapsed1">
+                      <div class="d-flex justify-content-between">
+                        <p class="m-0 font-medium-3">Protection</p>
+                        <p class="m-0 font-medium-3">Upto $50,000</p>
+                      </div>
+                      <div class="d-flex justify-content-between">
+                        <p class="m-0 font-medium-3">Price</p>
+                        <p class="m-0 font-medium-3">$65.99/month</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card question-2" [ngClass]="{'selected-protection-plan':protection_plan_2}">
+                <div class="card-content">
+                  <div class="card-body cursor-pointer"
+                  (click)="protectionPlan2()"
+                          [attr.aria-expanded]="!isCollapsed2" aria-controls="collapseExample2">
+                    <div class="d-flex justify-content-between align-items-center">
+                      <h5 class="m-0 text-bold-600">
+                        Moderate
+                      </h5>
+                      <!-- <i class="font-large-1 fa-solid text-bold-900"
+                        [ngClass]="{'fa-plus': isCollapsed2, 'fa-minus': !isCollapsed2}">
+                      </i> -->
+                    </div>
+                    <div class="mt-2" id="collapseExample2" [ngbCollapse]="isCollapsed2">
+                      <div class="d-flex justify-content-between">
+                        <p class="m-0 font-medium-3">Protection</p>
+                        <p class="m-0 font-medium-3">Upto $25,000</p>
+                      </div>
+                      <div class="d-flex justify-content-between">
+                        <p class="m-0 font-medium-3">Price</p>
+                        <p class="m-0 font-medium-3">$44.99/month</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card question-3" [ngClass]="{'selected-protection-plan':protection_plan_3}">
+                <div class="card-content">
+                  <div class="card-body cursor-pointer"
+                  (click)="protectionPlan3()"
+                          [attr.aria-expanded]="!isCollapsed3" aria-controls="collapseExample3">
+                    <div class="d-flex justify-content-between align-items-center">
+                      <h5 class="m-0 text-bold-600">
+                        Value
+                      </h5>
+                      <!-- <i class="font-large-1 fa-solid text-bold-900"
+                        [ngClass]="{'fa-plus': isCollapsed3, 'fa-minus': !isCollapsed3}">
+                      </i> -->
+                    </div>
+                    <div class="mt-2" id="collapseExample3" [ngbCollapse]="isCollapsed3">
+                      <div class="d-flex justify-content-between">
+                        <p class="m-0 font-medium-3">Protection</p>
+                        <p class="m-0 font-medium-3">Upto $12,000</p>
+                      </div>
+                      <div class="d-flex justify-content-between">
+                        <p class="m-0 font-medium-3">Price</p>
+                        <p class="m-0 font-medium-3">$26.99/month</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card question-4" [ngClass]="{'selected-protection-plan':protection_plan_4}">
+                <div class="card-content">
+                  <div class="card-body cursor-pointer"
+                  (click)="protectionPlan4()"
+                          [attr.aria-expanded]="!isCollapsed4" aria-controls="collapseExample4">
+                    <div class="d-flex justify-content-between align-items-center">
+                      <h5 class="m-0 text-bold-600">
+                        Minimum
+                      </h5>
+                      <!-- <i class="font-large-1 fa-solid text-bold-900"
+                        [ngClass]="{'fa-plus': isCollapsed4, 'fa-minus': !isCollapsed4}">
+                      </i> -->
+                    </div>
+                    <div class="mt-2" id="collapseExample4" [ngbCollapse]="isCollapsed4">
+                      <div class="d-flex justify-content-between">
+                        <p class="m-0 font-medium-3">Protection</p>
+                        <p class="m-0 font-medium-3">Upto $5,000</p>
+                      </div>
+                      <div class="d-flex justify-content-between">
+                        <p class="m-0 font-medium-3">Price</p>
+                        <p class="m-0 font-medium-3">$16.99/month</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card question-5" [ngClass]="{'selected-protection-plan':protection_plan_5}">
+                <div class="card-content">
+                  <div class="card-body cursor-pointer"
+                  (click)="protectionPlan5()"
+                          [attr.aria-expanded]="!isCollapsed5" aria-controls="collapseExample5">
+                    <div class="d-flex justify-content-between align-items-center">
+                      <h5 class="m-0 text-bold-600">
+                        No thanks, I decline protection.
+                      </h5>
+                      <!-- <i class="font-large-1 fa-solid text-bold-900"
+                        [ngClass]="{'fa-plus': isCollapsed5, 'fa-minus': !isCollapsed5}">
+                      </i> -->
+                    </div>
+                    <div class="mt-2" id="collapseExample5" [ngbCollapse]="isCollapsed5">
+                      <p class="m-0 font-medium-3">
+                        You will be responsible for potential theft or involuntary damage, up to the full value of what you are storing. Don't assume you'll be covered by existing insurance. Many policies don't cover items in storage.
+
+Many also do not cover minor damage like nicks, dings, and scratches. We do!
+
+We recommend you at least choose Minimum protection for only $16.99/month.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-12">
+          <div class="d-flex justify-content-end">
+            <div class="card my-0 border p-3 rounded">
+              <div>
+                <img class="rounded" width="280" height="150" src="assets/img/storages-images/garage-1-img-1.jpeg" alt="">
+              </div>
+              <div class="custom-width-280 mt-3">
+                <div class="border-bottom">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <p class="m-0 font-medium-4 text-bold-700">15x10 Garage</p>
+                    <p class="m-0 font-small-4 text-bold-500">20ft tall</p>
+                  </div>
+                  <div class="mt-1 mb-3">
+                    <i class="fa-solid fa-star mr-1"></i>
+                    <span> 4.0 (4 Reviews) <span class="mx-1">|</span> <i class="fa-solid fa-location-dot mx-1"></i>Toronto, ON</span>
+                  </div>
+                  <div class="d-flex justify-content-between mb-1">
+                    <p class="m-0">Monthly rental price</p>
+                    <p class="m-0">$225.00</p>
+                  </div>
+                  <div class="d-flex justify-content-between mb-2">
+                    <p class="m-0">Service fee</p>
+                    <p class="m-0">$27.30</p>
+                  </div>
+                </div>
+                <div>
+                  <div class="d-flex justify-content-between mt-2">
+                    <p class="m-0 text-bold-700 font-medium-4">Total</p>
+                    <p class="m-0 text-bold-700 font-medium-4">$252.30</p>
+                  </div>
+                </div>
+                <p class="m-0 mt-1 text-bold-400 font-small-3">Monthly recurring total until the reservation is ended on the Store Easy app or website.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <div class="bg-secondary bg-lighten-4 py-3 mt-2">
+      <div class="container">
+        <div class="d-flex justify-content-between">
+          <button type="button" (click)="goBackTo()" class="btn btn-outline-secondary font-medium-3 py-2 px-3">Back</button>
+          <button type="submit" (click)="goToNext()"  class="btn btn-primary font-medium-3 py-2 px-3">Next</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

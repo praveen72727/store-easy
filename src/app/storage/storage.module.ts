@@ -11,6 +11,7 @@ import { StartAndDurationComponent } from './components/start-and-duration/start
 import { StoringTypeComponent } from './components/storing-type/storing-type.component';
 import { ProtectionPlanComponent } from './components/protection-plan/protection-plan.component';
 import { PaymentInfoComponent } from './components/payment-info/payment-info.component';
+import { ReviewBookingComponent } from './components/review-booking/review-booking.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { PaymentInfoComponent } from './components/payment-info/payment-info.com
     StartAndDurationComponent,
     StoringTypeComponent,
     ProtectionPlanComponent,
-    PaymentInfoComponent
+    PaymentInfoComponent,
+    ReviewBookingComponent
   ],
   imports: [
     CommonModule,

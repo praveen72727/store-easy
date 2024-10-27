@@ -16,6 +16,7 @@ export class StoringTypeComponent implements OnInit {
   rvMode: 'drivable' | 'towable' = 'drivable';
 
   storageTypes = ['Items', 'Vehicle', 'Trailer', 'RV/Camper', 'Boat', 'Oversized'];
+  itemsList = '';
   vehicleTypes = ['Sedan', 'SUV', 'Truck', 'Compact', 'Motorcycle', 'Offroad/Snow'];
   trailerTypes = ['Cargo Trailer', 'Utility trailer', 'Travel trailer', 'Pop-up trailer'];
   rvTypesDrivable = ['Class A', 'Class B', 'Class C'];
@@ -29,6 +30,7 @@ export class StoringTypeComponent implements OnInit {
   ) {
     this.bookingForm = this.fb.group({
       storageType: ['', Validators.required],
+      itemsList: [''],
       vehicleType: [''],
       vehicleLength: [''],
       trailerType: [''],
@@ -48,6 +50,7 @@ export class StoringTypeComponent implements OnInit {
     this.selectedStorageType = type;
     this.bookingForm.patchValue({
       storageType: type,
+      itemsList: '',
       vehicleType: '',
       vehicleLength: '',
       trailerType: '',
@@ -153,7 +156,7 @@ export class StoringTypeComponent implements OnInit {
   onSubmit(): void {
     if (this.bookingForm.valid) {
       console.log(this.bookingForm.value);
-      // this.router.navigate(['dashboard/storage/start-and-duration']);
+      this.router.navigate(['dashboard/storage/protection-plan']);
     }
   }
 
@@ -161,8 +164,8 @@ export class StoringTypeComponent implements OnInit {
     this.router.navigate(['dashboard/storage/start-and-duration']);
   }
 
-  goToNext() {
-    this.router.navigate(['dashboard/storage/storing-type']);
-  }
+  // goToNext() {
+  //   this.router.navigate(['dashboard/storage/storing-type']);
+  // }
 
 }

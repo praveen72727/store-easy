@@ -4,6 +4,9 @@ import { SearchHostsComponent } from './components/search-hosts/search-hosts.com
 import { StorageDetailsComponent } from './components/storage-details/storage-details.component';
 import { StartAndDurationComponent } from './components/start-and-duration/start-and-duration.component';
 import { StoringTypeComponent } from './components/storing-type/storing-type.component';
+import { ReviewBookingComponent } from './components/review-booking/review-booking.component';
+import { ProtectionPlanComponent } from './components/protection-plan/protection-plan.component';
+import { PaymentInfoComponent } from './components/payment-info/payment-info.component';
 
 const routes: Routes = [
    {
@@ -21,7 +24,19 @@ const routes: Routes = [
     {
       path: 'storing-type',
       component: StoringTypeComponent,
-    }
+    },
+    {
+      path: 'protection-plan',
+      component: ProtectionPlanComponent,
+    },
+    {
+      path: 'review-booking',
+      component: ReviewBookingComponent,
+    },
+    {
+      path: 'payment-info',
+      component: PaymentInfoComponent,
+    },
   // {
   //   path: 'all-leads-information-list',
   //   component: LeadsLayoutInfoComponent,

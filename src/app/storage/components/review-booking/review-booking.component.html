@@ -1,0 +1,129 @@
+<section class="review-booking-section">
+  <div class="review-booking-div">
+    <div class="header d-flex justify-content-between align-items-center px-4 py-2 bg-white rounded">
+      <div class="left-menu">
+        <div class="logo-div mr-2">
+          <h4 [routerLink]="['/dashboard/home']" class="logo-text m-0 text-bold-900 font-large-1 cursor-pointer">
+            <img width="30px" src="assets/img/icons/store-easy-icons/storage-icon.svg" alt="">
+            Store Easy
+          </h4>
+        </div>
+      </div>
+
+      <div class="right-menu d-flex justify-content-between align-items-center p-2 ">
+          <div class="mr-2">
+            <span class="how-it-works-button-button text-black cursor-pointer p-2 rounded">How it works</span>
+          </div>
+          <div class="mr-2">
+            <span
+              class="find-storage-button cursor-pointer p-2 rounded text-black"
+              [routerLink]="['/dashboard/storage/search-hosts']"
+              >
+                Find Storage
+            </span>
+          </div>
+          <div ngbDropdown>
+            <button class="btn storage-type-button mr-2 text-black" id="storage-type-dropdown" ngbDropdownToggle>Storage Type</button>
+            <div ngbDropdownMenu aria-labelledby="storage-type-dropdown">
+              <button class="dropdown-item w-100">Self Storage</button>
+              <button class="dropdown-item w-100">Garages</button>
+              <button class="dropdown-item w-100">RV Storage</button>
+              <button class="dropdown-item w-100">RV Storage</button>
+              <button class="dropdown-item w-100">Boat Storage</button>
+              <button class="dropdown-item w-100">Car Storage</button>
+              <button class="dropdown-item w-100">Truck Parking</button>
+              <button class="dropdown-item w-100">Monthly Parking</button>
+              <button class="dropdown-item w-100">Long-term Parking</button>
+              <button class="dropdown-item w-100">Fleet Parking</button>
+            </div>
+          </div>
+          <div ngbDropdown>
+            <button class="btn location-button mr-2 text-black" id="locations-dropdown" ngbDropdownToggle>Locations</button>
+            <div ngbDropdownMenu aria-labelledby="locations-dropdown">
+              <button class="dropdown-item w-100">Alberta</button>
+              <button class="dropdown-item w-100">British Columbia</button>
+              <button class="dropdown-item w-100">Manitoba</button>
+              <button class="dropdown-item w-100">New Brunswick</button>
+              <button class="dropdown-item w-100">Newfoundland and Labrador</button>
+              <button class="dropdown-item w-100">Nova Scotia</button>
+              <button class="dropdown-item w-100">Ontario</button>
+              <button class="dropdown-item w-100">Prince Edward Island</button>
+              <button class="dropdown-item w-100">Quebec</button>
+              <button class="dropdown-item w-100">Saskatchewan</button>
+            </div>
+          </div>
+          <div class="mr-2">
+            <span class="how-it-works-button-button cursor-pointer p-2 rounded text-black">
+              <i class="fa-regular fa-circle-user mr-1"></i>
+              Log in</span>
+          </div>
+          <div>
+            <button class="btn btn-outline-info">Become a Host</button>
+          </div>
+      </div>
+    </div>
+
+    <div class="storage-details-header">
+      <h4 class="text-white text-bold-600 px-3 py-2 mb-3 container">
+        Review Booking
+      </h4>
+    </div>
+
+    <div class="container">
+      <div class="start-and-duration-div row">
+        <div class="col-md-6 col-12">
+
+        </div>
+        <div class="col-md-6 col-12">
+          <div class="d-flex justify-content-end">
+            <div class="card my-0 border p-3 rounded">
+              <div>
+                <img class="rounded" width="280" height="150" src="assets/img/storages-images/garage-1-img-1.jpeg" alt="">
+              </div>
+              <div class="custom-width-280 mt-3">
+                <div class="border-bottom">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <p class="m-0 font-medium-4 text-bold-700">15x10 Garage</p>
+                    <p class="m-0 font-small-4 text-bold-500">20ft tall</p>
+                  </div>
+                  <div class="mt-1 mb-3">
+                    <i class="fa-solid fa-star mr-1"></i>
+                    <span> 4.0 (4 Reviews) <span class="mx-1">|</span> <i class="fa-solid fa-location-dot mx-1"></i>Toronto, ON</span>
+                  </div>
+                  <div class="d-flex justify-content-between mb-1">
+                    <p class="m-0">Monthly rental price</p>
+                    <p class="m-0">$225.00</p>
+                  </div>
+                  <div class="d-flex justify-content-between mb-2">
+                    <p class="m-0">Service fee</p>
+                    <p class="m-0">$27.30</p>
+                  </div>
+                </div>
+                <div>
+                  <div class="d-flex justify-content-between mt-2">
+                    <p class="m-0 text-bold-700 font-medium-4">Total</p>
+                    <p class="m-0 text-bold-700 font-medium-4">$252.30</p>
+                  </div>
+                </div>
+                <p class="m-0 mt-1 text-bold-400 font-small-3">Monthly recurring total until the reservation is ended on the Store Easy app or website.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <div class="bg-secondary bg-lighten-4 py-3 mt-2">
+      <div class="container">
+        <div class="d-flex justify-content-between">
+          <button type="button" (click)="goBackTo()" class="btn btn-outline-secondary font-medium-3 py-2 px-3">Back</button>
+          <button type="submit" (click)="goToNext()"  class="btn btn-primary font-medium-3 py-2 px-3">Confirm</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

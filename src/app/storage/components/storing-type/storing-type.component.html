@@ -87,6 +87,16 @@
               </div>
             </div>
 
+                        <!-- Items List Section -->
+                        <div *ngIf="selectedStorageType === 'Items'" class="sub-section">
+                          <h5 class="mb-3 text-bold-600">Items List</h5>
+                          <div class="type-grid">
+                            <div>
+                              <textarea rows="4" class="itemsList-input-field px-2 py-2 rounded font-small-3 text-bold-400" type="text" formControlName="itemsList" placeholder="Ex: Dresser. Three boxes of clothing."></textarea>
+                            </div>
+                          </div>
+                        </div>
+
             <!-- Vehicle Section -->
             <div *ngIf="selectedStorageType === 'Vehicle'" class="sub-section">
               <h5 class="mb-3 text-bold-600">Vehicle Type</h5>
@@ -245,5 +255,9 @@
         </div>
       </div>
     </div>
+
+
+
+
   </div>
 </section>
