@@ -2942,6 +2942,7 @@ var StoringTypeComponent = /*#__PURE__*/function () {
     (0,C_Startup_backup_New_folder_store_easy_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_0__["default"])(this, StoringTypeComponent);
     this.fb = fb;
     this.router = router;
+    this.test = false;
     this.selectedStorageType = null;
     this.rvMode = 'drivable';
     this.storageTypes = ['Items', 'Vehicle', 'Trailer', 'RV/Camper', 'Boat', 'Oversized'];

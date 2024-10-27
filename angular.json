@@ -28,7 +28,8 @@
               "src/assets",
               "src/favicon.ico",
               "src/404.html",
-              "src/_redirects"
+              "src/_redirects",
+              "src/CNAME"
             ],
             "baseHref": "/",
             "styles": [
