@@ -3,10 +3,6 @@
   box-shadow: none;
 }
 
-.text-black{
-color: #000000;
-}
-
 .find-storage-button:hover{
   border: 1px solid #E0E0E0 !important;
 }
@@ -39,14 +35,30 @@ color: #000000;
   background-image: linear-gradient(135deg, #0E3885, #2F8BE6);
 }
 
+.custom-width-280{
+  width: 280px;
+}
 
+.text-black{
+  color: #000000;
+  }
 
+.text-bold-900{
+  font-weight: 900;
+}
 
+.item{
+  width:50px;
+  height:50px;
+}
 
+.item:hover{
+  border:1px solid #2F8BE6 !important;
+}
 
-
-
-
+.item:focus{
+  border:1px solid #2F8BE6 !important;
+}
 
 
 

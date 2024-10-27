@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { SearchHostsComponent } from './components/search-hosts/search-hosts.component';
 import { StorageDetailsComponent } from './components/storage-details/storage-details.component';
 import { StartAndDurationComponent } from './components/start-and-duration/start-and-duration.component';
+import { StoringTypeComponent } from './components/storing-type/storing-type.component';
 
 const routes: Routes = [
    {
@@ -16,6 +17,10 @@ const routes: Routes = [
     {
       path: 'start-and-duration',
       component: StartAndDurationComponent,
+    },
+    {
+      path: 'storing-type',
+      component: StoringTypeComponent,
     }
   // {
   //   path: 'all-leads-information-list',

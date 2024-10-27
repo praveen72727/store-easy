@@ -26,7 +26,9 @@
             "polyfills": "src/polyfills.ts",
             "assets": [
               "src/assets",
-              "src/favicon.ico"
+              "src/favicon.ico",
+              "src/404.html",
+              "src/_redirects"
             ],
             "baseHref": "/",
             "styles": [
