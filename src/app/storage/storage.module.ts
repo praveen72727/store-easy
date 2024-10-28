@@ -12,6 +12,7 @@ import { StoringTypeComponent } from './components/storing-type/storing-type.com
 import { ProtectionPlanComponent } from './components/protection-plan/protection-plan.component';
 import { PaymentInfoComponent } from './components/payment-info/payment-info.component';
 import { ReviewBookingComponent } from './components/review-booking/review-booking.component';
+import { ReservationSuccessfullComponent } from './components/reservation-successfull/reservation-successfull.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { ReviewBookingComponent } from './components/review-booking/review-booki
     StoringTypeComponent,
     ProtectionPlanComponent,
     PaymentInfoComponent,
-    ReviewBookingComponent
+    ReviewBookingComponent,
+    ReservationSuccessfullComponent
   ],
   imports: [
     CommonModule,

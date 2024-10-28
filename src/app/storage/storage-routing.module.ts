@@ -7,6 +7,7 @@ import { StoringTypeComponent } from './components/storing-type/storing-type.com
 import { ReviewBookingComponent } from './components/review-booking/review-booking.component';
 import { ProtectionPlanComponent } from './components/protection-plan/protection-plan.component';
 import { PaymentInfoComponent } from './components/payment-info/payment-info.component';
+import { ReservationSuccessfullComponent } from './components/reservation-successfull/reservation-successfull.component';
 
 const routes: Routes = [
    {
@@ -36,6 +37,10 @@ const routes: Routes = [
     {
       path: 'payment-info',
       component: PaymentInfoComponent,
+    },
+    {
+      path: 'reservation-successfull',
+      component: ReservationSuccessfullComponent,
     },
   // {
   //   path: 'all-leads-information-list',
