@@ -11,6 +11,10 @@ export const DASHBOARD_ROUTES: Routes = [
     path: 'storage',
     loadChildren: () => import('../../storage/storage.module').then((m) => m.StorageModule),
   },
+  {
+    path: 'host',
+    loadChildren: () => import('../../host/host.module').then((m) => m.HostModule),
+  },
   // {
   //   path: 'customer',
   //   loadChildren: () => import('../../customer/customer.module').then((m) => m.CustomerModule),

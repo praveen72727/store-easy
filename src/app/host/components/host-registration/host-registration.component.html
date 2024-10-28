@@ -1,0 +1,575 @@
+<section class="host-registration-section">
+  <div class="host-registration-div">
+    <div class="header d-flex justify-content-between align-items-center px-4 py-2 bg-white rounded">
+      <div class="left-menu">
+        <div class="logo-div mr-2">
+          <h4 [routerLink]="['/dashboard/home']" class="logo-text m-0 text-bold-900 font-large-1 cursor-pointer">
+            <img width="30px" src="assets/img/icons/store-easy-icons/storage-icon.svg" alt="">
+            Store Easy
+          </h4>
+        </div>
+      </div>
+
+      <div class="right-menu d-flex justify-content-between align-items-center p-2 ">
+        <div class="mr-2">
+          <span class="how-it-works-button-button text-black cursor-pointer p-2 rounded">How it works</span>
+        </div>
+        <div class="mr-2">
+          <a class="find-storage-button cursor-pointer p-2 rounded text-black" href="dashboard/storage/search-hosts"
+            target="_blank">Find storage</a>
+        </div>
+        <div ngbDropdown>
+          <button class="btn storage-type-button mr-2 text-black" id="storage-type-dropdown" ngbDropdownToggle>Storage
+            Type</button>
+          <div ngbDropdownMenu aria-labelledby="storage-type-dropdown">
+            <button class="dropdown-item w-100">Self Storage</button>
+            <button class="dropdown-item w-100">Garages</button>
+            <button class="dropdown-item w-100">RV Storage</button>
+            <button class="dropdown-item w-100">RV Storage</button>
+            <button class="dropdown-item w-100">Boat Storage</button>
+            <button class="dropdown-item w-100">Car Storage</button>
+            <button class="dropdown-item w-100">Truck Parking</button>
+            <button class="dropdown-item w-100">Monthly Parking</button>
+            <button class="dropdown-item w-100">Long-term Parking</button>
+            <button class="dropdown-item w-100">Fleet Parking</button>
+          </div>
+        </div>
+        <div ngbDropdown>
+          <button class="btn location-button mr-2 text-black" id="locations-dropdown"
+            ngbDropdownToggle>Locations</button>
+          <div ngbDropdownMenu aria-labelledby="locations-dropdown">
+            <button class="dropdown-item w-100">Alberta</button>
+            <button class="dropdown-item w-100">British Columbia</button>
+            <button class="dropdown-item w-100">Manitoba</button>
+            <button class="dropdown-item w-100">New Brunswick</button>
+            <button class="dropdown-item w-100">Newfoundland and Labrador</button>
+            <button class="dropdown-item w-100">Nova Scotia</button>
+            <button class="dropdown-item w-100">Ontario</button>
+            <button class="dropdown-item w-100">Prince Edward Island</button>
+            <button class="dropdown-item w-100">Quebec</button>
+            <button class="dropdown-item w-100">Saskatchewan</button>
+          </div>
+        </div>
+        <div class="mr-2">
+          <span class="how-it-works-button-button cursor-pointer p-2 rounded text-black">
+            <i class="fa-regular fa-circle-user mr-1"></i>
+            Log in</span>
+        </div>
+        <div>
+          <a class="btn btn-outline-info" href="dashboard/host/become-a-host" target="_blank">Become a host</a>
+        </div>
+      </div>
+    </div>
+    <div class="storage-details-header">
+      <h4 class="text-white text-bold-600 px-3 py-2 mb-3 container">
+        Host Registration
+      </h4>
+    </div>
+
+    <div class="container">
+      <div>
+        <form>
+          <h5 class="mt-2">1. Basic Info</h5>
+          <div class="card p-3">
+            <div class="form-row">
+              <div class="col-md-6 col-12">
+                <div class="form-group mb-2">
+                  <label class="form-field-label-styling" for="first-name">First Name</label>
+                  <input type="text" id="first-name" class="form-control" name="fname" placeholder="First Name">
+                </div>
+              </div>
+              <div class="col-md-6 col-12">
+                <div class="form-group mb-2">
+                  <label class="form-field-label-styling" for="last-name">Last Name</label>
+                  <input type="text" id="last-name" class="form-control" name="lname" placeholder="Last Name">
+                </div>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="col-md-6 col-12">
+                <div class="form-group mb-2">
+                  <label class="form-field-label-styling" for="email">E-mail</label>
+                  <input type="text" id="email" class="form-control" name="email" placeholder="Email">
+                </div>
+              </div>
+              <div class="col-md-6 col-12">
+                <div class="form-group mb-2">
+                  <label class="form-field-label-styling" for="phone">Contact Number</label>
+                  <input type="number" id="phone" class="form-control" name="phone" placeholder="Phone">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <h5 class="mt-3">2. Tell us about your space</h5>
+          <div class="card p-3">
+            <div class="form-row">
+              <div class="col-md-6 col-12">
+                <p class="mb-2 mt-1 font-medium-1 text-bold-600">I want to</p>
+                <div class="form-group mb-2">
+                  <div class="radio">
+                    <input type="radio" name="storeOrRent" id="store-my-items" disabled>
+                    <label class="form-field-label-styling" for="store-my-items">Store my items</label>
+                  </div>
+                  <div class="radio mt-2">
+                    <input type="radio" name="storeOrRent" id="rent-out-my-unused-space" checked>
+                    <label class="form-field-label-styling" for="rent-out-my-unused-space">Rent out my unused
+                      space</label>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-12">
+                <p class="mb-2 mt-1 font-medium-1 text-bold-600">Can your space store a vehicle?</p>
+                <div class="form-group mb-2">
+                  <div class="radio">
+                    <input type="radio" name="storeVehiclesOrNot" id="yes-vehicles">
+                    <label class="form-field-label-styling" for="yes-vehicles">Yes (I'm able and willing to store
+                      vehicles)</label>
+                  </div>
+                  <div class="radio mt-2">
+                    <input type="radio" name="storeVehiclesOrNot" id="no-vehicles" checked>
+                    <label class="form-field-label-styling" for="no-vehicles">No (Vehicles won't work for me)</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <h5 class="mt-3">3. Which best describes your storage?</h5>
+          <div class="card p-3">
+            <div class="form-row">
+              <div class="col-md-12 col-12">
+                <div class="form-group mb-2">
+                  <label class="form-field-label-styling" for="storage-type">Select your storage type</label>
+                  <select id="storage-type" name="storageType" class="form-control">
+                    <option value="1" selected>Garage</option>
+                    <option value="2">Warehouse</option>
+                    <option value="3">Self storage Unit</option>
+                    <option value="4">Shipping container</option>
+                    <option value="5">Shed</option>
+                    <option value="6">Closet</option>
+                    <option value="7">Basement</option>
+                    <option value="8">Bedroom</option>
+                    <option value="9">Attic</option>
+                    <option value="10">Other</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <h5 class="mt-3">4. Which of these features does your garage have? (Select all that apply)</h5>
+          <div class="card p-3">
+            <div class="form-row">
+              <div class="col-md-6 col-12">
+                <h6>Security</h6>
+                <div class="form-group">
+                  <ng-select [items]="security" bindLabel="name" bindValue="id" [multiple]="true"
+                    [closeOnSelect]="false" placeholder="Select security feature" [(ngModel)]="selectedSecurityIds">
+                  </ng-select>
+                </div>
+              </div>
+              <div class="col-md-6 col-12">
+                <h6>Quality</h6>
+                <div class="form-group">
+                  <ng-select [items]="quality" bindLabel="name" bindValue="id" [multiple]="true" [closeOnSelect]="false"
+                    placeholder="Select quality feature" [(ngModel)]="selectedQualityIds">
+                  </ng-select>
+                </div>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="col-md-6 col-12">
+                <h6>Convenience</h6>
+                <div class="form-group">
+                  <ng-select [items]="convenience" bindLabel="name" bindValue="id" [multiple]="true"
+                    [closeOnSelect]="false" placeholder="Select convenience feature"
+                    [(ngModel)]="selectedConvenienceIds">
+                  </ng-select>
+                </div>
+              </div>
+              <div class="col-md-6 col-12">
+                <h6>Accessibility</h6>
+                <div class="form-group">
+                  <ng-select [items]="accessibility" bindLabel="name" bindValue="id" [multiple]="true"
+                    [closeOnSelect]="false" placeholder="Select accessibility feature"
+                    [(ngModel)]="selectedAccessibilityIds">
+                  </ng-select>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <h5 class="mt-3">5. Where is your space located?</h5>
+          <p class="m-0 mb-2">Your address will not be shared untill you have approved a reservation.</p>
+          <div class="card p-3">
+            <div class="form-row">
+              <div class="col-md-6 col-12">
+                <div class="form-group mb-2">
+                  <label class="form-field-label-styling" for="street-address">Street address</label>
+                  <input type="text" id="street-address" class="form-control" name="streetAddress">
+                </div>
+              </div>
+              <div class="col-md-6 col-12">
+                <div class="form-group mb-2">
+                  <label class="form-field-label-styling" for="apt-suite">Apt, suite, etc. (Optional)</label>
+                  <input type="text" id="apt-suite" class="form-control" name="sptSuite">
+                </div>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="col-md-4 col-12">
+                <div class="form-group mb-2">
+                  <label class="form-field-label-styling" for="city-name">City</label>
+                  <input type="text" id="city-name" class="form-control" name="cityName">
+                </div>
+              </div>
+              <div class="col-md-4 col-12">
+                <div class="form-group mb-2">
+                  <label class="form-field-label-styling" for="province-name">province</label>
+                  <select id="province-name" name="provinceName" class="form-control">
+                    <option value="0">Alberta</option>
+                    <option value="1">British Columbia</option>
+                    <option value="2">Manitoba</option>
+                    <option value="3">New Brunswick</option>
+                    <option value="4">Newfoundland and Labrador</option>
+                    <option value="5">Nova Scotia</option>
+                    <option value="6" selected>Ontario</option>
+                    <option value="7">Prince Edward Island</option>
+                    <option value="8">Quebec</option>
+                    <option value="9">Saskatchewan</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-md-4 col-12">
+                <div class="form-group mb-2">
+                  <label class="form-field-label-styling" for="zip-code">Zip</label>
+                  <input type="number" id="zip-code" class="form-control" name="zipCode">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <h5 class="mt-3">6. What kind of property is this?</h5>
+          <div class="card p-3">
+            <div class="form-row">
+              <div class="col-md-12 col-12">
+                <div class="form-group mb-2">
+                  <!-- <label for="property-type">What kind of property is this?</label> -->
+                  <h6>Property type</h6>
+                  <div class="radio">
+                    <input type="radio" name="propertyType" id="residential" checked>
+                    <label class="form-field-label-styling" for="residential">Residential (Home or personal
+                      property)</label>
+                  </div>
+                  <div class="radio mt-2">
+                    <input type="radio" name="propertyType" id="commercial">
+                    <label class="form-field-label-styling" for="commercial">Commercial or business property (Place of
+                      business or retail space)</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="form-row mt-2">
+              <div class="col-md-12 col-12">
+                <div class="form-group mb-2">
+                  <div class="checkbox">
+                    <input type="checkbox" id="i-have-permission">
+                    <label class="form-field-label-styling" for="i-have-permission">I have permission to rent out this
+                      space and I understand that if not, I may be held financially and legally responsible
+                      for any damage, loss or fee incurred.</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <h5 class="mt-3">7. Describe your space.</h5>
+          <p class="m-0 mb-2">A summary helps renters know what to expect.</p>
+          <div class="card p-3">
+            <div class="form-row">
+              <div class="col-md-12 col-12">
+                <div class="form-group mb-2">
+                  <label class="form-field-label-styling" for="about-space">About your space</label>
+                  <textarea id="about-space" rows="4" class="form-control" name="aboutSpace"></textarea>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <h5 class="mt-3">8. How big is your space</h5>
+          <p class="m-0 mb-2">Use a tape for measure accuracy. This will help renters know if their items will fit.</p>
+          <div class="card p-3">
+            <div class="form-row">
+              <div class="col-md-4 col-12">
+                <div class="form-group mb-2">
+                  <label class="form-field-label-styling" for="space-length">Length (ft)</label>
+                  <input type="number" id="space-length" class="form-control" name="spaceLength">
+                </div>
+              </div>
+              <div class="col-md-4 col-12">
+                <div class="form-group mb-2">
+                  <label class="form-field-label-styling" for="space-width">Width (ft)</label>
+                  <input type="number" id="space-width" class="form-control" name="spaceWidth">
+                </div>
+              </div>
+              <div class="col-md-4 col-12">
+                <div class="form-group mb-2">
+                  <label class="form-field-label-styling" for="space-height">Height (ft)</label>
+                  <input type="number" id="space-height" class="form-control" name="spaceHeight">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <h5 class="mt-3">9. Help renters understand when you are available</h5>
+          <div class="card p-3">
+            <div class="form-row">
+              <div class="col-md-6 col-12">
+                <p class="mb-2 mt-1 font-medium-1 text-bold-600">Should approved renters contact you before each visit?
+                </p>
+                <div class="form-group mb-2">
+                  <div class="radio">
+                    <input type="radio" name="approve-renters-visit" id="approve-renters-visit-yes" checked>
+                    <label class="form-field-label-styling" for="approve-renters-visit-yes">Yes (Renters should contact
+                      me each time)</label>
+                  </div>
+                  <div class="radio mt-2">
+                    <input type="radio" name="approve-renters-visit" id="approve-renters-visit-no">
+                    <label class="form-field-label-styling" for="approve-renters-visit-no">No (Renters can come without
+                      an appointment)</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="col-md-6 col-12">
+                <p class="mb-2 mt-1 font-medium-1 text-bold-600">How often will renters be able to access their items?
+                </p>
+                <div class="form-group mb-2">
+                  <div class="radio">
+                    <input type="radio" name="approve-renters-visit" id="approve-renters-visit-yes" checked>
+                    <label class="form-field-label-styling" for="approve-renters-visit-yes">Daily (At least
+                      daily)</label>
+                  </div>
+                  <div class="radio mt-2">
+                    <input type="radio" name="approve-renters-visit" id="approve-renters-visit-no">
+                    <label class="form-field-label-styling" for="approve-renters-visit-no">Weekly (A few times per
+                      week)</label>
+                  </div>
+                  <div class="radio mt-2">
+                    <input type="radio" name="approve-renters-visit" id="approve-renters-visit-no">
+                    <label class="form-field-label-styling" for="approve-renters-visit-no">Monthly (A few times per
+                      month)</label>
+                  </div>
+                  <div class="radio mt-2">
+                    <input type="radio" name="approve-renters-visit" id="approve-renters-visit-no">
+                    <label class="form-field-label-styling" for="approve-renters-visit-no">Infrequently (Less than once
+                      per month)</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p class="mb-2 mt-1 font-medium-1 text-bold-600">What time of day will renters be able to access their
+              items?</p>
+            <div class="form-row">
+              <div class="col-md-12 col-12">
+                <div class="form-group mb-2">
+                  <div class="radio">
+                    <input type="radio" name="access-time" id="day-time-hours" checked>
+                    <label class="form-field-label-styling" for="day-time-hours">Day time hours <span class="ml-1">(Any
+                        time during standard business hours
+                        (8AM to 5PM))</span></label>
+                  </div>
+                  <div class="radio mt-2">
+                    <input class="form-field-label-styling" type="radio" name="access-time" id="evening-hours">
+                    <label class="form-field-label-styling" for="evening-hours">Evening hours <span class="ml-1">(Any
+                        time after standard business hours
+                        (after 5PM))</span></label>
+                  </div>
+                  <div class="radio mt-2">
+                    <input type="radio" name="access-time" id="anytime-access">
+                    <label class="form-field-label-styling" for="anytime-access">24x7<span class="ml-1">(Approved
+                        renters will be able to access the space
+                        whenever they want)</span></label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <h5 class="mt-3">10. Price your space</h5>
+          <div class="card p-3">
+            <div class="form-row">
+              <div class="col-md-4 col-12">
+                <div class="form-group mb-2">
+                  <label class="mb-2 mt-1 font-medium-1 text-bold-600 text-normal-case" for="space-price">Fixed monthly price</label>
+                  <input type="number" id="space-price" class="form-control" name="spacePrice"
+                    placeholder="Price in CAD">
+                </div>
+              </div>
+            </div>
+            <p class="mb-2 mt-1 font-medium-1 text-bold-600">Would you like to offer a 50% discount for the first month
+            </p>
+            <p class="m-0 mb-2">(This will help you get rented faster.)</p>
+            <div class="form-row">
+              <div class="col-md-12 col-12">
+                <div class="form-group mb-2">
+                  <div class="radio">
+                    <input type="radio" name="discountForRenter" id="first-month-discount" checked>
+                    <label class="form-field-label-styling" for="first-month-discount">Yes, discount the first month<span class="ml-1">(If a renter stays
+                        two months or more)</span></label>
+                  </div>
+                  <div class="radio mt-2">
+                    <input type="radio" name="discountForRenter" id="keep-full-price">
+                    <label class="form-field-label-styling" for="keep-full-price">No, keep it full price</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <h5 class="mt-3 mb-1">11. Take photos of your space</h5>
+          <p class="m-0 mb-2">Add 4+ photos, get rented twice as often.</p>
+          <!--File Upload Starts-->
+          <section id="file-upload">
+            <!-- <div class="row text-left">
+              <div class="col-sm-12">
+                <div class="content-header">Angular2 File Upload</div>
+              </div>
+            </div> -->
+            <div class="card text-left">
+              <div class="card-header">
+              </div>
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-md-12 col-lg-12">
+                    <div ng2FileDrop [ngClass]="{'nv-file-over': hasBaseDropZoneOver}" (fileOver)="fileOverBase($event)"
+                      [uploader]="uploader"
+                      class="py-5 mb-3 text-center font-medium-5 text-uppercase grey my-drop-zone">
+                      Drop Images here
+                    </div>
+                  </div>
+                  <!-- <div class="col-md-12 col-lg-6">
+                    <div ng2FileDrop [ngClass]="{'another-file-over-class': hasAnotherDropZoneOver}"
+                      (fileOver)="fileOverAnother($event)" [uploader]="uploader"
+                      class="py-5 mb-3 text-center font-medium-5 text-uppercase grey my-drop-zone">
+                      Another dropzone
+                    </div>
+                  </div> -->
+                </div>
+                <div class="row">
+                  <div class="col-lg-3">
+                    <h5>Select files</h5>
+                    <div>Multiple</div>
+                    <label class="custom-file mb-3">
+                      <input type="file" ng2FileSelect [uploader]="uploader" multiple>
+                      <span class="custom-file-control"></span>
+                    </label>
+
+                    <div>Single</div>
+                    <label class="custom-file">
+                      <input type="file" ng2FileSelect [uploader]="uploader">
+                      <span class="custom-file-control"></span>
+                    </label>
+                  </div>
+
+                  <div class="col-lg-9">
+                    <h5>Upload queue</h5>
+                    <p>Queue length: {{ uploader?.queue?.length }}</p>
+
+                    <div class="table-responsive">
+                      <table class="table">
+                        <thead>
+                          <tr>
+                            <th width="50%">Name</th>
+                            <th>Size</th>
+                            <th>Progress</th>
+                            <th>Status</th>
+                            <th>Actions</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr *ngFor="let item of uploader.queue">
+                            <td><strong>{{ item?.file?.name }}</strong></td>
+                            <td *ngIf="uploader.isHTML5" nowrap>{{ item?.file?.size/1024/1024 | number:'.2' }} MB</td>
+                            <td *ngIf="uploader.isHTML5">
+                              <div class="progress" style="margin-bottom: 0;">
+                                <div class="progress-bar" role="progressbar"
+                                  [ngStyle]="{ 'width': item.progress + '%' }"></div>
+                              </div>
+                            </td>
+                            <td class="text-center">
+                              <span *ngIf="item.isSuccess"><i class="fa fa-ok"></i></span>
+                              <span *ngIf="item.isCancel"><i class="fa fa-ban"></i></span>
+                              <span *ngIf="item.isError"><i class="fa fa-remove"></i></span>
+                            </td>
+                            <td nowrap>
+                              <button type="button" class="btn btn-success btn-sm mr-1" (click)="item.upload()"
+                                [disabled]="item.isReady || item.isUploading || item.isSuccess">
+                                <span class="fa fa-upload"></span> Upload
+                              </button>
+                              <button type="button" class="btn btn-warning btn-sm mr-1" (click)="item.cancel()"
+                                [disabled]="!item.isUploading">
+                                <span class="fa fa-ban"></span> Cancel
+                              </button>
+                              <button type="button" class="btn btn-danger btn-sm" (click)="item.remove()">
+                                <span class="fa fa-trash"></span> Remove
+                              </button>
+                            </td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+
+                    <div>
+                      <p>Queue progress:
+                        <ngb-progressbar type="primary" [value]="uploader.progress"></ngb-progressbar>
+                      </p>
+                      <button type="button" class="btn btn-success mr-1 mb-1 mb-sm-0" (click)="uploader.uploadAll()"
+                        [disabled]="!uploader.getNotUploadedItems().length">
+                        <span class="fa fa-upload"></span> Upload all
+                      </button>
+                      <button type="button" class="btn btn-warning mr-1 mb-1 mb-sm-0" (click)="uploader.cancelAll()"
+                        [disabled]="!uploader.isUploading">
+                        <span class="fa fa-ban"></span> Cancel all
+                      </button>
+                      <button type="button" class="btn btn-danger mb-1 mb-sm-0" (click)="uploader.clearQueue()"
+                        [disabled]="!uploader.queue.length">
+                        <span class="fa fa-trash"></span> Remove all
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!--File Upload Ends-->
+
+
+
+
+          <!-- <button type="button" class="btn btn-primary mr-2"><i class="ft-check-square mr-1"></i>Save</button>
+          <button type="button" class="btn btn-secondary"><i class="ft-x mr-1"></i>Cancel</button> -->
+        </form>
+      </div>
+    </div>
+
+    <div class="text-center my-4">
+      <button class="btn btn-info w-25 font-medium-3 py-2" (click)="swal.HostRegistrationSuccess()">Submit</button>
+    </div>
+
+    <!-- <div class="bg-secondary bg-lighten-4 mt-3 py-3">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-center">
+          <button (click)="goBackTo()" type="button"
+            class="btn btn-outline-secondary font-medium-3 py-2 px-3">Back</button>
+          <button (click)="goToNext()" type="button" class="btn btn-primary font-medium-3 py-2 px-3">Next</button>
+        </div>
+      </div>
+    </div> -->
+
+  </div>
+</section>

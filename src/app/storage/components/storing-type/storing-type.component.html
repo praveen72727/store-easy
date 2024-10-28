@@ -16,12 +16,7 @@
             <span class="how-it-works-button-button text-black cursor-pointer p-2 rounded">How it works</span>
           </div>
           <div class="mr-2">
-            <span
-              class="find-storage-button cursor-pointer p-2 rounded text-black"
-              [routerLink]="['/dashboard/storage/search-hosts']"
-              >
-                Find Storage
-            </span>
+            <a class="find-storage-button cursor-pointer p-2 rounded text-black" href="dashboard/storage/search-hosts" target="_blank">Find storage</a>
           </div>
           <div ngbDropdown>
             <button class="btn storage-type-button mr-2 text-black" id="storage-type-dropdown" ngbDropdownToggle>Storage Type</button>
@@ -59,7 +54,7 @@
               Log in</span>
           </div>
           <div>
-            <button class="btn btn-outline-info">Become a Host</button>
+            <a class="btn btn-outline-info" href="dashboard/host/become-a-host" target="_blank">Become a host</a>
           </div>
       </div>
     </div>

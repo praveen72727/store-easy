@@ -1,7 +1,7 @@
 "use strict";
 (self["webpackChunkmatngular"] = self["webpackChunkmatngular"] || []).push([["src_app_storage_storage_module_ts"],{
 
-/***/ 2686:
+/***/ 32686:
 /*!***************************************************************************!*\
   !*** ./src/app/storage/components/payment-info/payment-info.component.ts ***!
   \***************************************************************************/
@@ -11,12 +11,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "PaymentInfoComponent": function() { return /* binding */ PaymentInfoComponent; }
 /* harmony export */ });
-/* harmony import */ var C_Startup_backup_New_folder_store_easy_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck.js */ 8069);
-/* harmony import */ var C_Startup_backup_New_folder_store_easy_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass.js */ 8047);
+/* harmony import */ var C_Startup_backup_New_folder_store_easy_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck.js */ 78069);
+/* harmony import */ var C_Startup_backup_New_folder_store_easy_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass.js */ 48047);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ 3184);
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ 2816);
-/* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ 5365);
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/forms */ 587);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ 52816);
+/* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ 45365);
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/forms */ 90587);
 
 
 
@@ -25,9 +25,6 @@ __webpack_require__.r(__webpack_exports__);
 
 var _c0 = function _c0() {
   return ["/dashboard/home"];
-};
-var _c1 = function _c1() {
-  return ["/dashboard/storage/search-hosts"];
 };
 var PaymentInfoComponent = /*#__PURE__*/function () {
   function PaymentInfoComponent(router) {
@@ -51,8 +48,8 @@ PaymentInfoComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE
   type: PaymentInfoComponent,
   selectors: [["app-payment-info"]],
   decls: 211,
-  vars: 4,
-  consts: [[1, "payment-info-sectioon"], [1, "payment-info-div"], [1, "header", "d-flex", "justify-content-between", "align-items-center", "px-4", "py-2", "bg-white", "rounded"], [1, "left-menu"], [1, "logo-div", "mr-2"], [1, "logo-text", "m-0", "text-bold-900", "font-large-1", "cursor-pointer", 3, "routerLink"], ["width", "30px", "src", "assets/img/icons/store-easy-icons/storage-icon.svg", "alt", ""], [1, "right-menu", "d-flex", "justify-content-between", "align-items-center", "p-2"], [1, "mr-2"], [1, "how-it-works-button-button", "text-black", "cursor-pointer", "p-2", "rounded"], [1, "find-storage-button", "cursor-pointer", "p-2", "rounded", "text-black", 3, "routerLink"], ["ngbDropdown", ""], ["id", "storage-type-dropdown", "ngbDropdownToggle", "", 1, "btn", "storage-type-button", "mr-2", "text-black"], ["ngbDropdownMenu", "", "aria-labelledby", "storage-type-dropdown"], [1, "dropdown-item", "w-100"], ["id", "locations-dropdown", "ngbDropdownToggle", "", 1, "btn", "location-button", "mr-2", "text-black"], ["ngbDropdownMenu", "", "aria-labelledby", "locations-dropdown"], [1, "how-it-works-button-button", "cursor-pointer", "p-2", "rounded", "text-black"], [1, "fa-regular", "fa-circle-user", "mr-1"], [1, "btn", "btn-outline-info"], [1, "storage-details-header"], [1, "text-white", "text-bold-600", "px-3", "py-2", "mb-3", "container"], [1, "container"], [1, "start-and-duration-div", "row"], [1, "col-md-7", "col-12"], [1, "m-0", "mb-3", "text-bold-600"], [1, "m-0"], [1, "faq-div"], [1, "m-0", "mb-2", "mt-3", "text-bold-600"], [1, "card", "p-3"], [1, "d-flex", "justify-content-between", "align-items-center", "mb-2"], [1, "m-0", "font-medium-2", "text-bold-600", "text-info"], [1, "fa-solid", "fa-credit-card", "text-info", "mr-2"], ["src", "assets/img/storages-images/american-express.png", "alt", "", 1, "mr-1"], ["src", "assets/img/storages-images/mastercard.png", "alt", "", 1, "mr-1"], ["src", "assets/img/storages-images/visa.png", "alt", "", 1, "mr-1"], ["src", "assets/img/storages-images/paypal2.png", "alt", ""], [1, "form-row"], [1, "col-md-12", "col-12"], [1, "form-group", "mb-2"], ["for", "card-number"], ["type", "number", "id", "card-number", "name", "number", "placeholder", "1234 1234 1234 1234", 1, "form-control"], [1, "col-md-6", "col-12"], ["for", "expiration-date"], ["type", "text", "id", "expiration-date", "name", "number", "placeholder", "MM / YY", 1, "form-control"], ["for", "security-code"], ["type", "number", "id", "security-code", "name", "number", "placeholder", "1234", 1, "form-control"], [1, "m-0", "mt-2"], ["for", "full-name"], ["type", "text", "id", "full-name", "name", "fullName", 1, "form-control"], [1, "col-12"], ["for", "country"], ["id", "country", "name", "country", 1, "form-control"], ["value", "canada", "selected", ""], ["value", "usa"], ["value", "india"], ["for", "address"], ["rows", "4", "type", "text", "id", "address", "name", "address", 1, "form-control"], ["for", "email"], ["type", "text", "id", "email", "name", "email", 1, "form-control"], ["for", "contact-number"], ["type", "number", "id", "contact-number", "name", "phone", 1, "form-control"], [1, "d-flex", "flex-column", "mt-4", "mb-4"], [1, "checkbox"], ["type", "checkbox", "id", "i-agree-checkbox", "checked", ""], ["for", "i-agree-checkbox"], [1, "text-info"], [1, "mt-3"], [1, "btn", "btn-info", "w-100", "py-3", "font-medium-3", 3, "click"], [1, "col-md-5", "col-12"], [1, "d-flex", "justify-content-end"], [1, "card", "my-0", "border", "p-3", "rounded"], ["width", "280", "height", "150", "src", "assets/img/storages-images/garage-1-img-1.jpeg", "alt", "", 1, "rounded"], [1, "custom-width-280", "mt-3"], [1, "border-bottom"], [1, "d-flex", "justify-content-between", "align-items-center"], [1, "m-0", "font-medium-4", "text-bold-700"], [1, "m-0", "font-small-4", "text-bold-500"], [1, "mt-1", "mb-3"], [1, "fa-solid", "fa-star", "mr-1"], [1, "mx-1"], [1, "fa-solid", "fa-location-dot", "mx-1"], [1, "d-flex", "justify-content-between", "mb-1"], [1, "d-flex", "justify-content-between", "mb-2"], [1, "d-flex", "justify-content-between", "mt-2"], [1, "m-0", "text-bold-700", "font-medium-4"], [1, "m-0", "mt-1", "text-bold-400", "font-small-3"]],
+  vars: 2,
+  consts: [[1, "payment-info-sectioon"], [1, "payment-info-div"], [1, "header", "d-flex", "justify-content-between", "align-items-center", "px-4", "py-2", "bg-white", "rounded"], [1, "left-menu"], [1, "logo-div", "mr-2"], [1, "logo-text", "m-0", "text-bold-900", "font-large-1", "cursor-pointer", 3, "routerLink"], ["width", "30px", "src", "assets/img/icons/store-easy-icons/storage-icon.svg", "alt", ""], [1, "right-menu", "d-flex", "justify-content-between", "align-items-center", "p-2"], [1, "mr-2"], [1, "how-it-works-button-button", "text-black", "cursor-pointer", "p-2", "rounded"], ["href", "dashboard/storage/search-hosts", "target", "_blank", 1, "find-storage-button", "cursor-pointer", "p-2", "rounded", "text-black"], ["ngbDropdown", ""], ["id", "storage-type-dropdown", "ngbDropdownToggle", "", 1, "btn", "storage-type-button", "mr-2", "text-black"], ["ngbDropdownMenu", "", "aria-labelledby", "storage-type-dropdown"], [1, "dropdown-item", "w-100"], ["id", "locations-dropdown", "ngbDropdownToggle", "", 1, "btn", "location-button", "mr-2", "text-black"], ["ngbDropdownMenu", "", "aria-labelledby", "locations-dropdown"], [1, "how-it-works-button-button", "cursor-pointer", "p-2", "rounded", "text-black"], [1, "fa-regular", "fa-circle-user", "mr-1"], ["href", "dashboard/host/become-a-host", "target", "_blank", 1, "btn", "btn-outline-info"], [1, "storage-details-header"], [1, "text-white", "text-bold-600", "px-3", "py-2", "mb-3", "container"], [1, "container"], [1, "start-and-duration-div", "row"], [1, "col-md-7", "col-12"], [1, "m-0", "mb-3", "text-bold-600"], [1, "m-0"], [1, "faq-div"], [1, "m-0", "mb-2", "mt-3", "text-bold-600"], [1, "card", "p-3"], [1, "d-flex", "justify-content-between", "align-items-center", "mb-2"], [1, "m-0", "font-medium-2", "text-bold-600", "text-info"], [1, "fa-solid", "fa-credit-card", "text-info", "mr-2"], ["src", "assets/img/storages-images/american-express.png", "alt", "", 1, "mr-1"], ["src", "assets/img/storages-images/mastercard.png", "alt", "", 1, "mr-1"], ["src", "assets/img/storages-images/visa.png", "alt", "", 1, "mr-1"], ["src", "assets/img/storages-images/paypal2.png", "alt", ""], [1, "form-row"], [1, "col-md-12", "col-12"], [1, "form-group", "mb-2"], ["for", "card-number"], ["type", "number", "id", "card-number", "name", "number", "placeholder", "1234 1234 1234 1234", 1, "form-control"], [1, "col-md-6", "col-12"], ["for", "expiration-date"], ["type", "text", "id", "expiration-date", "name", "number", "placeholder", "MM / YY", 1, "form-control"], ["for", "security-code"], ["type", "number", "id", "security-code", "name", "number", "placeholder", "1234", 1, "form-control"], [1, "m-0", "mt-2"], ["for", "full-name"], ["type", "text", "id", "full-name", "name", "fullName", 1, "form-control"], [1, "col-12"], ["for", "country"], ["id", "country", "name", "country", 1, "form-control"], ["value", "canada", "selected", ""], ["value", "usa"], ["value", "india"], ["for", "address"], ["rows", "4", "type", "text", "id", "address", "name", "address", 1, "form-control"], ["for", "email"], ["type", "text", "id", "email", "name", "email", 1, "form-control"], ["for", "contact-number"], ["type", "number", "id", "contact-number", "name", "phone", 1, "form-control"], [1, "d-flex", "flex-column", "mt-4", "mb-4"], [1, "checkbox"], ["type", "checkbox", "id", "i-agree-checkbox", "checked", ""], ["for", "i-agree-checkbox"], [1, "text-info"], [1, "mt-3"], [1, "btn", "btn-info", "w-100", "py-3", "font-medium-3", 3, "click"], [1, "col-md-5", "col-12"], [1, "d-flex", "justify-content-end"], [1, "card", "my-0", "border", "p-3", "rounded"], ["width", "280", "height", "150", "src", "assets/img/storages-images/garage-1-img-1.jpeg", "alt", "", 1, "rounded"], [1, "custom-width-280", "mt-3"], [1, "border-bottom"], [1, "d-flex", "justify-content-between", "align-items-center"], [1, "m-0", "font-medium-4", "text-bold-700"], [1, "m-0", "font-small-4", "text-bold-500"], [1, "mt-1", "mb-3"], [1, "fa-solid", "fa-star", "mr-1"], [1, "mx-1"], [1, "fa-solid", "fa-location-dot", "mx-1"], [1, "d-flex", "justify-content-between", "mb-1"], [1, "d-flex", "justify-content-between", "mb-2"], [1, "d-flex", "justify-content-between", "mt-2"], [1, "m-0", "text-bold-700", "font-medium-4"], [1, "m-0", "mt-1", "text-bold-400", "font-small-3"]],
   template: function PaymentInfoComponent_Template(rf, ctx) {
     if (rf & 1) {
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "section", 0);
@@ -73,8 +70,8 @@ PaymentInfoComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](12, "div", 8);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](13, "span", 10);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](14, " Find Storage ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](13, "a", 10);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](14, "Find storage");
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](15, "div", 11);
@@ -158,8 +155,8 @@ PaymentInfoComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](67, "div");
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](68, "button", 19);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](69, "Become a Host");
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](68, "a", 19);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](69, "Become a host");
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
@@ -402,9 +399,7 @@ PaymentInfoComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE
     }
     if (rf & 2) {
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](5);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpureFunction0"](2, _c0));
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](8);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpureFunction0"](3, _c1));
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpureFunction0"](1, _c0));
     }
   },
   directives: [_angular_router__WEBPACK_IMPORTED_MODULE_3__.RouterLink, _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_4__.NgbDropdown, _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_4__.NgbDropdownToggle, _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_4__.NgbDropdownMenu, _angular_forms__WEBPACK_IMPORTED_MODULE_5__["ɵNgNoValidate"], _angular_forms__WEBPACK_IMPORTED_MODULE_5__.NgControlStatusGroup, _angular_forms__WEBPACK_IMPORTED_MODULE_5__.NgForm, _angular_forms__WEBPACK_IMPORTED_MODULE_5__.NgSelectOption, _angular_forms__WEBPACK_IMPORTED_MODULE_5__["ɵNgSelectMultipleOption"]],
@@ -413,7 +408,7 @@ PaymentInfoComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE
 
 /***/ }),
 
-/***/ 2484:
+/***/ 92484:
 /*!*********************************************************************************!*\
   !*** ./src/app/storage/components/protection-plan/protection-plan.component.ts ***!
   \*********************************************************************************/
@@ -423,12 +418,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "ProtectionPlanComponent": function() { return /* binding */ ProtectionPlanComponent; }
 /* harmony export */ });
-/* harmony import */ var C_Startup_backup_New_folder_store_easy_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck.js */ 8069);
-/* harmony import */ var C_Startup_backup_New_folder_store_easy_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass.js */ 8047);
+/* harmony import */ var C_Startup_backup_New_folder_store_easy_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck.js */ 78069);
+/* harmony import */ var C_Startup_backup_New_folder_store_easy_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass.js */ 48047);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ 3184);
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ 2816);
-/* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ 5365);
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/common */ 6362);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ 52816);
+/* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ 45365);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/common */ 36362);
 
 
 
@@ -438,10 +433,7 @@ __webpack_require__.r(__webpack_exports__);
 var _c0 = function _c0() {
   return ["/dashboard/home"];
 };
-var _c1 = function _c1() {
-  return ["/dashboard/storage/search-hosts"];
-};
-var _c2 = function _c2(a0) {
+var _c1 = function _c1(a0) {
   return {
     "selected-protection-plan": a0
   };
@@ -553,8 +545,8 @@ ProtectionPlanComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MOD
   type: ProtectionPlanComponent,
   selectors: [["app-protection-plan"]],
   decls: 204,
-  vars: 29,
-  consts: [[1, "review-booking-section"], [1, "review-booking-div"], [1, "header", "d-flex", "justify-content-between", "align-items-center", "px-4", "py-2", "bg-white", "rounded"], [1, "left-menu"], [1, "logo-div", "mr-2"], [1, "logo-text", "m-0", "text-bold-900", "font-large-1", "cursor-pointer", 3, "routerLink"], ["width", "30px", "src", "assets/img/icons/store-easy-icons/storage-icon.svg", "alt", ""], [1, "right-menu", "d-flex", "justify-content-between", "align-items-center", "p-2"], [1, "mr-2"], [1, "how-it-works-button-button", "text-black", "cursor-pointer", "p-2", "rounded"], [1, "find-storage-button", "cursor-pointer", "p-2", "rounded", "text-black", 3, "routerLink"], ["ngbDropdown", ""], ["id", "storage-type-dropdown", "ngbDropdownToggle", "", 1, "btn", "storage-type-button", "mr-2", "text-black"], ["ngbDropdownMenu", "", "aria-labelledby", "storage-type-dropdown"], [1, "dropdown-item", "w-100"], ["id", "locations-dropdown", "ngbDropdownToggle", "", 1, "btn", "location-button", "mr-2", "text-black"], ["ngbDropdownMenu", "", "aria-labelledby", "locations-dropdown"], [1, "how-it-works-button-button", "cursor-pointer", "p-2", "rounded", "text-black"], [1, "fa-regular", "fa-circle-user", "mr-1"], [1, "btn", "btn-outline-info"], [1, "storage-details-header"], [1, "text-white", "text-bold-600", "px-3", "py-2", "mb-3", "container"], [1, "container"], [1, "start-and-duration-div", "row"], [1, "col-md-7", "col-12"], [1, "m-0", "mb-3", "text-bold-600"], [1, "m-0"], [1, "faq-div"], [1, "card", "question-1", 3, "ngClass"], [1, "card-content"], ["aria-controls", "collapseExample1", 1, "card-body", "cursor-pointer", 3, "click"], [1, "d-flex", "justify-content-between", "align-items-center"], [1, "m-0", "text-bold-600"], ["id", "collapseExample1", 1, "mt-2", 3, "ngbCollapse"], [1, "d-flex", "justify-content-between"], [1, "m-0", "font-medium-3"], [1, "card", "question-2", 3, "ngClass"], ["aria-controls", "collapseExample2", 1, "card-body", "cursor-pointer", 3, "click"], ["id", "collapseExample2", 1, "mt-2", 3, "ngbCollapse"], [1, "card", "question-3", 3, "ngClass"], ["aria-controls", "collapseExample3", 1, "card-body", "cursor-pointer", 3, "click"], ["id", "collapseExample3", 1, "mt-2", 3, "ngbCollapse"], [1, "card", "question-4", 3, "ngClass"], ["aria-controls", "collapseExample4", 1, "card-body", "cursor-pointer", 3, "click"], ["id", "collapseExample4", 1, "mt-2", 3, "ngbCollapse"], [1, "card", "question-5", 3, "ngClass"], ["aria-controls", "collapseExample5", 1, "card-body", "cursor-pointer", 3, "click"], ["id", "collapseExample5", 1, "mt-2", 3, "ngbCollapse"], [1, "col-md-5", "col-12"], [1, "d-flex", "justify-content-end"], [1, "card", "my-0", "border", "p-3", "rounded"], ["width", "280", "height", "150", "src", "assets/img/storages-images/garage-1-img-1.jpeg", "alt", "", 1, "rounded"], [1, "custom-width-280", "mt-3"], [1, "border-bottom"], [1, "m-0", "font-medium-4", "text-bold-700"], [1, "m-0", "font-small-4", "text-bold-500"], [1, "mt-1", "mb-3"], [1, "fa-solid", "fa-star", "mr-1"], [1, "mx-1"], [1, "fa-solid", "fa-location-dot", "mx-1"], [1, "d-flex", "justify-content-between", "mb-1"], [1, "d-flex", "justify-content-between", "mb-2"], [1, "d-flex", "justify-content-between", "mt-2"], [1, "m-0", "text-bold-700", "font-medium-4"], [1, "m-0", "mt-1", "text-bold-400", "font-small-3"], [1, "bg-secondary", "bg-lighten-4", "py-3", "mt-2"], ["type", "button", 1, "btn", "btn-outline-secondary", "font-medium-3", "py-2", "px-3", 3, "click"], ["type", "submit", 1, "btn", "btn-primary", "font-medium-3", "py-2", "px-3", 3, "click"]],
+  vars: 27,
+  consts: [[1, "review-booking-section"], [1, "review-booking-div"], [1, "header", "d-flex", "justify-content-between", "align-items-center", "px-4", "py-2", "bg-white", "rounded"], [1, "left-menu"], [1, "logo-div", "mr-2"], [1, "logo-text", "m-0", "text-bold-900", "font-large-1", "cursor-pointer", 3, "routerLink"], ["width", "30px", "src", "assets/img/icons/store-easy-icons/storage-icon.svg", "alt", ""], [1, "right-menu", "d-flex", "justify-content-between", "align-items-center", "p-2"], [1, "mr-2"], [1, "how-it-works-button-button", "text-black", "cursor-pointer", "p-2", "rounded"], ["href", "dashboard/storage/search-hosts", "target", "_blank", 1, "find-storage-button", "cursor-pointer", "p-2", "rounded", "text-black"], ["ngbDropdown", ""], ["id", "storage-type-dropdown", "ngbDropdownToggle", "", 1, "btn", "storage-type-button", "mr-2", "text-black"], ["ngbDropdownMenu", "", "aria-labelledby", "storage-type-dropdown"], [1, "dropdown-item", "w-100"], ["id", "locations-dropdown", "ngbDropdownToggle", "", 1, "btn", "location-button", "mr-2", "text-black"], ["ngbDropdownMenu", "", "aria-labelledby", "locations-dropdown"], [1, "how-it-works-button-button", "cursor-pointer", "p-2", "rounded", "text-black"], [1, "fa-regular", "fa-circle-user", "mr-1"], ["href", "dashboard/host/become-a-host", "target", "_blank", 1, "btn", "btn-outline-info"], [1, "storage-details-header"], [1, "text-white", "text-bold-600", "px-3", "py-2", "mb-3", "container"], [1, "container"], [1, "start-and-duration-div", "row"], [1, "col-md-7", "col-12"], [1, "m-0", "mb-3", "text-bold-600"], [1, "m-0"], [1, "faq-div"], [1, "card", "question-1", 3, "ngClass"], [1, "card-content"], ["aria-controls", "collapseExample1", 1, "card-body", "cursor-pointer", 3, "click"], [1, "d-flex", "justify-content-between", "align-items-center"], [1, "m-0", "text-bold-600"], ["id", "collapseExample1", 1, "mt-2", 3, "ngbCollapse"], [1, "d-flex", "justify-content-between"], [1, "m-0", "font-medium-3"], [1, "card", "question-2", 3, "ngClass"], ["aria-controls", "collapseExample2", 1, "card-body", "cursor-pointer", 3, "click"], ["id", "collapseExample2", 1, "mt-2", 3, "ngbCollapse"], [1, "card", "question-3", 3, "ngClass"], ["aria-controls", "collapseExample3", 1, "card-body", "cursor-pointer", 3, "click"], ["id", "collapseExample3", 1, "mt-2", 3, "ngbCollapse"], [1, "card", "question-4", 3, "ngClass"], ["aria-controls", "collapseExample4", 1, "card-body", "cursor-pointer", 3, "click"], ["id", "collapseExample4", 1, "mt-2", 3, "ngbCollapse"], [1, "card", "question-5", 3, "ngClass"], ["aria-controls", "collapseExample5", 1, "card-body", "cursor-pointer", 3, "click"], ["id", "collapseExample5", 1, "mt-2", 3, "ngbCollapse"], [1, "col-md-5", "col-12"], [1, "d-flex", "justify-content-end"], [1, "card", "my-0", "border", "p-3", "rounded"], ["width", "280", "height", "150", "src", "assets/img/storages-images/garage-1-img-1.jpeg", "alt", "", 1, "rounded"], [1, "custom-width-280", "mt-3"], [1, "border-bottom"], [1, "m-0", "font-medium-4", "text-bold-700"], [1, "m-0", "font-small-4", "text-bold-500"], [1, "mt-1", "mb-3"], [1, "fa-solid", "fa-star", "mr-1"], [1, "mx-1"], [1, "fa-solid", "fa-location-dot", "mx-1"], [1, "d-flex", "justify-content-between", "mb-1"], [1, "d-flex", "justify-content-between", "mb-2"], [1, "d-flex", "justify-content-between", "mt-2"], [1, "m-0", "text-bold-700", "font-medium-4"], [1, "m-0", "mt-1", "text-bold-400", "font-small-3"], [1, "bg-secondary", "bg-lighten-4", "py-3", "mt-2"], ["type", "button", 1, "btn", "btn-outline-secondary", "font-medium-3", "py-2", "px-3", 3, "click"], ["type", "submit", 1, "btn", "btn-primary", "font-medium-3", "py-2", "px-3", 3, "click"]],
   template: function ProtectionPlanComponent_Template(rf, ctx) {
     if (rf & 1) {
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "section", 0);
@@ -575,8 +567,8 @@ ProtectionPlanComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MOD
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](12, "div", 8);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](13, "span", 10);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](14, " Find Storage ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](13, "a", 10);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](14, "Find storage");
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](15, "div", 11);
@@ -660,8 +652,8 @@ ProtectionPlanComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MOD
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](67, "div");
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](68, "button", 19);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](69, "Become a Host");
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](68, "a", 19);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](69, "Become a host");
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
@@ -918,35 +910,33 @@ ProtectionPlanComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MOD
     }
     if (rf & 2) {
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](5);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpureFunction0"](17, _c0));
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](8);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpureFunction0"](18, _c1));
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](69);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpureFunction1"](19, _c2, ctx.protection_plan_1));
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpureFunction0"](16, _c0));
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](77);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpureFunction1"](17, _c1, ctx.protection_plan_1));
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](2);
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵattribute"]("aria-expanded", !ctx.isCollapsed1);
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](4);
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngbCollapse", ctx.isCollapsed1);
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](11);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpureFunction1"](21, _c2, ctx.protection_plan_2));
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpureFunction1"](19, _c1, ctx.protection_plan_2));
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](2);
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵattribute"]("aria-expanded", !ctx.isCollapsed2);
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](4);
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngbCollapse", ctx.isCollapsed2);
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](11);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpureFunction1"](23, _c2, ctx.protection_plan_3));
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpureFunction1"](21, _c1, ctx.protection_plan_3));
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](2);
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵattribute"]("aria-expanded", !ctx.isCollapsed3);
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](4);
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngbCollapse", ctx.isCollapsed3);
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](11);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpureFunction1"](25, _c2, ctx.protection_plan_4));
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpureFunction1"](23, _c1, ctx.protection_plan_4));
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](2);
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵattribute"]("aria-expanded", !ctx.isCollapsed4);
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](4);
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngbCollapse", ctx.isCollapsed4);
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](11);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpureFunction1"](27, _c2, ctx.protection_plan_5));
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpureFunction1"](25, _c1, ctx.protection_plan_5));
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](2);
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵattribute"]("aria-expanded", !ctx.isCollapsed5);
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](4);
@@ -959,7 +949,7 @@ ProtectionPlanComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MOD
 
 /***/ }),
 
-/***/ 8499:
+/***/ 88499:
 /*!*************************************************************************************************!*\
   !*** ./src/app/storage/components/reservation-successfull/reservation-successfull.component.ts ***!
   \*************************************************************************************************/
@@ -969,11 +959,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "ReservationSuccessfullComponent": function() { return /* binding */ ReservationSuccessfullComponent; }
 /* harmony export */ });
-/* harmony import */ var C_Startup_backup_New_folder_store_easy_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck.js */ 8069);
-/* harmony import */ var C_Startup_backup_New_folder_store_easy_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass.js */ 8047);
+/* harmony import */ var C_Startup_backup_New_folder_store_easy_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck.js */ 78069);
+/* harmony import */ var C_Startup_backup_New_folder_store_easy_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass.js */ 48047);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ 3184);
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ 2816);
-/* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ 5365);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ 52816);
+/* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ 45365);
 
 
 
@@ -981,9 +971,6 @@ __webpack_require__.r(__webpack_exports__);
 
 var _c0 = function _c0() {
   return ["/dashboard/home"];
-};
-var _c1 = function _c1() {
-  return ["/dashboard/storage/search-hosts"];
 };
 var ReservationSuccessfullComponent = /*#__PURE__*/function () {
   function ReservationSuccessfullComponent() {
@@ -1001,8 +988,8 @@ ReservationSuccessfullComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPO
   type: ReservationSuccessfullComponent,
   selectors: [["app-reservation-successfull"]],
   decls: 158,
-  vars: 4,
-  consts: [[1, "reservation-successful-section"], [1, "reservation-successful-div"], [1, "header", "d-flex", "justify-content-between", "align-items-center", "px-4", "py-2", "bg-white", "rounded"], [1, "left-menu"], [1, "logo-div", "mr-2"], [1, "logo-text", "m-0", "text-bold-900", "font-large-1", "cursor-pointer", 3, "routerLink"], ["width", "30px", "src", "assets/img/icons/store-easy-icons/storage-icon.svg", "alt", ""], [1, "right-menu", "d-flex", "justify-content-between", "align-items-center", "p-2"], [1, "mr-2"], [1, "how-it-works-button-button", "text-black", "cursor-pointer", "p-2", "rounded"], [1, "find-storage-button", "cursor-pointer", "p-2", "rounded", "text-black", 3, "routerLink"], ["ngbDropdown", ""], ["id", "storage-type-dropdown", "ngbDropdownToggle", "", 1, "btn", "storage-type-button", "mr-2", "text-black"], ["ngbDropdownMenu", "", "aria-labelledby", "storage-type-dropdown"], [1, "dropdown-item", "w-100"], ["id", "locations-dropdown", "ngbDropdownToggle", "", 1, "btn", "location-button", "mr-2", "text-black"], ["ngbDropdownMenu", "", "aria-labelledby", "locations-dropdown"], [1, "how-it-works-button-button", "cursor-pointer", "p-2", "rounded", "text-black"], [1, "fa-regular", "fa-circle-user", "mr-1"], [1, "btn", "btn-outline-info"], [1, "storage-details-header"], [1, "text-white", "text-bold-600", "px-3", "py-2", "mb-3", "container"], [1, "fa-regular", "fa-circle-check", "ml-1"], [1, "container"], [1, "start-and-duration-div", "row"], [1, "col-md-7", "col-12"], [1, "card", "p-3", "d-flex", "flex-column", "justify-content-center", "align-items-center", "mt-1", "mb-3"], [1, "fa-solid", "fa-circle-check", "text-success", "font-large-2", "mb-2"], [1, "m-0", "text-bold-600", "font-medium-3"], [1, "m-0"], [1, "m-0", "mb-2", "text-bold-600"], [1, "card", "p-3"], [1, "m-0", "text-bold-600", "font-medium-1", "mb-2"], [1, "d-flex", "justify-content-between"], [1, "text-bold-600"], [1, "mt-2"], [1, "col-md-5", "col-12"], [1, "d-flex", "justify-content-end"], [1, "card", "my-0", "border", "p-3", "rounded"], ["width", "280", "height", "150", "src", "assets/img/storages-images/garage-1-img-1.jpeg", "alt", "", 1, "rounded"], [1, "custom-width-280", "mt-3"], [1, "border-bottom"], [1, "d-flex", "justify-content-between", "align-items-center"], [1, "m-0", "font-medium-4", "text-bold-700"], [1, "m-0", "font-small-4", "text-bold-500"], [1, "mt-1", "mb-3"], [1, "fa-solid", "fa-star", "mr-1"], [1, "mx-1"], [1, "fa-solid", "fa-location-dot", "mx-1"], [1, "d-flex", "justify-content-between", "mb-1"], [1, "d-flex", "justify-content-between", "mb-2"], [1, "d-flex", "justify-content-between", "mt-2"], [1, "m-0", "text-bold-700", "font-medium-4"], [1, "m-0", "mt-1", "text-bold-400", "font-small-3"]],
+  vars: 2,
+  consts: [[1, "reservation-successful-section"], [1, "reservation-successful-div"], [1, "header", "d-flex", "justify-content-between", "align-items-center", "px-4", "py-2", "bg-white", "rounded"], [1, "left-menu"], [1, "logo-div", "mr-2"], [1, "logo-text", "m-0", "text-bold-900", "font-large-1", "cursor-pointer", 3, "routerLink"], ["width", "30px", "src", "assets/img/icons/store-easy-icons/storage-icon.svg", "alt", ""], [1, "right-menu", "d-flex", "justify-content-between", "align-items-center", "p-2"], [1, "mr-2"], [1, "how-it-works-button-button", "text-black", "cursor-pointer", "p-2", "rounded"], ["href", "dashboard/storage/search-hosts", "target", "_blank", 1, "find-storage-button", "cursor-pointer", "p-2", "rounded", "text-black"], ["ngbDropdown", ""], ["id", "storage-type-dropdown", "ngbDropdownToggle", "", 1, "btn", "storage-type-button", "mr-2", "text-black"], ["ngbDropdownMenu", "", "aria-labelledby", "storage-type-dropdown"], [1, "dropdown-item", "w-100"], ["id", "locations-dropdown", "ngbDropdownToggle", "", 1, "btn", "location-button", "mr-2", "text-black"], ["ngbDropdownMenu", "", "aria-labelledby", "locations-dropdown"], [1, "how-it-works-button-button", "cursor-pointer", "p-2", "rounded", "text-black"], [1, "fa-regular", "fa-circle-user", "mr-1"], ["href", "dashboard/host/become-a-host", "target", "_blank", 1, "btn", "btn-outline-info"], [1, "storage-details-header"], [1, "text-white", "text-bold-600", "px-3", "py-2", "mb-3", "container"], [1, "fa-regular", "fa-circle-check", "ml-1"], [1, "container"], [1, "start-and-duration-div", "row"], [1, "col-md-7", "col-12"], [1, "card", "p-3", "d-flex", "flex-column", "justify-content-center", "align-items-center", "mt-1", "mb-3"], [1, "fa-solid", "fa-circle-check", "text-success", "font-large-2", "mb-2"], [1, "m-0", "text-bold-600", "font-medium-3"], [1, "m-0"], [1, "m-0", "mb-2", "text-bold-600"], [1, "card", "p-3"], [1, "m-0", "text-bold-600", "font-medium-1", "mb-2"], [1, "d-flex", "justify-content-between"], [1, "text-bold-600"], [1, "mt-2"], [1, "col-md-5", "col-12"], [1, "d-flex", "justify-content-end"], [1, "card", "my-0", "border", "p-3", "rounded"], ["width", "280", "height", "150", "src", "assets/img/storages-images/garage-1-img-1.jpeg", "alt", "", 1, "rounded"], [1, "custom-width-280", "mt-3"], [1, "border-bottom"], [1, "d-flex", "justify-content-between", "align-items-center"], [1, "m-0", "font-medium-4", "text-bold-700"], [1, "m-0", "font-small-4", "text-bold-500"], [1, "mt-1", "mb-3"], [1, "fa-solid", "fa-star", "mr-1"], [1, "mx-1"], [1, "fa-solid", "fa-location-dot", "mx-1"], [1, "d-flex", "justify-content-between", "mb-1"], [1, "d-flex", "justify-content-between", "mb-2"], [1, "d-flex", "justify-content-between", "mt-2"], [1, "m-0", "text-bold-700", "font-medium-4"], [1, "m-0", "mt-1", "text-bold-400", "font-small-3"]],
   template: function ReservationSuccessfullComponent_Template(rf, ctx) {
     if (rf & 1) {
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "section", 0);
@@ -1023,8 +1010,8 @@ ReservationSuccessfullComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPO
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](12, "div", 8);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](13, "span", 10);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](14, " Find Storage ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](13, "a", 10);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](14, "Find storage");
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](15, "div", 11);
@@ -1108,8 +1095,8 @@ ReservationSuccessfullComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPO
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](67, "div");
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](68, "button", 19);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](69, "Become a Host");
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](68, "a", 19);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](69, "Become a host");
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
@@ -1260,9 +1247,7 @@ ReservationSuccessfullComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPO
     }
     if (rf & 2) {
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](5);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpureFunction0"](2, _c0));
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](8);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpureFunction0"](3, _c1));
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpureFunction0"](1, _c0));
     }
   },
   directives: [_angular_router__WEBPACK_IMPORTED_MODULE_3__.RouterLink, _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_4__.NgbDropdown, _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_4__.NgbDropdownToggle, _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_4__.NgbDropdownMenu],
@@ -1271,7 +1256,7 @@ ReservationSuccessfullComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPO
 
 /***/ }),
 
-/***/ 4293:
+/***/ 14293:
 /*!*******************************************************************************!*\
   !*** ./src/app/storage/components/review-booking/review-booking.component.ts ***!
   \*******************************************************************************/
@@ -1281,11 +1266,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "ReviewBookingComponent": function() { return /* binding */ ReviewBookingComponent; }
 /* harmony export */ });
-/* harmony import */ var C_Startup_backup_New_folder_store_easy_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck.js */ 8069);
-/* harmony import */ var C_Startup_backup_New_folder_store_easy_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass.js */ 8047);
+/* harmony import */ var C_Startup_backup_New_folder_store_easy_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck.js */ 78069);
+/* harmony import */ var C_Startup_backup_New_folder_store_easy_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass.js */ 48047);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ 3184);
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ 2816);
-/* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ 5365);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ 52816);
+/* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ 45365);
 
 
 
@@ -1293,9 +1278,6 @@ __webpack_require__.r(__webpack_exports__);
 
 var _c0 = function _c0() {
   return ["/dashboard/home"];
-};
-var _c1 = function _c1() {
-  return ["/dashboard/storage/search-hosts"];
 };
 var ReviewBookingComponent = /*#__PURE__*/function () {
   function ReviewBookingComponent(router) {
@@ -1324,8 +1306,8 @@ ReviewBookingComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODU
   type: ReviewBookingComponent,
   selectors: [["app-review-booking"]],
   decls: 121,
-  vars: 4,
-  consts: [[1, "review-booking-section"], [1, "review-booking-div"], [1, "header", "d-flex", "justify-content-between", "align-items-center", "px-4", "py-2", "bg-white", "rounded"], [1, "left-menu"], [1, "logo-div", "mr-2"], [1, "logo-text", "m-0", "text-bold-900", "font-large-1", "cursor-pointer", 3, "routerLink"], ["width", "30px", "src", "assets/img/icons/store-easy-icons/storage-icon.svg", "alt", ""], [1, "right-menu", "d-flex", "justify-content-between", "align-items-center", "p-2"], [1, "mr-2"], [1, "how-it-works-button-button", "text-black", "cursor-pointer", "p-2", "rounded"], [1, "find-storage-button", "cursor-pointer", "p-2", "rounded", "text-black", 3, "routerLink"], ["ngbDropdown", ""], ["id", "storage-type-dropdown", "ngbDropdownToggle", "", 1, "btn", "storage-type-button", "mr-2", "text-black"], ["ngbDropdownMenu", "", "aria-labelledby", "storage-type-dropdown"], [1, "dropdown-item", "w-100"], ["id", "locations-dropdown", "ngbDropdownToggle", "", 1, "btn", "location-button", "mr-2", "text-black"], ["ngbDropdownMenu", "", "aria-labelledby", "locations-dropdown"], [1, "how-it-works-button-button", "cursor-pointer", "p-2", "rounded", "text-black"], [1, "fa-regular", "fa-circle-user", "mr-1"], [1, "btn", "btn-outline-info"], [1, "storage-details-header"], [1, "text-white", "text-bold-600", "px-3", "py-2", "mb-3", "container"], [1, "container"], [1, "start-and-duration-div", "row"], [1, "col-md-6", "col-12"], [1, "d-flex", "justify-content-end"], [1, "card", "my-0", "border", "p-3", "rounded"], ["width", "280", "height", "150", "src", "assets/img/storages-images/garage-1-img-1.jpeg", "alt", "", 1, "rounded"], [1, "custom-width-280", "mt-3"], [1, "border-bottom"], [1, "d-flex", "justify-content-between", "align-items-center"], [1, "m-0", "font-medium-4", "text-bold-700"], [1, "m-0", "font-small-4", "text-bold-500"], [1, "mt-1", "mb-3"], [1, "fa-solid", "fa-star", "mr-1"], [1, "mx-1"], [1, "fa-solid", "fa-location-dot", "mx-1"], [1, "d-flex", "justify-content-between", "mb-1"], [1, "m-0"], [1, "d-flex", "justify-content-between", "mb-2"], [1, "d-flex", "justify-content-between", "mt-2"], [1, "m-0", "text-bold-700", "font-medium-4"], [1, "m-0", "mt-1", "text-bold-400", "font-small-3"], [1, "bg-secondary", "bg-lighten-4", "py-3", "mt-2"], [1, "d-flex", "justify-content-between"], ["type", "button", 1, "btn", "btn-outline-secondary", "font-medium-3", "py-2", "px-3", 3, "click"], ["type", "submit", 1, "btn", "btn-primary", "font-medium-3", "py-2", "px-3", 3, "click"]],
+  vars: 2,
+  consts: [[1, "review-booking-section"], [1, "review-booking-div"], [1, "header", "d-flex", "justify-content-between", "align-items-center", "px-4", "py-2", "bg-white", "rounded"], [1, "left-menu"], [1, "logo-div", "mr-2"], [1, "logo-text", "m-0", "text-bold-900", "font-large-1", "cursor-pointer", 3, "routerLink"], ["width", "30px", "src", "assets/img/icons/store-easy-icons/storage-icon.svg", "alt", ""], [1, "right-menu", "d-flex", "justify-content-between", "align-items-center", "p-2"], [1, "mr-2"], [1, "how-it-works-button-button", "text-black", "cursor-pointer", "p-2", "rounded"], ["href", "dashboard/storage/search-hosts", "target", "_blank", 1, "find-storage-button", "cursor-pointer", "p-2", "rounded", "text-black"], ["ngbDropdown", ""], ["id", "storage-type-dropdown", "ngbDropdownToggle", "", 1, "btn", "storage-type-button", "mr-2", "text-black"], ["ngbDropdownMenu", "", "aria-labelledby", "storage-type-dropdown"], [1, "dropdown-item", "w-100"], ["id", "locations-dropdown", "ngbDropdownToggle", "", 1, "btn", "location-button", "mr-2", "text-black"], ["ngbDropdownMenu", "", "aria-labelledby", "locations-dropdown"], [1, "how-it-works-button-button", "cursor-pointer", "p-2", "rounded", "text-black"], [1, "fa-regular", "fa-circle-user", "mr-1"], ["href", "dashboard/host/become-a-host", "target", "_blank", 1, "btn", "btn-outline-info"], [1, "storage-details-header"], [1, "text-white", "text-bold-600", "px-3", "py-2", "mb-3", "container"], [1, "container"], [1, "start-and-duration-div", "row"], [1, "col-md-6", "col-12"], [1, "d-flex", "justify-content-end"], [1, "card", "my-0", "border", "p-3", "rounded"], ["width", "280", "height", "150", "src", "assets/img/storages-images/garage-1-img-1.jpeg", "alt", "", 1, "rounded"], [1, "custom-width-280", "mt-3"], [1, "border-bottom"], [1, "d-flex", "justify-content-between", "align-items-center"], [1, "m-0", "font-medium-4", "text-bold-700"], [1, "m-0", "font-small-4", "text-bold-500"], [1, "mt-1", "mb-3"], [1, "fa-solid", "fa-star", "mr-1"], [1, "mx-1"], [1, "fa-solid", "fa-location-dot", "mx-1"], [1, "d-flex", "justify-content-between", "mb-1"], [1, "m-0"], [1, "d-flex", "justify-content-between", "mb-2"], [1, "d-flex", "justify-content-between", "mt-2"], [1, "m-0", "text-bold-700", "font-medium-4"], [1, "m-0", "mt-1", "text-bold-400", "font-small-3"], [1, "bg-secondary", "bg-lighten-4", "py-3", "mt-2"], [1, "d-flex", "justify-content-between"], ["type", "button", 1, "btn", "btn-outline-secondary", "font-medium-3", "py-2", "px-3", 3, "click"], ["type", "submit", 1, "btn", "btn-primary", "font-medium-3", "py-2", "px-3", 3, "click"]],
   template: function ReviewBookingComponent_Template(rf, ctx) {
     if (rf & 1) {
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "section", 0);
@@ -1346,8 +1328,8 @@ ReviewBookingComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODU
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](12, "div", 8);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](13, "span", 10);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](14, " Find Storage ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](13, "a", 10);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](14, "Find storage");
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](15, "div", 11);
@@ -1431,8 +1413,8 @@ ReviewBookingComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODU
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](67, "div");
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](68, "button", 19);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](69, "Become a Host");
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](68, "a", 19);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](69, "Become a host");
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
@@ -1531,9 +1513,7 @@ ReviewBookingComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODU
     }
     if (rf & 2) {
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](5);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpureFunction0"](2, _c0));
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](8);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpureFunction0"](3, _c1));
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpureFunction0"](1, _c0));
     }
   },
   directives: [_angular_router__WEBPACK_IMPORTED_MODULE_3__.RouterLink, _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_4__.NgbDropdown, _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_4__.NgbDropdownToggle, _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_4__.NgbDropdownMenu],
@@ -1542,7 +1522,7 @@ ReviewBookingComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODU
 
 /***/ }),
 
-/***/ 5072:
+/***/ 65072:
 /*!***************************************************************************!*\
   !*** ./src/app/storage/components/search-hosts/search-hosts.component.ts ***!
   \***************************************************************************/
@@ -1552,15 +1532,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "SearchHostsComponent": function() { return /* binding */ SearchHostsComponent; }
 /* harmony export */ });
-/* harmony import */ var C_Startup_backup_New_folder_store_easy_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createForOfIteratorHelper.js */ 5106);
-/* harmony import */ var C_Startup_backup_New_folder_store_easy_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck.js */ 8069);
-/* harmony import */ var C_Startup_backup_New_folder_store_easy_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass.js */ 8047);
-/* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ 5365);
+/* harmony import */ var C_Startup_backup_New_folder_store_easy_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createForOfIteratorHelper.js */ 95106);
+/* harmony import */ var C_Startup_backup_New_folder_store_easy_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck.js */ 78069);
+/* harmony import */ var C_Startup_backup_New_folder_store_easy_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass.js */ 48047);
+/* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ 45365);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/core */ 3184);
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/router */ 2816);
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/common */ 6362);
-/* harmony import */ var _ng_select_ng_select__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @ng-select/ng-select */ 7706);
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/forms */ 587);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/router */ 52816);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/common */ 36362);
+/* harmony import */ var _ng_select_ng_select__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @ng-select/ng-select */ 97706);
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/forms */ 90587);
 
 
 
@@ -1847,10 +1827,7 @@ function SearchHostsComponent_div_374_Template(rf, ctx) {
 var _c1 = function _c1() {
   return ["/dashboard/home"];
 };
-var _c2 = function _c2() {
-  return ["/dashboard/storage/search-hosts"];
-};
-var _c3 = function _c3(a0) {
+var _c2 = function _c2(a0) {
   return {
     active: a0
   };
@@ -2091,8 +2068,8 @@ SearchHostsComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE
   selectors: [["app-search-hosts"]],
   features: [_angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵProvidersFeature"]([_ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_4__.NgbPaginationConfig])],
   decls: 377,
-  vars: 20,
-  consts: [[1, "search-hosts-section"], [1, "search-hosts-div"], [1, "header", "d-flex", "justify-content-between", "align-items-center", "px-4", "py-2", "bg-white", "rounded"], [1, "left-menu"], [1, "logo-div", "mr-2"], [1, "logo-text", "m-0", "text-bold-900", "font-large-1", "cursor-pointer", 3, "routerLink"], ["width", "30px", "src", "assets/img/icons/store-easy-icons/storage-icon.svg", "alt", ""], [1, "right-menu", "d-flex", "justify-content-between", "align-items-center", "p-2"], [1, "mr-2"], [1, "how-it-works-button-button", "text-black", "cursor-pointer", "p-2", "rounded"], [1, "find-storage-button", "cursor-pointer", "p-2", "rounded", "text-black", 3, "routerLink"], ["ngbDropdown", ""], ["id", "storage-type-dropdown", "ngbDropdownToggle", "", 1, "btn", "storage-type-button", "mr-2", "text-black"], ["ngbDropdownMenu", "", "aria-labelledby", "storage-type-dropdown"], [1, "dropdown-item", "w-100"], ["id", "locations-dropdown", "ngbDropdownToggle", "", 1, "btn", "location-button", "mr-2", "text-black"], ["ngbDropdownMenu", "", "aria-labelledby", "locations-dropdown"], [1, "how-it-works-button-button", "cursor-pointer", "p-2", "rounded", "text-black"], [1, "fa-regular", "fa-circle-user", "mr-1"], [1, "btn", "btn-outline-info"], [1, "storage-details-header"], [1, "container", "d-flex", "justify-content-center", "align-items-center"], [1, "text-white", "text-bold-600", "py-2", "pl-0", "m-0", "container"], [1, "primary-filters", "d-flex"], ["ngbDropdown", "", 1, "mr-2"], ["id", "primary-filter-dropdown-price", "ngbDropdownToggle", "", 1, "btn", "border", "primary-filter-dropdown-button", "mr-1"], ["ngbDropdownMenu", "", "aria-labelledby", "primary-filter-dropdown-price"], ["id", "primary-filter-dropdown-storage-type", "ngbDropdownToggle", "", 1, "btn", "border", "primary-filter-dropdown-button", "mr-1"], ["ngbDropdownMenu", "", "aria-labelledby", "primary-filter-dropdown-storage-type"], ["id", "primary-filter-dropdown-exposure", "ngbDropdownToggle", "", 1, "btn", "border", "primary-filter-dropdown-button", "mr-1"], ["ngbDropdownMenu", "", "aria-labelledby", "primary-filter-dropdown-exposure"], ["id", "primary-filter-dropdown-features", "ngbDropdownToggle", "", 1, "btn", "border", "primary-filter-dropdown-button", "mr-1"], ["ngbDropdownMenu", "", "aria-labelledby", "primary-filter-dropdown-features"], ["id", "primary-filter-dropdown-sortby", "ngbDropdownToggle", "", 1, "btn", "border", "primary-filter-dropdown-button", "mr-1"], ["ngbDropdownMenu", "", "aria-labelledby", "primary-filter-dropdown-sortby"], [1, "primary-search-filters-div"], [1, "card", "px-3", "py-2", "mt-0"], [1, "container", "d-flex", "justify-content-between", "align-items-center"], [1, "card", "top-div", "p-0", "m-0"], [1, ""], [1, "pt-0"], [1, "button-group"], [1, "font-11", "text-nowrap", 3, "ngClass", "click"], [1, "primary-search"], [1, "middle-menu-div"], [1, "d-flex", "justify-content-center", "align-items-center"], [1, "p-1"], [1, "destination-div", "header-search-inner-each-div", "px-2", "rounded"], [1, "form-group", "m-0"], ["id", "fromCity", "bindLabel", "name", "placeholder", "Select city", 1, "storages-search-field", 3, "items", "ngModel", "ngModelChange"], [1, "search-button-div-div", "rounded"], [1, "btn", "btn-info", "px-4", "storages-and-parkings-search-button", "text-nowrap", 3, "click"], [1, "fa-solid", "fa-magnifying-glass", "mr-1"], [1, "main-body-div"], [1, "main-body", "container", "py-3"], [1, "row"], [1, "col-md-3", "col-sm-12"], [1, "filter-section", "rounded", "border", "py-3", "px-3", "d-flex", "flex-column"], [1, "title", "mb-2", "d-flex", "justify-content-between"], [1, "font-medium-4", "text-black", "text-bold-700"], [1, "star-category-div", "mb-2"], [1, "text-bold-600", "mb-2", "text-black"], [1, "mb-1"], [1, "checkbox", "checkbox-info"], ["type", "checkbox", "id", "under2000", "value", "under2000", 3, "ngModel", "ngModelChange", "change"], ["for", "under2000", 1, "ml-4"], ["type", "checkbox", "id", "2000to4000", "value", "2000to4000", 3, "ngModel", "ngModelChange", "change"], ["for", "2000to4000", 1, "ml-4"], ["type", "checkbox", "id", "4000to6000", "value", "4000to6000", 3, "ngModel", "ngModelChange", "change"], ["for", "4000to6000", 1, "ml-4"], ["type", "checkbox", "id", "6000above", "value", "6000above", 3, "ngModel", "ngModelChange", "change"], ["for", "6000above", 1, "ml-4"], [1, "my-2"], [1, "text-bold-600", "mb-2", "font-small-3"], [1, "form-group", "d-flex", "align-items-center", "mb-0"], ["for", "minPrice"], ["type", "number", "id", "minPrice", "placeholder", "Min", 1, "form-control"], [1, "mx-2", "font-small-3"], ["for", "maxPrice"], ["type", "number", "id", "maxPrice", "placeholder", "Max", 1, "form-control"], [1, "btn", "btn-info", "p-0", "px-2", "py-1", "ml-2"], [1, "ft-arrow-right", "text-white"], [1, "user-rating-div"], [1, "d-flex", "justify-content-between", "mb-1"], ["type", "checkbox", "id", "excellent-rating"], ["for", "excellent-rating", 1, "ml-4"], ["type", "checkbox", "id", "verygood-rating"], ["for", "verygood-rating", 1, "ml-4"], [1, "d-flex", "justify-content-between"], ["type", "checkbox", "id", "good-rating"], ["for", "good-rating", 1, "ml-4"], [1, "property-type-div", "mt-2"], ["type", "checkbox", "id", "property-type-hotel"], ["for", "property-type-hotel", 1, "ml-4"], ["type", "checkbox", "id", "property-type-hostel"], ["for", "property-type-hostel", 1, "ml-4"], ["type", "checkbox", "id", "property-type-apartment"], ["for", "property-type-apartment", 1, "ml-4"], ["type", "checkbox", "id", "property-type-resort"], ["for", "property-type-resort", 1, "ml-4"], ["type", "checkbox", "id", "property-type-guest-house"], ["for", "property-type-guest-house", 1, "ml-4"], [1, "locality-div", "mt-2"], ["type", "checkbox", "id", "locality-1"], ["for", "locality-1", 1, "ml-4"], ["type", "checkbox", "id", "locality-2"], ["for", "locality-2", 1, "ml-4"], ["type", "checkbox", "id", "locality-3"], ["for", "locality-3", 1, "ml-4"], ["type", "checkbox", "id", "locality-4"], ["for", "locality-4", 1, "ml-4"], ["type", "checkbox", "id", "locality-5"], ["for", "locality-5", 1, "ml-4"], ["type", "checkbox", "id", "locality-6"], ["for", "locality-6", 1, "ml-4"], ["type", "checkbox", "id", "locality-7"], ["for", "locality-7", 1, "ml-4"], [1, "filter-save-chnges-button", "mt-2", "mx-auto"], [1, "btn", "btn-info"], [1, "col-md-9", "col-sm-12"], [1, "results-count-div", "mb-3"], [1, "m-0", "text-black", "font-medium-2", "text-bold-600"], [1, "d-flex", "justify-content-between", "mt-1"], [1, "m-0", "font-small-3"], [1, "results-div", "d-flex", "flex-column"], [4, "ngIf"], ["class", "hotelCardsDiv border rounded mb-3", 4, "ngFor", "ngForOf"], [1, "pagination-div", "d-flex", "flex-end"], [1, "ml-auto", 3, "collectionSize", "page", "pageChange"], [1, "col-12", "text-center"], [1, "mt-4"], [1, "w-75", "error-text", "mx-auto", "mt-4"], ["width", "300", "src", "assets/img/gallery/no-data-found.jpg", "alt", ""], [1, "hotelCardsDiv", "border", "rounded", "mb-3"], [1, "row", "p-2"], [1, "img-div", "d-flex", "flex-column", "col-md-4"], [1, "px-1", "pt-1"], ["width", "100%", "height", "160", "alt", "", 1, "border-top-left-radius", "border-top-right-radius", 3, "src"], [1, "heart-symbol-div", "cursor-pointer", 3, "click"], ["class", "heart-outline", "xmlns", "http://www.w3.org/2000/svg", "height", "1em", "viewBox", "0 0 512 512", 4, "ngIf"], ["class", "heart-solid", "xmlns", "http://www.w3.org/2000/svg", "height", "1em", "viewBox", "0 0 512 512", 4, "ngIf"], [1, "d-flex", "justify-content-between", "p-1"], [1, "mr-1"], ["width", "52", "height", "40", "alt", "", 1, "border-bottom-left-radius", 3, "src", "mouseenter"], ["width", "52", "height", "40", "alt", "", 3, "src", "mouseenter"], [1, "position-relative", 3, "mouseenter"], ["width", "52", "height", "40", "alt", "", 1, "border-bottom-right-radius", "opacity80", 3, "src"], [1, "view-all", "position-absolute", "text-white", "text-nowrap", "text-bold-900", "cursor-pointer"], [1, "info-div", "col-md-8"], [1, "badge", "badge-success", "font-small-1", "mr-1", 3, "ngClass"], [1, "font-small-1"], [1, "row", "mt-2"], [1, "text-black", "font-medium-3", "text-bold-900", "cursor-pointer", "m-0"], ["class", "ft-star-on text-warning", 4, "ngIf"], ["class", "ft-star-on text-light", 4, "ngIf"], [1, "ft-map-pin", "font-small-2", "mr-1"], [1, "font-small-2"], [1, "d-flex", "justify-content-between", "mt-2"], [1, "badge", "badge-light"], [1, "text-right", "text-black", "font-medium-3", "text-bold-600", "m-0"], [1, "text-right", "text-black", "font-small-2"], [1, "text-right", "mt-1"], [1, "btn", "btn-info", "text-center", 3, "click"], ["xmlns", "http://www.w3.org/2000/svg", "height", "1em", "viewBox", "0 0 512 512", 1, "heart-outline"], ["d", "M225.8 468.2l-2.5-2.3L48.1 303.2C17.4 274.7 0 234.7 0 192.8v-3.3c0-70.4 50-130.8 119.2-144C158.6 37.9 198.9 47 231 69.6c9 6.4 17.4 13.8 25 22.3c4.2-4.8 8.7-9.2 13.5-13.3c3.7-3.2 7.5-6.2 11.5-9c0 0 0 0 0 0C313.1 47 353.4 37.9 392.8 45.4C462 58.6 512 119.1 512 189.5v3.3c0 41.9-17.4 81.9-48.1 110.4L288.7 465.9l-2.5 2.3c-8.2 7.6-19 11.9-30.2 11.9s-22-4.2-30.2-11.9zM239.1 145c-.4-.3-.7-.7-1-1.1l-17.8-20c0 0-.1-.1-.1-.1c0 0 0 0 0 0c-23.1-25.9-58-37.7-92-31.2C81.6 101.5 48 142.1 48 189.5v3.3c0 28.5 11.9 55.8 32.8 75.2L256 430.7 431.2 268c20.9-19.4 32.8-46.7 32.8-75.2v-3.3c0-47.3-33.6-88-80.1-96.9c-34-6.5-69 5.4-92 31.2c0 0 0 0-.1 .1s0 0-.1 .1l-17.8 20c-.3 .4-.7 .7-1 1.1c-4.5 4.5-10.6 7-16.9 7s-12.4-2.5-16.9-7z"], ["xmlns", "http://www.w3.org/2000/svg", "height", "1em", "viewBox", "0 0 512 512", 1, "heart-solid"], ["d", "M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"], [1, "ft-star-on", "text-warning"], [1, "ft-star-on", "text-light"]],
+  vars: 18,
+  consts: [[1, "search-hosts-section"], [1, "search-hosts-div"], [1, "header", "d-flex", "justify-content-between", "align-items-center", "px-4", "py-2", "bg-white", "rounded"], [1, "left-menu"], [1, "logo-div", "mr-2"], [1, "logo-text", "m-0", "text-bold-900", "font-large-1", "cursor-pointer", 3, "routerLink"], ["width", "30px", "src", "assets/img/icons/store-easy-icons/storage-icon.svg", "alt", ""], [1, "right-menu", "d-flex", "justify-content-between", "align-items-center", "p-2"], [1, "mr-2"], [1, "how-it-works-button-button", "text-black", "cursor-pointer", "p-2", "rounded"], ["href", "dashboard/storage/search-hosts", "target", "_blank", 1, "find-storage-button", "cursor-pointer", "p-2", "rounded", "text-black"], ["ngbDropdown", ""], ["id", "storage-type-dropdown", "ngbDropdownToggle", "", 1, "btn", "storage-type-button", "mr-2", "text-black"], ["ngbDropdownMenu", "", "aria-labelledby", "storage-type-dropdown"], [1, "dropdown-item", "w-100"], ["id", "locations-dropdown", "ngbDropdownToggle", "", 1, "btn", "location-button", "mr-2", "text-black"], ["ngbDropdownMenu", "", "aria-labelledby", "locations-dropdown"], [1, "how-it-works-button-button", "cursor-pointer", "p-2", "rounded", "text-black"], [1, "fa-regular", "fa-circle-user", "mr-1"], ["href", "dashboard/host/become-a-host", "target", "_blank", 1, "btn", "btn-outline-info"], [1, "storage-details-header"], [1, "container", "d-flex", "justify-content-center", "align-items-center"], [1, "text-white", "text-bold-600", "py-2", "pl-0", "m-0", "container"], [1, "primary-filters", "d-flex"], ["ngbDropdown", "", 1, "mr-2"], ["id", "primary-filter-dropdown-price", "ngbDropdownToggle", "", 1, "btn", "border", "primary-filter-dropdown-button", "mr-1"], ["ngbDropdownMenu", "", "aria-labelledby", "primary-filter-dropdown-price"], ["id", "primary-filter-dropdown-storage-type", "ngbDropdownToggle", "", 1, "btn", "border", "primary-filter-dropdown-button", "mr-1"], ["ngbDropdownMenu", "", "aria-labelledby", "primary-filter-dropdown-storage-type"], ["id", "primary-filter-dropdown-exposure", "ngbDropdownToggle", "", 1, "btn", "border", "primary-filter-dropdown-button", "mr-1"], ["ngbDropdownMenu", "", "aria-labelledby", "primary-filter-dropdown-exposure"], ["id", "primary-filter-dropdown-features", "ngbDropdownToggle", "", 1, "btn", "border", "primary-filter-dropdown-button", "mr-1"], ["ngbDropdownMenu", "", "aria-labelledby", "primary-filter-dropdown-features"], ["id", "primary-filter-dropdown-sortby", "ngbDropdownToggle", "", 1, "btn", "border", "primary-filter-dropdown-button", "mr-1"], ["ngbDropdownMenu", "", "aria-labelledby", "primary-filter-dropdown-sortby"], [1, "primary-search-filters-div"], [1, "card", "px-3", "py-2", "mt-0"], [1, "container", "d-flex", "justify-content-between", "align-items-center"], [1, "card", "top-div", "p-0", "m-0"], [1, ""], [1, "pt-0"], [1, "button-group"], [1, "font-11", "text-nowrap", 3, "ngClass", "click"], [1, "primary-search"], [1, "middle-menu-div"], [1, "d-flex", "justify-content-center", "align-items-center"], [1, "p-1"], [1, "destination-div", "header-search-inner-each-div", "px-2", "rounded"], [1, "form-group", "m-0"], ["id", "fromCity", "bindLabel", "name", "placeholder", "Select city", 1, "storages-search-field", 3, "items", "ngModel", "ngModelChange"], [1, "search-button-div-div", "rounded"], [1, "btn", "btn-info", "px-4", "storages-and-parkings-search-button", "text-nowrap", 3, "click"], [1, "fa-solid", "fa-magnifying-glass", "mr-1"], [1, "main-body-div"], [1, "main-body", "container", "py-3"], [1, "row"], [1, "col-md-3", "col-sm-12"], [1, "filter-section", "rounded", "border", "py-3", "px-3", "d-flex", "flex-column"], [1, "title", "mb-2", "d-flex", "justify-content-between"], [1, "font-medium-4", "text-black", "text-bold-700"], [1, "star-category-div", "mb-2"], [1, "text-bold-600", "mb-2", "text-black"], [1, "mb-1"], [1, "checkbox", "checkbox-info"], ["type", "checkbox", "id", "under2000", "value", "under2000", 3, "ngModel", "ngModelChange", "change"], ["for", "under2000", 1, "ml-4"], ["type", "checkbox", "id", "2000to4000", "value", "2000to4000", 3, "ngModel", "ngModelChange", "change"], ["for", "2000to4000", 1, "ml-4"], ["type", "checkbox", "id", "4000to6000", "value", "4000to6000", 3, "ngModel", "ngModelChange", "change"], ["for", "4000to6000", 1, "ml-4"], ["type", "checkbox", "id", "6000above", "value", "6000above", 3, "ngModel", "ngModelChange", "change"], ["for", "6000above", 1, "ml-4"], [1, "my-2"], [1, "text-bold-600", "mb-2", "font-small-3"], [1, "form-group", "d-flex", "align-items-center", "mb-0"], ["for", "minPrice"], ["type", "number", "id", "minPrice", "placeholder", "Min", 1, "form-control"], [1, "mx-2", "font-small-3"], ["for", "maxPrice"], ["type", "number", "id", "maxPrice", "placeholder", "Max", 1, "form-control"], [1, "btn", "btn-info", "p-0", "px-2", "py-1", "ml-2"], [1, "ft-arrow-right", "text-white"], [1, "user-rating-div"], [1, "d-flex", "justify-content-between", "mb-1"], ["type", "checkbox", "id", "excellent-rating"], ["for", "excellent-rating", 1, "ml-4"], ["type", "checkbox", "id", "verygood-rating"], ["for", "verygood-rating", 1, "ml-4"], [1, "d-flex", "justify-content-between"], ["type", "checkbox", "id", "good-rating"], ["for", "good-rating", 1, "ml-4"], [1, "property-type-div", "mt-2"], ["type", "checkbox", "id", "property-type-hotel"], ["for", "property-type-hotel", 1, "ml-4"], ["type", "checkbox", "id", "property-type-hostel"], ["for", "property-type-hostel", 1, "ml-4"], ["type", "checkbox", "id", "property-type-apartment"], ["for", "property-type-apartment", 1, "ml-4"], ["type", "checkbox", "id", "property-type-resort"], ["for", "property-type-resort", 1, "ml-4"], ["type", "checkbox", "id", "property-type-guest-house"], ["for", "property-type-guest-house", 1, "ml-4"], [1, "locality-div", "mt-2"], ["type", "checkbox", "id", "locality-1"], ["for", "locality-1", 1, "ml-4"], ["type", "checkbox", "id", "locality-2"], ["for", "locality-2", 1, "ml-4"], ["type", "checkbox", "id", "locality-3"], ["for", "locality-3", 1, "ml-4"], ["type", "checkbox", "id", "locality-4"], ["for", "locality-4", 1, "ml-4"], ["type", "checkbox", "id", "locality-5"], ["for", "locality-5", 1, "ml-4"], ["type", "checkbox", "id", "locality-6"], ["for", "locality-6", 1, "ml-4"], ["type", "checkbox", "id", "locality-7"], ["for", "locality-7", 1, "ml-4"], [1, "filter-save-chnges-button", "mt-2", "mx-auto"], [1, "btn", "btn-info"], [1, "col-md-9", "col-sm-12"], [1, "results-count-div", "mb-3"], [1, "m-0", "text-black", "font-medium-2", "text-bold-600"], [1, "d-flex", "justify-content-between", "mt-1"], [1, "m-0", "font-small-3"], [1, "results-div", "d-flex", "flex-column"], [4, "ngIf"], ["class", "hotelCardsDiv border rounded mb-3", 4, "ngFor", "ngForOf"], [1, "pagination-div", "d-flex", "flex-end"], [1, "ml-auto", 3, "collectionSize", "page", "pageChange"], [1, "col-12", "text-center"], [1, "mt-4"], [1, "w-75", "error-text", "mx-auto", "mt-4"], ["width", "300", "src", "assets/img/gallery/no-data-found.jpg", "alt", ""], [1, "hotelCardsDiv", "border", "rounded", "mb-3"], [1, "row", "p-2"], [1, "img-div", "d-flex", "flex-column", "col-md-4"], [1, "px-1", "pt-1"], ["width", "100%", "height", "160", "alt", "", 1, "border-top-left-radius", "border-top-right-radius", 3, "src"], [1, "heart-symbol-div", "cursor-pointer", 3, "click"], ["class", "heart-outline", "xmlns", "http://www.w3.org/2000/svg", "height", "1em", "viewBox", "0 0 512 512", 4, "ngIf"], ["class", "heart-solid", "xmlns", "http://www.w3.org/2000/svg", "height", "1em", "viewBox", "0 0 512 512", 4, "ngIf"], [1, "d-flex", "justify-content-between", "p-1"], [1, "mr-1"], ["width", "52", "height", "40", "alt", "", 1, "border-bottom-left-radius", 3, "src", "mouseenter"], ["width", "52", "height", "40", "alt", "", 3, "src", "mouseenter"], [1, "position-relative", 3, "mouseenter"], ["width", "52", "height", "40", "alt", "", 1, "border-bottom-right-radius", "opacity80", 3, "src"], [1, "view-all", "position-absolute", "text-white", "text-nowrap", "text-bold-900", "cursor-pointer"], [1, "info-div", "col-md-8"], [1, "badge", "badge-success", "font-small-1", "mr-1", 3, "ngClass"], [1, "font-small-1"], [1, "row", "mt-2"], [1, "text-black", "font-medium-3", "text-bold-900", "cursor-pointer", "m-0"], ["class", "ft-star-on text-warning", 4, "ngIf"], ["class", "ft-star-on text-light", 4, "ngIf"], [1, "ft-map-pin", "font-small-2", "mr-1"], [1, "font-small-2"], [1, "d-flex", "justify-content-between", "mt-2"], [1, "badge", "badge-light"], [1, "text-right", "text-black", "font-medium-3", "text-bold-600", "m-0"], [1, "text-right", "text-black", "font-small-2"], [1, "text-right", "mt-1"], [1, "btn", "btn-info", "text-center", 3, "click"], ["xmlns", "http://www.w3.org/2000/svg", "height", "1em", "viewBox", "0 0 512 512", 1, "heart-outline"], ["d", "M225.8 468.2l-2.5-2.3L48.1 303.2C17.4 274.7 0 234.7 0 192.8v-3.3c0-70.4 50-130.8 119.2-144C158.6 37.9 198.9 47 231 69.6c9 6.4 17.4 13.8 25 22.3c4.2-4.8 8.7-9.2 13.5-13.3c3.7-3.2 7.5-6.2 11.5-9c0 0 0 0 0 0C313.1 47 353.4 37.9 392.8 45.4C462 58.6 512 119.1 512 189.5v3.3c0 41.9-17.4 81.9-48.1 110.4L288.7 465.9l-2.5 2.3c-8.2 7.6-19 11.9-30.2 11.9s-22-4.2-30.2-11.9zM239.1 145c-.4-.3-.7-.7-1-1.1l-17.8-20c0 0-.1-.1-.1-.1c0 0 0 0 0 0c-23.1-25.9-58-37.7-92-31.2C81.6 101.5 48 142.1 48 189.5v3.3c0 28.5 11.9 55.8 32.8 75.2L256 430.7 431.2 268c20.9-19.4 32.8-46.7 32.8-75.2v-3.3c0-47.3-33.6-88-80.1-96.9c-34-6.5-69 5.4-92 31.2c0 0 0 0-.1 .1s0 0-.1 .1l-17.8 20c-.3 .4-.7 .7-1 1.1c-4.5 4.5-10.6 7-16.9 7s-12.4-2.5-16.9-7z"], ["xmlns", "http://www.w3.org/2000/svg", "height", "1em", "viewBox", "0 0 512 512", 1, "heart-solid"], ["d", "M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"], [1, "ft-star-on", "text-warning"], [1, "ft-star-on", "text-light"]],
   template: function SearchHostsComponent_Template(rf, ctx) {
     if (rf & 1) {
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "section", 0);
@@ -2113,8 +2090,8 @@ SearchHostsComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](12, "div", 8);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](13, "span", 10);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](14, " Find Storage ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](13, "a", 10);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](14, "Find storage");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](15, "div", 11);
@@ -2198,8 +2175,8 @@ SearchHostsComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](67, "div");
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](68, "button", 19);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](69, "Become a Host");
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](68, "a", 19);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](69, "Become a host");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
@@ -2757,13 +2734,11 @@ SearchHostsComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE
     }
     if (rf & 2) {
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](5);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵpureFunction0"](14, _c1));
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](8);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵpureFunction0"](15, _c2));
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](137);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵpureFunction1"](16, _c3, ctx.selectedButton === "self"));
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵpureFunction0"](13, _c1));
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](145);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵpureFunction1"](14, _c2, ctx.selectedButton === "self"));
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](2);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵpureFunction1"](18, _c3, ctx.selectedButton === "team"));
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵpureFunction1"](16, _c2, ctx.selectedButton === "team"));
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](8);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("items", ctx.cities)("ngModel", ctx.selectedCity);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](20);
@@ -2789,7 +2764,7 @@ SearchHostsComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE
 
 /***/ }),
 
-/***/ 2903:
+/***/ 62903:
 /*!***************************************************************************************!*\
   !*** ./src/app/storage/components/start-and-duration/start-and-duration.component.ts ***!
   \***************************************************************************************/
@@ -2799,13 +2774,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "StartAndDurationComponent": function() { return /* binding */ StartAndDurationComponent; }
 /* harmony export */ });
-/* harmony import */ var C_Startup_backup_New_folder_store_easy_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck.js */ 8069);
-/* harmony import */ var C_Startup_backup_New_folder_store_easy_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass.js */ 8047);
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/forms */ 587);
+/* harmony import */ var C_Startup_backup_New_folder_store_easy_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck.js */ 78069);
+/* harmony import */ var C_Startup_backup_New_folder_store_easy_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass.js */ 48047);
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/forms */ 90587);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ 3184);
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ 2816);
-/* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ 5365);
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/common */ 6362);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ 52816);
+/* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ 45365);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/common */ 36362);
 
 
 
@@ -2853,10 +2828,7 @@ function StartAndDurationComponent_ng_template_117_Template(rf, ctx) {
 var _c0 = function _c0() {
   return ["/dashboard/home"];
 };
-var _c1 = function _c1() {
-  return ["/dashboard/storage/search-hosts"];
-};
-var _c2 = function _c2(a0) {
+var _c1 = function _c1(a0) {
   return {
     "is-invalid": a0
   };
@@ -2944,8 +2916,8 @@ StartAndDurationComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_M
   type: StartAndDurationComponent,
   selectors: [["app-start-and-duration"]],
   decls: 162,
-  vars: 13,
-  consts: [[1, "start-and-duration-section"], [1, "header", "d-flex", "justify-content-between", "align-items-center", "px-4", "py-2", "bg-white", "rounded"], [1, "left-menu"], [1, "logo-div", "mr-2"], [1, "logo-text", "m-0", "text-bold-900", "font-large-1", "cursor-pointer", 3, "routerLink"], ["width", "30px", "src", "assets/img/icons/store-easy-icons/storage-icon.svg", "alt", ""], [1, "right-menu", "d-flex", "justify-content-between", "align-items-center", "p-2"], [1, "mr-2"], [1, "how-it-works-button-button", "text-black", "cursor-pointer", "p-2", "rounded"], [1, "find-storage-button", "cursor-pointer", "p-2", "rounded", "text-black", 3, "routerLink"], ["ngbDropdown", ""], ["id", "storage-type-dropdown", "ngbDropdownToggle", "", 1, "btn", "storage-type-button", "mr-2", "text-black"], ["ngbDropdownMenu", "", "aria-labelledby", "storage-type-dropdown"], [1, "dropdown-item", "w-100"], ["id", "locations-dropdown", "ngbDropdownToggle", "", 1, "btn", "location-button", "mr-2", "text-black"], ["ngbDropdownMenu", "", "aria-labelledby", "locations-dropdown"], [1, "how-it-works-button-button", "cursor-pointer", "p-2", "rounded", "text-black"], [1, "fa-regular", "fa-circle-user", "mr-1"], [1, "btn", "btn-outline-info"], [1, "storage-details-header"], [1, "text-white", "text-bold-600", "px-3", "py-2", "mb-3", "container"], [1, "container"], [1, "start-and-duration-div", "row"], [1, "col-md-7", "col-12"], [1, "m-0", "mb-3", "text-bold-600"], [1, "m-0"], [1, "my-3"], [3, "formGroup"], [1, "form-row", "mb-3"], [1, "col-12"], [1, "check-out-div", "header-search-inner-each-div", "rounded"], ["for", "check_out_date", 1, "modify-search_inputlbl"], [1, "form-group", "datePicker-div", "m-0"], [1, "input-group", "m-0"], ["id", "start-date", "name", "dp", "ngbDatepicker", "", "formControlName", "startDate", 1, "form-control", 3, "placeholder", "ngModel", "dayTemplate", "markDisabled", "ngClass", "ngModelChange"], ["d3", "ngbDatepicker"], [1, "input-group-append"], [1, "input-group-text", 3, "click"], [1, "fa", "fa-calendar", 2, "cursor", "pointer"], ["class", "invalid-feedback", 4, "ngIf"], [1, "form-row"], [1, "form-group", "mb-2"], ["for", "estimated-duration"], ["id", "estimated-duration", "name", "estimatedDuration", "formControlName", "duration", 1, "form-control"], ["value", "about a month"], ["value", "a few months"], ["value", "about a year", "selected", ""], ["value", "a few years"], ["value", "indefinitely"], [1, "col-12", "px-3", "py-2", "bg-success", "bg-lighten-4", "rounded", "border", "mt-3"], [1, "m-0", "text-bold-600"], [1, "fa-solid", "fa-sack-dollar", "mr-1"], [1, "m-0", "font-small-3", "mt-1"], ["customDay", ""], [1, "col-md-5", "col-12", "pl-5"], [1, "d-flex"], [1, "card", "my-0", "border", "p-3", "rounded"], ["width", "280", "height", "150", "src", "assets/img/storages-images/garage-1-img-1.jpeg", "alt", "", 1, "rounded"], [1, "custom-width-280", "mt-3"], [1, "border-bottom"], [1, "d-flex", "justify-content-between", "align-items-center"], [1, "m-0", "font-medium-4", "text-bold-700"], [1, "m-0", "font-small-4", "text-bold-500"], [1, "mt-1", "mb-3"], [1, "fa-solid", "fa-star", "mr-1"], [1, "mx-1"], [1, "fa-solid", "fa-location-dot", "mx-1"], [1, "d-flex", "justify-content-between", "mb-1"], [1, "d-flex", "justify-content-between", "mb-2"], [1, "d-flex", "justify-content-between", "mt-2"], [1, "m-0", "text-bold-700", "font-medium-4"], [1, "m-0", "mt-1", "text-bold-400", "font-small-3"], [1, "bg-secondary", "bg-lighten-4", "mt-3", "py-3"], [1, "d-flex", "justify-content-end", "align-items-center"], ["type", "button", 1, "btn", "btn-primary", "font-medium-3", "py-2", "px-3", 3, "click"], [1, "invalid-feedback"], [4, "ngIf"], [1, "custom-day"]],
+  vars: 11,
+  consts: [[1, "start-and-duration-section"], [1, "header", "d-flex", "justify-content-between", "align-items-center", "px-4", "py-2", "bg-white", "rounded"], [1, "left-menu"], [1, "logo-div", "mr-2"], [1, "logo-text", "m-0", "text-bold-900", "font-large-1", "cursor-pointer", 3, "routerLink"], ["width", "30px", "src", "assets/img/icons/store-easy-icons/storage-icon.svg", "alt", ""], [1, "right-menu", "d-flex", "justify-content-between", "align-items-center", "p-2"], [1, "mr-2"], [1, "how-it-works-button-button", "text-black", "cursor-pointer", "p-2", "rounded"], ["href", "dashboard/storage/search-hosts", "target", "_blank", 1, "find-storage-button", "cursor-pointer", "p-2", "rounded", "text-black"], ["ngbDropdown", ""], ["id", "storage-type-dropdown", "ngbDropdownToggle", "", 1, "btn", "storage-type-button", "mr-2", "text-black"], ["ngbDropdownMenu", "", "aria-labelledby", "storage-type-dropdown"], [1, "dropdown-item", "w-100"], ["id", "locations-dropdown", "ngbDropdownToggle", "", 1, "btn", "location-button", "mr-2", "text-black"], ["ngbDropdownMenu", "", "aria-labelledby", "locations-dropdown"], [1, "how-it-works-button-button", "cursor-pointer", "p-2", "rounded", "text-black"], [1, "fa-regular", "fa-circle-user", "mr-1"], ["href", "dashboard/host/become-a-host", "target", "_blank", 1, "btn", "btn-outline-info"], [1, "storage-details-header"], [1, "text-white", "text-bold-600", "px-3", "py-2", "mb-3", "container"], [1, "container"], [1, "start-and-duration-div", "row"], [1, "col-md-7", "col-12"], [1, "m-0", "mb-3", "text-bold-600"], [1, "m-0"], [1, "my-3"], [3, "formGroup"], [1, "form-row", "mb-3"], [1, "col-12"], [1, "check-out-div", "header-search-inner-each-div", "rounded"], ["for", "check_out_date", 1, "modify-search_inputlbl"], [1, "form-group", "datePicker-div", "m-0"], [1, "input-group", "m-0"], ["id", "start-date", "name", "dp", "ngbDatepicker", "", "formControlName", "startDate", 1, "form-control", 3, "placeholder", "ngModel", "dayTemplate", "markDisabled", "ngClass", "ngModelChange"], ["d3", "ngbDatepicker"], [1, "input-group-append"], [1, "input-group-text", 3, "click"], [1, "fa", "fa-calendar", 2, "cursor", "pointer"], ["class", "invalid-feedback", 4, "ngIf"], [1, "form-row"], [1, "form-group", "mb-2"], ["for", "estimated-duration"], ["id", "estimated-duration", "name", "estimatedDuration", "formControlName", "duration", 1, "form-control"], ["value", "about a month"], ["value", "a few months"], ["value", "about a year", "selected", ""], ["value", "a few years"], ["value", "indefinitely"], [1, "col-12", "px-3", "py-2", "bg-success", "bg-lighten-4", "rounded", "border", "mt-3"], [1, "m-0", "text-bold-600"], [1, "fa-solid", "fa-sack-dollar", "mr-1"], [1, "m-0", "font-small-3", "mt-1"], ["customDay", ""], [1, "col-md-5", "col-12", "pl-5"], [1, "d-flex"], [1, "card", "my-0", "border", "p-3", "rounded"], ["width", "280", "height", "150", "src", "assets/img/storages-images/garage-1-img-1.jpeg", "alt", "", 1, "rounded"], [1, "custom-width-280", "mt-3"], [1, "border-bottom"], [1, "d-flex", "justify-content-between", "align-items-center"], [1, "m-0", "font-medium-4", "text-bold-700"], [1, "m-0", "font-small-4", "text-bold-500"], [1, "mt-1", "mb-3"], [1, "fa-solid", "fa-star", "mr-1"], [1, "mx-1"], [1, "fa-solid", "fa-location-dot", "mx-1"], [1, "d-flex", "justify-content-between", "mb-1"], [1, "d-flex", "justify-content-between", "mb-2"], [1, "d-flex", "justify-content-between", "mt-2"], [1, "m-0", "text-bold-700", "font-medium-4"], [1, "m-0", "mt-1", "text-bold-400", "font-small-3"], [1, "bg-secondary", "bg-lighten-4", "mt-3", "py-3"], [1, "d-flex", "justify-content-end", "align-items-center"], ["type", "button", 1, "btn", "btn-primary", "font-medium-3", "py-2", "px-3", 3, "click"], [1, "invalid-feedback"], [4, "ngIf"], [1, "custom-day"]],
   template: function StartAndDurationComponent_Template(rf, ctx) {
     if (rf & 1) {
       var _r9 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵgetCurrentView"]();
@@ -2966,8 +2938,8 @@ StartAndDurationComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_M
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](11, "div", 7);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](12, "span", 9);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](13, " Find Storage ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](12, "a", 9);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](13, "Find storage");
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](14, "div", 10);
@@ -3051,8 +3023,8 @@ StartAndDurationComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_M
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](66, "div");
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](67, "button", 18);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](68, "Become a Host");
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](67, "a", 18);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](68, "Become a host");
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
@@ -3223,13 +3195,11 @@ StartAndDurationComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_M
     if (rf & 2) {
       var _r2 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵreference"](118);
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](4);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpureFunction0"](9, _c0));
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](8);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpureFunction0"](10, _c1));
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](68);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpureFunction0"](8, _c0));
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](76);
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("formGroup", ctx.startAndDurationForm);
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](9);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("placeholder", _r2)("ngModel", ctx.model)("dayTemplate", _r2)("markDisabled", ctx.isDisabled)("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpureFunction1"](11, _c2, (ctx.submitted || ctx.f.startDate.touched) && ctx.f.startDate.errors));
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("placeholder", _r2)("ngModel", ctx.model)("dayTemplate", _r2)("markDisabled", ctx.isDisabled)("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpureFunction1"](9, _c1, (ctx.submitted || ctx.f.startDate.touched) && ctx.f.startDate.errors));
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](5);
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngIf", (ctx.submitted || ctx.f.startDate.touched) && ctx.f.startDate.errors);
     }
@@ -3240,7 +3210,7 @@ StartAndDurationComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_M
 
 /***/ }),
 
-/***/ 7892:
+/***/ 57892:
 /*!*********************************************************************************!*\
   !*** ./src/app/storage/components/storage-details/storage-details.component.ts ***!
   \*********************************************************************************/
@@ -3250,13 +3220,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "StorageDetailsComponent": function() { return /* binding */ StorageDetailsComponent; }
 /* harmony export */ });
-/* harmony import */ var C_Startup_backup_New_folder_store_easy_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createForOfIteratorHelper.js */ 5106);
-/* harmony import */ var C_Startup_backup_New_folder_store_easy_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck.js */ 8069);
-/* harmony import */ var C_Startup_backup_New_folder_store_easy_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass.js */ 8047);
-/* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ 5365);
+/* harmony import */ var C_Startup_backup_New_folder_store_easy_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createForOfIteratorHelper.js */ 95106);
+/* harmony import */ var C_Startup_backup_New_folder_store_easy_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck.js */ 78069);
+/* harmony import */ var C_Startup_backup_New_folder_store_easy_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass.js */ 48047);
+/* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ 45365);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/core */ 3184);
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/router */ 2816);
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/common */ 6362);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/router */ 52816);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/common */ 36362);
 
 
 
@@ -3321,9 +3291,6 @@ var _c0 = function _c0() {
   return ["/dashboard/home"];
 };
 var _c1 = function _c1() {
-  return ["/dashboard/storage/search-hosts"];
-};
-var _c2 = function _c2() {
   return ["/dashboard/storage/start-and-duration"];
 };
 var StorageDetailsComponent = /*#__PURE__*/function () {
@@ -3591,8 +3558,8 @@ StorageDetailsComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MOD
   type: StorageDetailsComponent,
   selectors: [["app-storage-details"]],
   decls: 284,
-  vars: 11,
-  consts: [[1, "hotel-details-section", "pb-5"], [1, "header", "d-flex", "justify-content-between", "align-items-center", "px-4", "py-2", "bg-white", "rounded"], [1, "left-menu"], [1, "logo-div", "mr-2"], [1, "logo-text", "m-0", "font-large-1", "cursor-pointer", 3, "routerLink"], ["width", "30px", "src", "assets/img/icons/store-easy-icons/storage-icon.svg", "alt", ""], [1, "right-menu", "d-flex", "justify-content-between", "align-items-center", "p-2"], [1, "mr-2"], [1, "how-it-works-button-button", "cursor-pointer", "p-2", "rounded", "text-black"], [1, "find-storage-button", "cursor-pointer", "p-2", "rounded", "text-black", 3, "routerLink"], ["ngbDropdown", ""], ["id", "dropdownBasic1", "ngbDropdownToggle", "", 1, "btn", "storage-type-button", "text-black", "mr-2"], ["ngbDropdownMenu", "", "aria-labelledby", "dropdownBasic1"], [1, "dropdown-item", "w-100"], ["id", "dropdownBasic1", "ngbDropdownToggle", "", 1, "btn", "location-button", "mr-2", "text-black"], [1, "fa-regular", "fa-circle-user", "mr-1"], [1, "btn", "btn-outline-info"], [1, "hotel-details-div"], [1, "storage-details-header"], [1, "text-white", "text-bold-600", "px-3", "py-2", "mb-3", "container"], [1, "hotel-title-and-gallery-div", "container"], [1, "hotel-title-div", "d-flex", "justify-content-between", "align-items-center"], [1, "d-flex", "align-items-center"], [1, "text-black", "text-bold-600", "mr-2"], [1, "mb-2"], [1, "ft-star-on", "text-warning"], [1, "ft-star-on", "text-light"], [1, "font-small-3", "mt-1", "text-black"], [1, "ft-map-pin", "mr-1"], [1, "d-flex", "align-items-end"], [1, "text-black", "font-large-1", "text-bold-600", "mr-3"], [1, "text-black", "font-small-3", "text-bold-400"], [1, "btn", "btn-info", "text-white", "px-4", "py-2", "font-medium-2", 3, "routerLink"], [1, "hotel-gallery-div", "mt-2", "parent-div-1"], [1, "row", "d-flex", "align-items-center"], [1, "col-md-6", "col-sm-12", "align-self-stretch"], [1, "img-div", "d-flex", "flex-column", "h-100"], [1, "px-1", "h-100"], ["width", "100%", "alt", "", 1, "border-top-left-radius", "border-top-right-radius", "height-400", 3, "src"], [1, "d-flex", "justify-content-between", "px-1", "pt-1", "pb-0", "h-100"], [1, "mr-1"], ["width", "100%", "height", "100%", "alt", "", 1, "border-bottom-left-radius", 3, "src", "mouseenter"], ["width", "100%", "height", "100%", "alt", "", 3, "src", "mouseenter"], [1, "position-relative", "last-img-div", "cursor-pointer", 3, "mouseenter", "click"], ["width", "100%", "height", "100%", "alt", "", 1, "border-bottom-right-radius", "filter4", "last-img-div", 3, "src"], [1, "view-all", "position-absolute", "text-white", "text-nowrap", "text-bold-900", "font-small-3", "cursor-pointer"], [1, "col-md-6", "col-sm-12", "d-flex", "flex-column", "align-self-stretch"], [1, "card", "border", "rounded", "p-1", "m-0", "h-100"], ["src", "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2887.269064359598!2d-79.38963172334785!3d43.642570053117666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34d68bf33a9b%3A0x15edd8c4de1c7581!2sCN%20Tower!5e0!3m2!1sen!2sin!4v1729837633020!5m2!1sen!2sin", "width", "100%", "height", "100%", "allowfullscreen", "", "loading", "lazy", "referrerpolicy", "no-referrer-when-downgrade", 2, "border", "0"], [1, "about-the-hotel-div", "pt-4", "container"], [1, "text-black", "text-bold-700", "mb-2"], [1, "m-0", "text-bold-400", "font-small-3", "mb-2"], [1, "fa-solid", "fa-calendar-days", "mr-1"], [1, "fa-regular", "fa-clock", "mr-1"], [1, "card", "px-4", "py-3"], [1, "text-black", "text-bold-700", "m-0"], [1, "text-info", "mr-2"], [1, "btn", "btn-info"], [1, "fa-regular", "fa-comment-dots", "cursor-pointer", "mr-1"], [1, "fa-solid", "fa-address-card", "mr-1"], [1, "fa-solid", "fa-star", "mr-1", "rating-icon"], [1, "fa-solid", "fa-user-large", "mr-1"], [1, "m-0", "text-bold-400", "font-small-3"], [1, "fa-solid", "fa-hourglass-start", "mr-1"], [1, "about-the-hotel-inner-div", "mt-3"], [1, "text-bold-400", "font-small-3", "mb-2"], [1, "store-or-park-div", "mt-3"], [1, "d-flex", "flex-wrap"], [1, "item", "mb-3", "d-flex", "flex-column", "justify-content-center", "align-items-center", "px-3", "py-3", "border", "rounded", "mr-3"], [1, "fa-solid", "fa-lock", "font-medium-1"], [1, "mt-1", "text-bold-400", "font-small-3"], [1, "fa-solid", "fa-video", "font-medium-3"], [1, "fa-solid", "fa-joint", "font-medium-3"], [1, "fa-solid", "fa-snowflake", "font-medium-3"], [1, "fa-solid", "fa-ban-smoking", "font-medium-3"], [1, "fa-solid", "fa-dog", "font-medium-3"], [1, "fa-solid", "fa-stairs", "font-medium-3"], [1, "about-the-hotel-inner-div"], [1, "fa-regular", "fa-circle-check", "mr-1"], [1, "fa-regular", "fa-thumbs-up", "mr-1"], [1, "item", "mb-3", "d-flex", "flex-column", "justify-content-center", "align-items-center", "px-3", "py-3", "border", "rounded", "mr-3", "custom-w-140"], [1, "font-medium-3", "text-bold-600"], [1, "fa-solid", "fa-star", "mr-1", "rating-icon-color"], [1, "fa-solid", "fa-comment-dots", "text-info", "mr-1"], [1, "fa-solid", "fa-calendar-days", "text-info", "mr-1"], [1, "storage-reviews-div", "d-flex", "mt-2"], [1, "reviewer-avatar", "font-medium-3", "text-white", "text-bold-600", "bg-warning", "reviewer-first-letter"], [1, "d-flex", "justify-content-between", "align-items-center"], [1, "m-0", "text-bold-600"], [1, "bg-light", "px-2", "py-1", "rounded", "font-small-3"], [1, "m-0", "font-small-3"], [1, "m-0", "my-1"], [1, "fa-solid", "fa-star", "rating-icon-color", "rating-icon-size", "mr-1"], [1, "fa-solid", "fa-star", "rating-icon-color", "rating-icon-size"], [1, "storage-reviews-div", "d-flex", "mt-3"], [1, "reviewer-avatar", "font-medium-3", "text-white", "text-bold-600", "bg-info", "bg-darken-1", "reviewer-first-letter"], [1, "reviewer-avatar", "font-medium-3", "text-white", "text-bold-600", "bg-success", "bg-darken-1", "reviewer-first-letter"], [1, "fa-regular", "fa-star", "mr-1", "text-light", "rating-icon-size"], [1, "hotel-image-gallery-popup-div"], ["content", ""], [1, "modal-header"], [1, "modal-title", "text-black", "text-bold-600", "ml-2"], ["type", "button", "aria-label", "Close", 1, "close", 3, "click"], ["aria-hidden", "true"], [1, "modal-body"], [1, "row", "d-flex"], ["class", "col-md-3 col-sm-6 align-self-stretch py-2", 4, "ngFor", "ngForOf"], [1, "modal-footer"], ["type", "button", 1, "btn", "btn-info", 3, "click"], [1, "col-md-3", "col-sm-6", "align-self-stretch", "py-2"], ["alt", "", "width", "100%", "height", "100%", 3, "src"]],
+  vars: 9,
+  consts: [[1, "hotel-details-section", "pb-5"], [1, "header", "d-flex", "justify-content-between", "align-items-center", "px-4", "py-2", "bg-white", "rounded"], [1, "left-menu"], [1, "logo-div", "mr-2"], [1, "logo-text", "m-0", "font-large-1", "cursor-pointer", 3, "routerLink"], ["width", "30px", "src", "assets/img/icons/store-easy-icons/storage-icon.svg", "alt", ""], [1, "right-menu", "d-flex", "justify-content-between", "align-items-center", "p-2"], [1, "mr-2"], [1, "how-it-works-button-button", "cursor-pointer", "p-2", "rounded", "text-black"], ["href", "dashboard/storage/search-hosts", "target", "_blank", 1, "find-storage-button", "cursor-pointer", "p-2", "rounded", "text-black"], ["ngbDropdown", ""], ["id", "dropdownBasic1", "ngbDropdownToggle", "", 1, "btn", "storage-type-button", "text-black", "mr-2"], ["ngbDropdownMenu", "", "aria-labelledby", "dropdownBasic1"], [1, "dropdown-item", "w-100"], ["id", "dropdownBasic1", "ngbDropdownToggle", "", 1, "btn", "location-button", "mr-2", "text-black"], [1, "fa-regular", "fa-circle-user", "mr-1"], ["href", "dashboard/host/become-a-host", "target", "_blank", 1, "btn", "btn-outline-info"], [1, "hotel-details-div"], [1, "storage-details-header"], [1, "text-white", "text-bold-600", "px-3", "py-2", "mb-3", "container"], [1, "hotel-title-and-gallery-div", "container"], [1, "hotel-title-div", "d-flex", "justify-content-between", "align-items-center"], [1, "d-flex", "align-items-center"], [1, "text-black", "text-bold-600", "mr-2"], [1, "mb-2"], [1, "ft-star-on", "text-warning"], [1, "ft-star-on", "text-light"], [1, "font-small-3", "mt-1", "text-black"], [1, "ft-map-pin", "mr-1"], [1, "d-flex", "align-items-end"], [1, "text-black", "font-large-1", "text-bold-600", "mr-3"], [1, "text-black", "font-small-3", "text-bold-400"], [1, "btn", "btn-info", "text-white", "px-4", "py-2", "font-medium-2", 3, "routerLink"], [1, "hotel-gallery-div", "mt-2", "parent-div-1"], [1, "row", "d-flex", "align-items-center"], [1, "col-md-6", "col-sm-12", "align-self-stretch"], [1, "img-div", "d-flex", "flex-column", "h-100"], [1, "px-1", "h-100"], ["width", "100%", "alt", "", 1, "border-top-left-radius", "border-top-right-radius", "height-400", 3, "src"], [1, "d-flex", "justify-content-between", "px-1", "pt-1", "pb-0", "h-100"], [1, "mr-1"], ["width", "100%", "height", "100%", "alt", "", 1, "border-bottom-left-radius", 3, "src", "mouseenter"], ["width", "100%", "height", "100%", "alt", "", 3, "src", "mouseenter"], [1, "position-relative", "last-img-div", "cursor-pointer", 3, "mouseenter", "click"], ["width", "100%", "height", "100%", "alt", "", 1, "border-bottom-right-radius", "filter4", "last-img-div", 3, "src"], [1, "view-all", "position-absolute", "text-white", "text-nowrap", "text-bold-900", "font-small-3", "cursor-pointer"], [1, "col-md-6", "col-sm-12", "d-flex", "flex-column", "align-self-stretch"], [1, "card", "border", "rounded", "p-1", "m-0", "h-100"], ["src", "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2887.269064359598!2d-79.38963172334785!3d43.642570053117666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34d68bf33a9b%3A0x15edd8c4de1c7581!2sCN%20Tower!5e0!3m2!1sen!2sin!4v1729837633020!5m2!1sen!2sin", "width", "100%", "height", "100%", "allowfullscreen", "", "loading", "lazy", "referrerpolicy", "no-referrer-when-downgrade", 2, "border", "0"], [1, "about-the-hotel-div", "pt-4", "container"], [1, "text-black", "text-bold-700", "mb-2"], [1, "m-0", "text-bold-400", "font-small-3", "mb-2"], [1, "fa-solid", "fa-calendar-days", "mr-1"], [1, "fa-regular", "fa-clock", "mr-1"], [1, "card", "px-4", "py-3"], [1, "text-black", "text-bold-700", "m-0"], [1, "text-info", "mr-2"], [1, "btn", "btn-info"], [1, "fa-regular", "fa-comment-dots", "cursor-pointer", "mr-1"], [1, "fa-solid", "fa-address-card", "mr-1"], [1, "fa-solid", "fa-star", "mr-1", "rating-icon"], [1, "fa-solid", "fa-user-large", "mr-1"], [1, "m-0", "text-bold-400", "font-small-3"], [1, "fa-solid", "fa-hourglass-start", "mr-1"], [1, "about-the-hotel-inner-div", "mt-3"], [1, "text-bold-400", "font-small-3", "mb-2"], [1, "store-or-park-div", "mt-3"], [1, "d-flex", "flex-wrap"], [1, "item", "mb-3", "d-flex", "flex-column", "justify-content-center", "align-items-center", "px-3", "py-3", "border", "rounded", "mr-3"], [1, "fa-solid", "fa-lock", "font-medium-1"], [1, "mt-1", "text-bold-400", "font-small-3"], [1, "fa-solid", "fa-video", "font-medium-3"], [1, "fa-solid", "fa-joint", "font-medium-3"], [1, "fa-solid", "fa-snowflake", "font-medium-3"], [1, "fa-solid", "fa-ban-smoking", "font-medium-3"], [1, "fa-solid", "fa-dog", "font-medium-3"], [1, "fa-solid", "fa-stairs", "font-medium-3"], [1, "about-the-hotel-inner-div"], [1, "fa-regular", "fa-circle-check", "mr-1"], [1, "fa-regular", "fa-thumbs-up", "mr-1"], [1, "item", "mb-3", "d-flex", "flex-column", "justify-content-center", "align-items-center", "px-3", "py-3", "border", "rounded", "mr-3", "custom-w-140"], [1, "font-medium-3", "text-bold-600"], [1, "fa-solid", "fa-star", "mr-1", "rating-icon-color"], [1, "fa-solid", "fa-comment-dots", "text-info", "mr-1"], [1, "fa-solid", "fa-calendar-days", "text-info", "mr-1"], [1, "storage-reviews-div", "d-flex", "mt-2"], [1, "reviewer-avatar", "font-medium-3", "text-white", "text-bold-600", "bg-warning", "reviewer-first-letter"], [1, "d-flex", "justify-content-between", "align-items-center"], [1, "m-0", "text-bold-600"], [1, "bg-light", "px-2", "py-1", "rounded", "font-small-3"], [1, "m-0", "font-small-3"], [1, "m-0", "my-1"], [1, "fa-solid", "fa-star", "rating-icon-color", "rating-icon-size", "mr-1"], [1, "fa-solid", "fa-star", "rating-icon-color", "rating-icon-size"], [1, "storage-reviews-div", "d-flex", "mt-3"], [1, "reviewer-avatar", "font-medium-3", "text-white", "text-bold-600", "bg-info", "bg-darken-1", "reviewer-first-letter"], [1, "reviewer-avatar", "font-medium-3", "text-white", "text-bold-600", "bg-success", "bg-darken-1", "reviewer-first-letter"], [1, "fa-regular", "fa-star", "mr-1", "text-light", "rating-icon-size"], [1, "hotel-image-gallery-popup-div"], ["content", ""], [1, "modal-header"], [1, "modal-title", "text-black", "text-bold-600", "ml-2"], ["type", "button", "aria-label", "Close", 1, "close", 3, "click"], ["aria-hidden", "true"], [1, "modal-body"], [1, "row", "d-flex"], ["class", "col-md-3 col-sm-6 align-self-stretch py-2", 4, "ngFor", "ngForOf"], [1, "modal-footer"], ["type", "button", 1, "btn", "btn-info", 3, "click"], [1, "col-md-3", "col-sm-6", "align-self-stretch", "py-2"], ["alt", "", "width", "100%", "height", "100%", 3, "src"]],
   template: function StorageDetailsComponent_Template(rf, ctx) {
     if (rf & 1) {
       var _r9 = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵgetCurrentView"]();
@@ -3613,8 +3580,8 @@ StorageDetailsComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MOD
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](11, "div", 7);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](12, "span", 9);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](13, " Find Storage ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](12, "a", 9);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](13, "Find storage");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](14, "div", 10);
@@ -3698,8 +3665,8 @@ StorageDetailsComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MOD
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](66, "div");
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](67, "button", 16);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](68, "Become a Host");
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](67, "a", 16);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](68, "Become a host");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
@@ -4052,11 +4019,9 @@ StorageDetailsComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MOD
     }
     if (rf & 2) {
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](4);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵpureFunction0"](8, _c0));
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](8);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵpureFunction0"](9, _c1));
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](81);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵpureFunction0"](10, _c2));
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵpureFunction0"](7, _c0));
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](89);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵpureFunction0"](8, _c1));
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](7);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("src", ctx.Hotels_Data[0].bigImg, _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵsanitizeUrl"]);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](3);
@@ -4076,7 +4041,7 @@ StorageDetailsComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MOD
 
 /***/ }),
 
-/***/ 4677:
+/***/ 94677:
 /*!***************************************************************************!*\
   !*** ./src/app/storage/components/storing-type/storing-type.component.ts ***!
   \***************************************************************************/
@@ -4086,13 +4051,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "StoringTypeComponent": function() { return /* binding */ StoringTypeComponent; }
 /* harmony export */ });
-/* harmony import */ var C_Startup_backup_New_folder_store_easy_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck.js */ 8069);
-/* harmony import */ var C_Startup_backup_New_folder_store_easy_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass.js */ 8047);
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/forms */ 587);
+/* harmony import */ var C_Startup_backup_New_folder_store_easy_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck.js */ 78069);
+/* harmony import */ var C_Startup_backup_New_folder_store_easy_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass.js */ 48047);
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/forms */ 90587);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ 3184);
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ 2816);
-/* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ 5365);
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/common */ 6362);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ 52816);
+/* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ 45365);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/common */ 36362);
 
 
 
@@ -4399,9 +4364,6 @@ function StoringTypeComponent_div_87_Template(rf, ctx) {
 var _c0 = function _c0() {
   return ["/dashboard/home"];
 };
-var _c1 = function _c1() {
-  return ["/dashboard/storage/search-hosts"];
-};
 var StoringTypeComponent = /*#__PURE__*/function () {
   function StoringTypeComponent(fb, router) {
     (0,C_Startup_backup_New_folder_store_easy_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_0__["default"])(this, StoringTypeComponent);
@@ -4567,8 +4529,8 @@ StoringTypeComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE
   type: StoringTypeComponent,
   selectors: [["app-storing-type"]],
   decls: 133,
-  vars: 13,
-  consts: [[1, "storing-type", "section"], [1, "storing-type-div"], [1, "header", "d-flex", "justify-content-between", "align-items-center", "px-4", "py-2", "bg-white", "rounded"], [1, "left-menu"], [1, "logo-div", "mr-2"], [1, "logo-text", "m-0", "text-bold-900", "font-large-1", "cursor-pointer", 3, "routerLink"], ["width", "30px", "src", "assets/img/icons/store-easy-icons/storage-icon.svg", "alt", ""], [1, "right-menu", "d-flex", "justify-content-between", "align-items-center", "p-2"], [1, "mr-2"], [1, "how-it-works-button-button", "text-black", "cursor-pointer", "p-2", "rounded"], [1, "find-storage-button", "cursor-pointer", "p-2", "rounded", "text-black", 3, "routerLink"], ["ngbDropdown", ""], ["id", "storage-type-dropdown", "ngbDropdownToggle", "", 1, "btn", "storage-type-button", "mr-2", "text-black"], ["ngbDropdownMenu", "", "aria-labelledby", "storage-type-dropdown"], [1, "dropdown-item", "w-100"], ["id", "locations-dropdown", "ngbDropdownToggle", "", 1, "btn", "location-button", "mr-2", "text-black"], ["ngbDropdownMenu", "", "aria-labelledby", "locations-dropdown"], [1, "how-it-works-button-button", "cursor-pointer", "p-2", "rounded", "text-black"], [1, "fa-regular", "fa-circle-user", "mr-1"], [1, "btn", "btn-outline-info"], [1, "storage-details-header"], [1, "text-white", "text-bold-600", "px-3", "py-2", "mb-3", "container"], [1, "container"], [1, "start-and-duration-div", "row"], [1, "col-md-7", "col-12"], [3, "formGroup", "ngSubmit"], [1, "storage-types"], [1, "mb-3", "text-bold-600"], [1, "storage-grid"], ["class", "storage-box font-small-3 text-bold-600", 3, "text-info", "click", 4, "ngFor", "ngForOf"], ["class", "sub-section", 4, "ngIf"], [1, "col-md-5", "col-12"], [1, "d-flex", "justify-content-end"], [1, "card", "my-0", "border", "p-3", "rounded"], ["width", "280", "height", "150", "src", "assets/img/storages-images/garage-1-img-1.jpeg", "alt", "", 1, "rounded"], [1, "custom-width-280", "mt-3"], [1, "border-bottom"], [1, "d-flex", "justify-content-between", "align-items-center"], [1, "m-0", "font-medium-4", "text-bold-700"], [1, "m-0", "font-small-4", "text-bold-500"], [1, "mt-1", "mb-3"], [1, "fa-solid", "fa-star", "mr-1"], [1, "mx-1"], [1, "fa-solid", "fa-location-dot", "mx-1"], [1, "d-flex", "justify-content-between", "mb-1"], [1, "m-0"], [1, "d-flex", "justify-content-between", "mb-2"], [1, "d-flex", "justify-content-between", "mt-2"], [1, "m-0", "text-bold-700", "font-medium-4"], [1, "m-0", "mt-1", "text-bold-400", "font-small-3"], [1, "bg-secondary", "bg-lighten-4", "py-3", "mt-2"], [1, "d-flex", "justify-content-between"], ["type", "button", 1, "btn", "btn-outline-secondary", "font-medium-3", "py-2", "px-3", 3, "click"], ["type", "submit", 1, "btn", "btn-primary", "font-medium-3", "py-2", "px-3", 3, "disabled", "click"], [1, "storage-box", "font-small-3", "text-bold-600", 3, "click"], [1, "sub-section"], [1, "type-grid"], ["rows", "4", "type", "text", "formControlName", "itemsList", "placeholder", "Ex: Dresser. Three boxes of clothing.", 1, "itemsList-input-field", "px-2", "py-2", "rounded", "font-small-3", "text-bold-400"], ["class", "type-box font-small-3 text-bold-600", 3, "text-info", "click", 4, "ngFor", "ngForOf"], [1, "length-input", "d-flex", "align-items-center", "mt-3"], [1, "d-flex", "align-item-center", "mr-3"], [1, "m-0", "text-bold-600"], ["type", "number", "formControlName", "vehicleLength", "placeholder", "ft", 1, "length-input-field", "text-bold-600"], [1, "type-box", "font-small-3", "text-bold-600", 3, "click"], ["type", "number", "formControlName", "trailerLength", "placeholder", "ft", 1, "length-input-field", "text-bold-600"], [1, "mb-2", "text-bold-600"], [1, "d-flex"], [1, "btn-group"], ["type", "button", 1, "font-small-3", 3, "click"], ["type", "number", "formControlName", "rvLength", "placeholder", "ft", 1, "length-input-field", "text-bold-600"], ["type", "number", "formControlName", "boatLength", "placeholder", "ft", 1, "length-input-field", "text-bold-600"], ["type", "number", "formControlName", "oversizedLength", "placeholder", "ft", 1, "length-input-field", "text-bold-600"]],
+  vars: 11,
+  consts: [[1, "storing-type", "section"], [1, "storing-type-div"], [1, "header", "d-flex", "justify-content-between", "align-items-center", "px-4", "py-2", "bg-white", "rounded"], [1, "left-menu"], [1, "logo-div", "mr-2"], [1, "logo-text", "m-0", "text-bold-900", "font-large-1", "cursor-pointer", 3, "routerLink"], ["width", "30px", "src", "assets/img/icons/store-easy-icons/storage-icon.svg", "alt", ""], [1, "right-menu", "d-flex", "justify-content-between", "align-items-center", "p-2"], [1, "mr-2"], [1, "how-it-works-button-button", "text-black", "cursor-pointer", "p-2", "rounded"], ["href", "dashboard/storage/search-hosts", "target", "_blank", 1, "find-storage-button", "cursor-pointer", "p-2", "rounded", "text-black"], ["ngbDropdown", ""], ["id", "storage-type-dropdown", "ngbDropdownToggle", "", 1, "btn", "storage-type-button", "mr-2", "text-black"], ["ngbDropdownMenu", "", "aria-labelledby", "storage-type-dropdown"], [1, "dropdown-item", "w-100"], ["id", "locations-dropdown", "ngbDropdownToggle", "", 1, "btn", "location-button", "mr-2", "text-black"], ["ngbDropdownMenu", "", "aria-labelledby", "locations-dropdown"], [1, "how-it-works-button-button", "cursor-pointer", "p-2", "rounded", "text-black"], [1, "fa-regular", "fa-circle-user", "mr-1"], ["href", "dashboard/host/become-a-host", "target", "_blank", 1, "btn", "btn-outline-info"], [1, "storage-details-header"], [1, "text-white", "text-bold-600", "px-3", "py-2", "mb-3", "container"], [1, "container"], [1, "start-and-duration-div", "row"], [1, "col-md-7", "col-12"], [3, "formGroup", "ngSubmit"], [1, "storage-types"], [1, "mb-3", "text-bold-600"], [1, "storage-grid"], ["class", "storage-box font-small-3 text-bold-600", 3, "text-info", "click", 4, "ngFor", "ngForOf"], ["class", "sub-section", 4, "ngIf"], [1, "col-md-5", "col-12"], [1, "d-flex", "justify-content-end"], [1, "card", "my-0", "border", "p-3", "rounded"], ["width", "280", "height", "150", "src", "assets/img/storages-images/garage-1-img-1.jpeg", "alt", "", 1, "rounded"], [1, "custom-width-280", "mt-3"], [1, "border-bottom"], [1, "d-flex", "justify-content-between", "align-items-center"], [1, "m-0", "font-medium-4", "text-bold-700"], [1, "m-0", "font-small-4", "text-bold-500"], [1, "mt-1", "mb-3"], [1, "fa-solid", "fa-star", "mr-1"], [1, "mx-1"], [1, "fa-solid", "fa-location-dot", "mx-1"], [1, "d-flex", "justify-content-between", "mb-1"], [1, "m-0"], [1, "d-flex", "justify-content-between", "mb-2"], [1, "d-flex", "justify-content-between", "mt-2"], [1, "m-0", "text-bold-700", "font-medium-4"], [1, "m-0", "mt-1", "text-bold-400", "font-small-3"], [1, "bg-secondary", "bg-lighten-4", "py-3", "mt-2"], [1, "d-flex", "justify-content-between"], ["type", "button", 1, "btn", "btn-outline-secondary", "font-medium-3", "py-2", "px-3", 3, "click"], ["type", "submit", 1, "btn", "btn-primary", "font-medium-3", "py-2", "px-3", 3, "disabled", "click"], [1, "storage-box", "font-small-3", "text-bold-600", 3, "click"], [1, "sub-section"], [1, "type-grid"], ["rows", "4", "type", "text", "formControlName", "itemsList", "placeholder", "Ex: Dresser. Three boxes of clothing.", 1, "itemsList-input-field", "px-2", "py-2", "rounded", "font-small-3", "text-bold-400"], ["class", "type-box font-small-3 text-bold-600", 3, "text-info", "click", 4, "ngFor", "ngForOf"], [1, "length-input", "d-flex", "align-items-center", "mt-3"], [1, "d-flex", "align-item-center", "mr-3"], [1, "m-0", "text-bold-600"], ["type", "number", "formControlName", "vehicleLength", "placeholder", "ft", 1, "length-input-field", "text-bold-600"], [1, "type-box", "font-small-3", "text-bold-600", 3, "click"], ["type", "number", "formControlName", "trailerLength", "placeholder", "ft", 1, "length-input-field", "text-bold-600"], [1, "mb-2", "text-bold-600"], [1, "d-flex"], [1, "btn-group"], ["type", "button", 1, "font-small-3", 3, "click"], ["type", "number", "formControlName", "rvLength", "placeholder", "ft", 1, "length-input-field", "text-bold-600"], ["type", "number", "formControlName", "boatLength", "placeholder", "ft", 1, "length-input-field", "text-bold-600"], ["type", "number", "formControlName", "oversizedLength", "placeholder", "ft", 1, "length-input-field", "text-bold-600"]],
   template: function StoringTypeComponent_Template(rf, ctx) {
     if (rf & 1) {
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "section", 0);
@@ -4589,8 +4551,8 @@ StoringTypeComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](12, "div", 8);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](13, "span", 10);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](14, " Find Storage ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](13, "a", 10);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](14, "Find storage");
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](15, "div", 11);
@@ -4674,8 +4636,8 @@ StoringTypeComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](67, "div");
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](68, "button", 19);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](69, "Become a Host");
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](68, "a", 19);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](69, "Become a host");
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
@@ -4794,10 +4756,8 @@ StoringTypeComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE
     }
     if (rf & 2) {
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](5);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpureFunction0"](11, _c0));
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](8);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpureFunction0"](12, _c1));
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](63);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpureFunction0"](10, _c0));
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](71);
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("formGroup", ctx.bookingForm);
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](5);
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngForOf", ctx.storageTypes);
@@ -4823,7 +4783,7 @@ StoringTypeComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE
 
 /***/ }),
 
-/***/ 6091:
+/***/ 46091:
 /*!***************************************************!*\
   !*** ./src/app/storage/storage-routing.module.ts ***!
   \***************************************************/
@@ -4833,17 +4793,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "StorageRoutingModule": function() { return /* binding */ StorageRoutingModule; }
 /* harmony export */ });
-/* harmony import */ var C_Startup_backup_New_folder_store_easy_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass.js */ 8047);
-/* harmony import */ var C_Startup_backup_New_folder_store_easy_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck.js */ 8069);
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/router */ 2816);
-/* harmony import */ var _components_search_hosts_search_hosts_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/search-hosts/search-hosts.component */ 5072);
-/* harmony import */ var _components_storage_details_storage_details_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/storage-details/storage-details.component */ 7892);
-/* harmony import */ var _components_start_and_duration_start_and_duration_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/start-and-duration/start-and-duration.component */ 2903);
-/* harmony import */ var _components_storing_type_storing_type_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/storing-type/storing-type.component */ 4677);
-/* harmony import */ var _components_review_booking_review_booking_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/review-booking/review-booking.component */ 4293);
-/* harmony import */ var _components_protection_plan_protection_plan_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/protection-plan/protection-plan.component */ 2484);
-/* harmony import */ var _components_payment_info_payment_info_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/payment-info/payment-info.component */ 2686);
-/* harmony import */ var _components_reservation_successfull_reservation_successfull_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/reservation-successfull/reservation-successfull.component */ 8499);
+/* harmony import */ var C_Startup_backup_New_folder_store_easy_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass.js */ 48047);
+/* harmony import */ var C_Startup_backup_New_folder_store_easy_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck.js */ 78069);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/router */ 52816);
+/* harmony import */ var _components_search_hosts_search_hosts_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/search-hosts/search-hosts.component */ 65072);
+/* harmony import */ var _components_storage_details_storage_details_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/storage-details/storage-details.component */ 57892);
+/* harmony import */ var _components_start_and_duration_start_and_duration_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/start-and-duration/start-and-duration.component */ 62903);
+/* harmony import */ var _components_storing_type_storing_type_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/storing-type/storing-type.component */ 94677);
+/* harmony import */ var _components_review_booking_review_booking_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/review-booking/review-booking.component */ 14293);
+/* harmony import */ var _components_protection_plan_protection_plan_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/protection-plan/protection-plan.component */ 92484);
+/* harmony import */ var _components_payment_info_payment_info_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/payment-info/payment-info.component */ 32686);
+/* harmony import */ var _components_reservation_successfull_reservation_successfull_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/reservation-successfull/reservation-successfull.component */ 88499);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/core */ 3184);
 
 
@@ -5023,7 +4983,7 @@ StorageRoutingModule.ɵinj = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE
 
 /***/ }),
 
-/***/ 4138:
+/***/ 64138:
 /*!*******************************************!*\
   !*** ./src/app/storage/storage.module.ts ***!
   \*******************************************/
@@ -5033,21 +4993,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "StorageModule": function() { return /* binding */ StorageModule; }
 /* harmony export */ });
-/* harmony import */ var C_Startup_backup_New_folder_store_easy_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass.js */ 8047);
-/* harmony import */ var C_Startup_backup_New_folder_store_easy_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck.js */ 8069);
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @angular/common */ 6362);
-/* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ 5365);
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @angular/forms */ 587);
-/* harmony import */ var _ng_select_ng_select__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @ng-select/ng-select */ 7706);
-/* harmony import */ var _storage_routing_module__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./storage-routing.module */ 6091);
-/* harmony import */ var _components_search_hosts_search_hosts_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/search-hosts/search-hosts.component */ 5072);
-/* harmony import */ var _components_storage_details_storage_details_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/storage-details/storage-details.component */ 7892);
-/* harmony import */ var _components_start_and_duration_start_and_duration_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/start-and-duration/start-and-duration.component */ 2903);
-/* harmony import */ var _components_storing_type_storing_type_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/storing-type/storing-type.component */ 4677);
-/* harmony import */ var _components_protection_plan_protection_plan_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/protection-plan/protection-plan.component */ 2484);
-/* harmony import */ var _components_payment_info_payment_info_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/payment-info/payment-info.component */ 2686);
-/* harmony import */ var _components_review_booking_review_booking_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/review-booking/review-booking.component */ 4293);
-/* harmony import */ var _components_reservation_successfull_reservation_successfull_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/reservation-successfull/reservation-successfull.component */ 8499);
+/* harmony import */ var C_Startup_backup_New_folder_store_easy_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass.js */ 48047);
+/* harmony import */ var C_Startup_backup_New_folder_store_easy_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck.js */ 78069);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @angular/common */ 36362);
+/* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ 45365);
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @angular/forms */ 90587);
+/* harmony import */ var _ng_select_ng_select__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @ng-select/ng-select */ 97706);
+/* harmony import */ var _storage_routing_module__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./storage-routing.module */ 46091);
+/* harmony import */ var _components_search_hosts_search_hosts_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/search-hosts/search-hosts.component */ 65072);
+/* harmony import */ var _components_storage_details_storage_details_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/storage-details/storage-details.component */ 57892);
+/* harmony import */ var _components_start_and_duration_start_and_duration_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/start-and-duration/start-and-duration.component */ 62903);
+/* harmony import */ var _components_storing_type_storing_type_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/storing-type/storing-type.component */ 94677);
+/* harmony import */ var _components_protection_plan_protection_plan_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/protection-plan/protection-plan.component */ 92484);
+/* harmony import */ var _components_payment_info_payment_info_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/payment-info/payment-info.component */ 32686);
+/* harmony import */ var _components_review_booking_review_booking_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/review-booking/review-booking.component */ 14293);
+/* harmony import */ var _components_reservation_successfull_reservation_successfull_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/reservation-successfull/reservation-successfull.component */ 88499);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/core */ 3184);
 
 

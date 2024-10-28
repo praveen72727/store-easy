@@ -1,5 +1,5 @@
-<section class="review-booking-section">
-  <div class="review-booking-div">
+<section class="host-welcome-page-section">
+  <div class="host-welcome-page-div">
     <div class="header d-flex justify-content-between align-items-center px-4 py-2 bg-white rounded">
       <div class="left-menu">
         <div class="logo-div mr-2">
@@ -57,68 +57,55 @@
           </div>
       </div>
     </div>
-
     <div class="storage-details-header">
       <h4 class="text-white text-bold-600 px-3 py-2 mb-3 container">
-        Review Booking
+        Become a host
       </h4>
     </div>
 
     <div class="container">
-      <div class="start-and-duration-div row">
-        <div class="col-md-6 col-12">
-
-        </div>
-        <div class="col-md-6 col-12">
-          <div class="d-flex justify-content-end">
-            <div class="card my-0 border p-3 rounded">
-              <div>
-                <img class="rounded" width="280" height="150" src="assets/img/storages-images/garage-1-img-1.jpeg" alt="">
-              </div>
-              <div class="custom-width-280 mt-3">
-                <div class="border-bottom">
-                  <div class="d-flex justify-content-between align-items-center">
-                    <p class="m-0 font-medium-4 text-bold-700">15x10 Garage</p>
-                    <p class="m-0 font-small-4 text-bold-500">20ft tall</p>
-                  </div>
-                  <div class="mt-1 mb-3">
-                    <i class="fa-solid fa-star mr-1"></i>
-                    <span> 4.0 (4 Reviews) <span class="mx-1">|</span> <i class="fa-solid fa-location-dot mx-1"></i>Toronto, ON</span>
-                  </div>
-                  <div class="d-flex justify-content-between mb-1">
-                    <p class="m-0">Monthly rental price</p>
-                    <p class="m-0">$225.00</p>
-                  </div>
-                  <div class="d-flex justify-content-between mb-2">
-                    <p class="m-0">Service fee</p>
-                    <p class="m-0">$27.30</p>
-                  </div>
-                </div>
-                <div>
-                  <div class="d-flex justify-content-between mt-2">
-                    <p class="m-0 text-bold-700 font-medium-4">Total</p>
-                    <p class="m-0 text-bold-700 font-medium-4">$252.30</p>
-                  </div>
-                </div>
-                <p class="m-0 mt-1 text-bold-400 font-small-3">Monthly recurring total until the reservation is ended on the Store Easy app or website.</p>
-              </div>
+      <div class="py-4">
+        <h2 class="text-center text-info text-bold-600 mb-3">Store Easy makes it easy.</h2>
+        <h5 class="text-center mb-4">Become a host in 3 easy steps.</h5>
+        <div class="row">
+          <div class="col-md-4 col-12">
+            <div class="card px-3 py-4">
+              <div class="d-flex justify-content-center align-items-center text-bold-600"><i class="fa-solid fa-warehouse garage-icon text-info"></i></div>
+              <h5 class="text-center text-bold-600 mt-3">1. List your spaces</h5>
+              <p class="m-0 text-center">Tell us about your spaces and how much you would like to earn.</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-12">
+            <div class="card px-3 py-4">
+              <div class="d-flex justify-content-center align-items-center text-bold-600"><i class="fa-solid fa-clipboard-check approve-icon text-info"></i></div>
+              <h5 class="text-center text-bold-600 mt-3">2. Approve who rents</h5>
+              <p class="m-0 text-center">Review renter requests (including what they want to store and when) and approve them.</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-12">
+            <div class="card px-3 py-4">
+              <div class="d-flex justify-content-center align-items-center text-bold-600"><i class="start-earning-icon fa-solid fa-hand-holding-dollar text-info"></i></div>
+              <h5 class="text-center text-bold-600 mt-3">3. Start earning</h5>
+              <p class="m-0 text-center">Schedule a move-in time with your renter, and start getting paid.</p>
             </div>
           </div>
         </div>
+        <div class="text-center mt-4">
+          <button class="btn btn-info w-25 font-medium-3 py-2" (click)="listYourSpace()">List your space</button>
+        </div>
+        <p class="p-0 text-center mt-3"><i class="fa-solid fa-circle-check mr-1"></i> It's free and secure</p>
       </div>
     </div>
 
 
-
-
-
-    <div class="bg-secondary bg-lighten-4 py-3 mt-2">
+    <!-- <div class="bg-secondary bg-lighten-4 mt-3 py-3">
       <div class="container">
-        <div class="d-flex justify-content-between">
-          <button type="button" (click)="goBackTo()" class="btn btn-outline-secondary font-medium-3 py-2 px-3">Back</button>
-          <button type="submit" (click)="goToNext()"  class="btn btn-primary font-medium-3 py-2 px-3">Confirm</button>
+        <div class="d-flex justify-content-end align-items-center">
+          <button (click)="listYourSpace()" type="button" class="btn btn-primary font-medium-3 py-2 px-3">List your space</button>
         </div>
       </div>
-    </div>
+    </div> -->
+
+
   </div>
 </section>
