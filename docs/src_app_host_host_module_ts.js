@@ -34,7 +34,7 @@ __webpack_require__.r(__webpack_exports__);
 
 function HostRegistrationComponent_tr_422_td_4_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "td", 145);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "td", 153);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵpipe"](2, "number");
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
@@ -53,8 +53,8 @@ var _c0 = function _c0(a0) {
 function HostRegistrationComponent_tr_422_td_5_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "td");
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](1, "div", 149);
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](2, "div", 150);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](1, "div", 157);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](2, "div", 158);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
   }
@@ -67,21 +67,21 @@ function HostRegistrationComponent_tr_422_td_5_Template(rf, ctx) {
 function HostRegistrationComponent_tr_422_span_7_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "span");
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](1, "i", 151);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](1, "i", 159);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
   }
 }
 function HostRegistrationComponent_tr_422_span_8_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "span");
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](1, "i", 137);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](1, "i", 145);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
   }
 }
 function HostRegistrationComponent_tr_422_span_9_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "span");
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](1, "i", 152);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](1, "i", 160);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
   }
 }
@@ -94,39 +94,39 @@ function HostRegistrationComponent_tr_422_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](3);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](4, HostRegistrationComponent_tr_422_td_4_Template, 3, 4, "td", 142);
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](5, HostRegistrationComponent_tr_422_td_5_Template, 3, 3, "td", 143);
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](6, "td", 144);
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](7, HostRegistrationComponent_tr_422_span_7_Template, 2, 0, "span", 143);
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](8, HostRegistrationComponent_tr_422_span_8_Template, 2, 0, "span", 143);
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](9, HostRegistrationComponent_tr_422_span_9_Template, 2, 0, "span", 143);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](4, HostRegistrationComponent_tr_422_td_4_Template, 3, 4, "td", 150);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](5, HostRegistrationComponent_tr_422_td_5_Template, 3, 3, "td", 151);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](6, "td", 152);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](7, HostRegistrationComponent_tr_422_span_7_Template, 2, 0, "span", 151);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](8, HostRegistrationComponent_tr_422_span_8_Template, 2, 0, "span", 151);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](9, HostRegistrationComponent_tr_422_span_9_Template, 2, 0, "span", 151);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](10, "td", 145);
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](11, "button", 146);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](10, "td", 153);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](11, "button", 154);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵlistener"]("click", function HostRegistrationComponent_tr_422_Template_button_click_11_listener() {
       var restoredCtx = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵrestoreView"](_r10);
       var item_r1 = restoredCtx.$implicit;
       return item_r1.upload();
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](12, "span", 135);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](12, "span", 143);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](13, " Upload ");
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](14, "button", 147);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](14, "button", 155);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵlistener"]("click", function HostRegistrationComponent_tr_422_Template_button_click_14_listener() {
       var restoredCtx = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵrestoreView"](_r10);
       var item_r1 = restoredCtx.$implicit;
       return item_r1.cancel();
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](15, "span", 137);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](15, "span", 145);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](16, " Cancel ");
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](17, "button", 148);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](17, "button", 156);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵlistener"]("click", function HostRegistrationComponent_tr_422_Template_button_click_17_listener() {
       var restoredCtx = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵrestoreView"](_r10);
       var item_r1 = restoredCtx.$implicit;
       return item_r1.remove();
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](18, "span", 139);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](18, "span", 147);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](19, " Remove ");
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
@@ -257,7 +257,7 @@ HostRegistrationComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_M
   selectors: [["app-host-registration"]],
   decls: 439,
   vars: 30,
-  consts: [[1, "host-registration-section"], [1, "host-registration-div"], [1, "header", "d-flex", "justify-content-between", "align-items-center", "px-4", "py-2", "bg-white", "rounded"], [1, "left-menu"], [1, "logo-div", "mr-2"], [1, "logo-text", "m-0", "text-bold-900", "font-large-1", "cursor-pointer", 3, "routerLink"], ["width", "30px", "src", "assets/img/icons/store-easy-icons/storage-icon.svg", "alt", ""], [1, "right-menu", "d-flex", "justify-content-between", "align-items-center", "p-2"], [1, "mr-2"], [1, "how-it-works-button-button", "text-black", "cursor-pointer", "p-2", "rounded"], ["href", "dashboard/storage/search-hosts", "target", "_blank", 1, "find-storage-button", "cursor-pointer", "p-2", "rounded", "text-black"], ["ngbDropdown", ""], ["id", "storage-type-dropdown", "ngbDropdownToggle", "", 1, "btn", "storage-type-button", "mr-2", "text-black"], ["ngbDropdownMenu", "", "aria-labelledby", "storage-type-dropdown"], [1, "dropdown-item", "w-100"], ["id", "locations-dropdown", "ngbDropdownToggle", "", 1, "btn", "location-button", "mr-2", "text-black"], ["ngbDropdownMenu", "", "aria-labelledby", "locations-dropdown"], [1, "how-it-works-button-button", "cursor-pointer", "p-2", "rounded", "text-black"], [1, "fa-regular", "fa-circle-user", "mr-1"], ["href", "dashboard/host/become-a-host", "target", "_blank", 1, "btn", "btn-outline-info"], [1, "storage-details-header"], [1, "text-white", "text-bold-600", "px-3", "py-2", "mb-3", "container"], [1, "container"], [1, "mt-2"], [1, "card", "p-3"], [1, "form-row"], [1, "col-md-6", "col-12"], [1, "form-group", "mb-2"], ["for", "first-name", 1, "form-field-label-styling"], ["type", "text", "id", "first-name", "name", "fname", "placeholder", "First Name", 1, "form-control"], ["for", "last-name", 1, "form-field-label-styling"], ["type", "text", "id", "last-name", "name", "lname", "placeholder", "Last Name", 1, "form-control"], ["for", "email", 1, "form-field-label-styling"], ["type", "text", "id", "email", "name", "email", "placeholder", "Email", 1, "form-control"], ["for", "phone", 1, "form-field-label-styling"], ["type", "number", "id", "phone", "name", "phone", "placeholder", "Phone", 1, "form-control"], [1, "mt-3"], [1, "mb-2", "mt-1", "font-medium-1", "text-bold-600"], [1, "radio"], ["type", "radio", "name", "storeOrRent", "id", "store-my-items", "disabled", ""], ["for", "store-my-items", 1, "form-field-label-styling"], [1, "radio", "mt-2"], ["type", "radio", "name", "storeOrRent", "id", "rent-out-my-unused-space", "checked", ""], ["for", "rent-out-my-unused-space", 1, "form-field-label-styling"], ["type", "radio", "name", "storeVehiclesOrNot", "id", "yes-vehicles"], ["for", "yes-vehicles", 1, "form-field-label-styling"], ["type", "radio", "name", "storeVehiclesOrNot", "id", "no-vehicles", "checked", ""], ["for", "no-vehicles", 1, "form-field-label-styling"], [1, "col-md-12", "col-12"], ["for", "storage-type", 1, "form-field-label-styling"], ["id", "storage-type", "name", "storageType", 1, "form-control"], ["value", "1", "selected", ""], ["value", "2"], ["value", "3"], ["value", "4"], ["value", "5"], ["value", "6"], ["value", "7"], ["value", "8"], ["value", "9"], ["value", "10"], [1, "form-group"], ["bindLabel", "name", "bindValue", "id", "placeholder", "Select security feature", 3, "items", "multiple", "closeOnSelect", "ngModel", "ngModelChange"], ["bindLabel", "name", "bindValue", "id", "placeholder", "Select quality feature", 3, "items", "multiple", "closeOnSelect", "ngModel", "ngModelChange"], ["bindLabel", "name", "bindValue", "id", "placeholder", "Select convenience feature", 3, "items", "multiple", "closeOnSelect", "ngModel", "ngModelChange"], ["bindLabel", "name", "bindValue", "id", "placeholder", "Select accessibility feature", 3, "items", "multiple", "closeOnSelect", "ngModel", "ngModelChange"], [1, "m-0", "mb-2"], ["for", "street-address", 1, "form-field-label-styling"], ["type", "text", "id", "street-address", "name", "streetAddress", 1, "form-control"], ["for", "apt-suite", 1, "form-field-label-styling"], ["type", "text", "id", "apt-suite", "name", "sptSuite", 1, "form-control"], [1, "col-md-4", "col-12"], ["for", "city-name", 1, "form-field-label-styling"], ["type", "text", "id", "city-name", "name", "cityName", 1, "form-control"], ["for", "province-name", 1, "form-field-label-styling"], ["id", "province-name", "name", "provinceName", 1, "form-control"], ["value", "0"], ["value", "1"], ["value", "6", "selected", ""], ["for", "zip-code", 1, "form-field-label-styling"], ["type", "number", "id", "zip-code", "name", "zipCode", 1, "form-control"], ["type", "radio", "name", "propertyType", "id", "residential", "checked", ""], ["for", "residential", 1, "form-field-label-styling"], ["type", "radio", "name", "propertyType", "id", "commercial"], ["for", "commercial", 1, "form-field-label-styling"], [1, "form-row", "mt-2"], [1, "checkbox"], ["type", "checkbox", "id", "i-have-permission"], ["for", "i-have-permission", 1, "form-field-label-styling"], ["for", "about-space", 1, "form-field-label-styling"], ["id", "about-space", "rows", "4", "name", "aboutSpace", 1, "form-control"], ["for", "space-length", 1, "form-field-label-styling"], ["type", "number", "id", "space-length", "name", "spaceLength", 1, "form-control"], ["for", "space-width", 1, "form-field-label-styling"], ["type", "number", "id", "space-width", "name", "spaceWidth", 1, "form-control"], ["for", "space-height", 1, "form-field-label-styling"], ["type", "number", "id", "space-height", "name", "spaceHeight", 1, "form-control"], ["type", "radio", "name", "approve-renters-visit", "id", "approve-renters-visit-yes", "checked", ""], ["for", "approve-renters-visit-yes", 1, "form-field-label-styling"], ["type", "radio", "name", "approve-renters-visit", "id", "approve-renters-visit-no"], ["for", "approve-renters-visit-no", 1, "form-field-label-styling"], ["type", "radio", "name", "access-time", "id", "day-time-hours", "checked", ""], ["for", "day-time-hours", 1, "form-field-label-styling"], [1, "ml-1"], ["type", "radio", "name", "access-time", "id", "evening-hours", 1, "form-field-label-styling"], ["for", "evening-hours", 1, "form-field-label-styling"], ["type", "radio", "name", "access-time", "id", "anytime-access"], ["for", "anytime-access", 1, "form-field-label-styling"], ["for", "space-price", 1, "mb-2", "mt-1", "font-medium-1", "text-bold-600", "text-normal-case"], ["type", "number", "id", "space-price", "name", "spacePrice", "placeholder", "Price in CAD", 1, "form-control"], ["type", "radio", "name", "discountForRenter", "id", "first-month-discount", "checked", ""], ["for", "first-month-discount", 1, "form-field-label-styling"], ["type", "radio", "name", "discountForRenter", "id", "keep-full-price"], ["for", "keep-full-price", 1, "form-field-label-styling"], [1, "mt-3", "mb-1"], ["id", "file-upload"], [1, "card", "text-left"], [1, "card-header"], [1, "card-body"], [1, "row"], [1, "col-md-12", "col-lg-12"], ["ng2FileDrop", "", 1, "py-5", "mb-3", "text-center", "font-medium-5", "text-uppercase", "grey", "my-drop-zone", 3, "ngClass", "uploader", "fileOver"], [1, "col-lg-3"], [1, "custom-file", "mb-3"], ["type", "file", "ng2FileSelect", "", "multiple", "", 3, "uploader"], [1, "custom-file-control"], [1, "custom-file"], ["type", "file", "ng2FileSelect", "", 3, "uploader"], [1, "col-lg-9"], [1, "table-responsive"], [1, "table"], ["width", "50%"], [4, "ngFor", "ngForOf"], ["type", "primary", 3, "value"], ["type", "button", 1, "btn", "btn-success", "mr-1", "mb-1", "mb-sm-0", 3, "disabled", "click"], [1, "fa", "fa-upload"], ["type", "button", 1, "btn", "btn-warning", "mr-1", "mb-1", "mb-sm-0", 3, "disabled", "click"], [1, "fa", "fa-ban"], ["type", "button", 1, "btn", "btn-danger", "mb-1", "mb-sm-0", 3, "disabled", "click"], [1, "fa", "fa-trash"], [1, "text-center", "my-4"], [1, "btn", "btn-info", "w-25", "font-medium-3", "py-2", 3, "click"], ["nowrap", "", 4, "ngIf"], [4, "ngIf"], [1, "text-center"], ["nowrap", ""], ["type", "button", 1, "btn", "btn-success", "btn-sm", "mr-1", 3, "disabled", "click"], ["type", "button", 1, "btn", "btn-warning", "btn-sm", "mr-1", 3, "disabled", "click"], ["type", "button", 1, "btn", "btn-danger", "btn-sm", 3, "click"], [1, "progress", 2, "margin-bottom", "0"], ["role", "progressbar", 1, "progress-bar", 3, "ngStyle"], [1, "fa", "fa-ok"], [1, "fa", "fa-remove"]],
+  consts: [[1, "host-registration-section"], [1, "host-registration-div"], [1, "header", "d-flex", "justify-content-between", "align-items-center", "px-4", "py-2", "bg-white", "rounded"], [1, "left-menu"], [1, "logo-div", "mr-2"], [1, "logo-text", "m-0", "text-bold-900", "font-large-1", "cursor-pointer", 3, "routerLink"], ["width", "30px", "src", "assets/img/icons/store-easy-icons/storage-icon.svg", "alt", ""], [1, "right-menu", "d-flex", "justify-content-between", "align-items-center", "p-2"], [1, "mr-2"], [1, "how-it-works-button-button", "text-black", "cursor-pointer", "p-2", "rounded"], ["href", "dashboard/storage/search-hosts", "target", "_blank", 1, "find-storage-button", "cursor-pointer", "p-2", "rounded", "text-black"], ["ngbDropdown", ""], ["id", "storage-type-dropdown", "ngbDropdownToggle", "", 1, "btn", "storage-type-button", "mr-2", "text-black"], ["ngbDropdownMenu", "", "aria-labelledby", "storage-type-dropdown"], [1, "dropdown-item", "w-100"], ["id", "locations-dropdown", "ngbDropdownToggle", "", 1, "btn", "location-button", "mr-2", "text-black"], ["ngbDropdownMenu", "", "aria-labelledby", "locations-dropdown"], [1, "how-it-works-button-button", "cursor-pointer", "p-2", "rounded", "text-black"], [1, "fa-regular", "fa-circle-user", "mr-1"], ["href", "dashboard/host/become-a-host", "target", "_blank", 1, "btn", "btn-outline-info"], [1, "storage-details-header"], [1, "text-white", "text-bold-600", "px-3", "py-2", "mb-3", "container"], [1, "container"], [1, "mt-2"], [1, "card", "p-3"], [1, "form-row"], [1, "col-md-6", "col-12"], [1, "form-group", "mb-2"], ["for", "first-name", 1, "form-field-label-styling"], ["type", "text", "id", "first-name", "name", "fname", "placeholder", "First Name", 1, "form-control"], ["for", "last-name", 1, "form-field-label-styling"], ["type", "text", "id", "last-name", "name", "lname", "placeholder", "Last Name", 1, "form-control"], ["for", "email", 1, "form-field-label-styling"], ["type", "text", "id", "email", "name", "email", "placeholder", "Email", 1, "form-control"], ["for", "phone", 1, "form-field-label-styling"], ["type", "number", "id", "phone", "name", "phone", "placeholder", "Phone", 1, "form-control"], [1, "mt-3"], [1, "mb-2", "mt-1", "font-medium-1", "text-bold-600"], [1, "radio"], ["type", "radio", "name", "storeOrRent", "id", "store-my-items", "disabled", ""], ["for", "store-my-items", 1, "form-field-label-styling"], [1, "radio", "mt-2"], ["type", "radio", "name", "storeOrRent", "id", "rent-out-my-unused-space", "checked", ""], ["for", "rent-out-my-unused-space", 1, "form-field-label-styling"], ["type", "radio", "name", "storeVehiclesOrNot", "id", "yes-vehicles"], ["for", "yes-vehicles", 1, "form-field-label-styling"], ["type", "radio", "name", "storeVehiclesOrNot", "id", "no-vehicles", "checked", ""], ["for", "no-vehicles", 1, "form-field-label-styling"], [1, "col-md-12", "col-12"], ["for", "storage-type", 1, "form-field-label-styling"], ["id", "storage-type", "name", "storageType", 1, "form-control"], ["value", "1", "selected", ""], ["value", "2"], ["value", "3"], ["value", "4"], ["value", "5"], ["value", "6"], ["value", "7"], ["value", "8"], ["value", "9"], ["value", "10"], [1, "form-group"], ["bindLabel", "name", "bindValue", "id", "placeholder", "Select security feature", 3, "items", "multiple", "closeOnSelect", "ngModel", "ngModelChange"], ["bindLabel", "name", "bindValue", "id", "placeholder", "Select quality feature", 3, "items", "multiple", "closeOnSelect", "ngModel", "ngModelChange"], ["bindLabel", "name", "bindValue", "id", "placeholder", "Select convenience feature", 3, "items", "multiple", "closeOnSelect", "ngModel", "ngModelChange"], ["bindLabel", "name", "bindValue", "id", "placeholder", "Select accessibility feature", 3, "items", "multiple", "closeOnSelect", "ngModel", "ngModelChange"], [1, "m-0", "mb-2"], ["for", "street-address", 1, "form-field-label-styling"], ["type", "text", "id", "street-address", "name", "streetAddress", 1, "form-control"], ["for", "apt-suite", 1, "form-field-label-styling"], ["type", "text", "id", "apt-suite", "name", "sptSuite", 1, "form-control"], [1, "col-md-4", "col-12"], ["for", "city-name", 1, "form-field-label-styling"], ["type", "text", "id", "city-name", "name", "cityName", 1, "form-control"], ["for", "province-name", 1, "form-field-label-styling"], ["id", "province-name", "name", "provinceName", 1, "form-control"], ["value", "0"], ["value", "1"], ["value", "6", "selected", ""], ["for", "zip-code", 1, "form-field-label-styling"], ["type", "number", "id", "zip-code", "name", "zipCode", 1, "form-control"], ["type", "radio", "name", "propertyType", "id", "residential", "checked", ""], ["for", "residential", 1, "form-field-label-styling"], ["type", "radio", "name", "propertyType", "id", "commercial"], ["for", "commercial", 1, "form-field-label-styling"], [1, "form-row", "mt-2"], [1, "checkbox"], ["type", "checkbox", "id", "i-have-permission"], ["for", "i-have-permission", 1, "form-field-label-styling"], ["for", "about-space", 1, "form-field-label-styling"], ["id", "about-space", "rows", "4", "name", "aboutSpace", 1, "form-control"], ["for", "space-length", 1, "form-field-label-styling"], ["type", "number", "id", "space-length", "name", "spaceLength", 1, "form-control"], ["for", "space-width", 1, "form-field-label-styling"], ["type", "number", "id", "space-width", "name", "spaceWidth", 1, "form-control"], ["for", "space-height", 1, "form-field-label-styling"], ["type", "number", "id", "space-height", "name", "spaceHeight", 1, "form-control"], ["type", "radio", "name", "contact-before-each-visit", "id", "contact-before-each-visit-yes", "checked", ""], ["for", "contact-before-each-visit-yes", 1, "form-field-label-styling"], ["type", "radio", "name", "contact-before-each-visit", "id", "contact-before-each-visit-no"], ["for", "contact-before-each-visit-no", 1, "form-field-label-styling"], ["type", "radio", "name", "approve-renters-visit", "id", "approve-renters-visit-daily"], ["for", "approve-renters-visit-daily", 1, "form-field-label-styling"], ["type", "radio", "name", "approve-renters-visit", "id", "approve-renters-visit-weekly"], ["for", "approve-renters-visit-weekly", 1, "form-field-label-styling"], ["type", "radio", "name", "approve-renters-visit", "id", "approve-renters-visit-monthly", "checked", ""], ["for", "approve-renters-visit-monthly", 1, "form-field-label-styling"], ["type", "radio", "name", "approve-renters-visit", "id", "approve-renters-visit-infrequently"], ["for", "approve-renters-visit-infrequently", 1, "form-field-label-styling"], ["type", "radio", "name", "access-time", "id", "day-time-hours", "checked", ""], ["for", "day-time-hours", 1, "form-field-label-styling"], [1, "ml-1"], ["type", "radio", "name", "access-time", "id", "evening-hours", 1, "form-field-label-styling"], ["for", "evening-hours", 1, "form-field-label-styling"], ["type", "radio", "name", "access-time", "id", "anytime-access"], ["for", "anytime-access", 1, "form-field-label-styling"], ["for", "space-price", 1, "mb-2", "mt-1", "font-medium-1", "text-bold-600", "text-normal-case"], ["type", "number", "id", "space-price", "name", "spacePrice", "placeholder", "Price in CAD", 1, "form-control"], ["type", "radio", "name", "discountForRenter", "id", "first-month-discount", "checked", ""], ["for", "first-month-discount", 1, "form-field-label-styling"], ["type", "radio", "name", "discountForRenter", "id", "keep-full-price"], ["for", "keep-full-price", 1, "form-field-label-styling"], [1, "mt-3", "mb-1"], ["id", "file-upload"], [1, "card", "text-left"], [1, "card-header"], [1, "card-body"], [1, "row"], [1, "col-md-12", "col-lg-12"], ["ng2FileDrop", "", 1, "py-5", "mb-3", "text-center", "font-medium-5", "text-uppercase", "grey", "my-drop-zone", 3, "ngClass", "uploader", "fileOver"], [1, "col-lg-3"], [1, "custom-file", "mb-3"], ["type", "file", "ng2FileSelect", "", "multiple", "", 3, "uploader"], [1, "custom-file-control"], [1, "custom-file"], ["type", "file", "ng2FileSelect", "", 3, "uploader"], [1, "col-lg-9"], [1, "table-responsive"], [1, "table"], ["width", "50%"], [4, "ngFor", "ngForOf"], ["type", "primary", 3, "value"], ["type", "button", 1, "btn", "btn-success", "mr-1", "mb-1", "mb-sm-0", 3, "disabled", "click"], [1, "fa", "fa-upload"], ["type", "button", 1, "btn", "btn-warning", "mr-1", "mb-1", "mb-sm-0", 3, "disabled", "click"], [1, "fa", "fa-ban"], ["type", "button", 1, "btn", "btn-danger", "mb-1", "mb-sm-0", 3, "disabled", "click"], [1, "fa", "fa-trash"], [1, "text-center", "my-4"], [1, "btn", "btn-info", "w-25", "font-medium-3", "py-2", 3, "click"], ["nowrap", "", 4, "ngIf"], [4, "ngIf"], [1, "text-center"], ["nowrap", ""], ["type", "button", 1, "btn", "btn-success", "btn-sm", "mr-1", 3, "disabled", "click"], ["type", "button", 1, "btn", "btn-warning", "btn-sm", "mr-1", 3, "disabled", "click"], ["type", "button", 1, "btn", "btn-danger", "btn-sm", 3, "click"], [1, "progress", 2, "margin-bottom", "0"], ["role", "progressbar", 1, "progress-bar", 3, "ngStyle"], [1, "fa", "fa-ok"], [1, "fa", "fa-remove"]],
   template: function HostRegistrationComponent_Template(rf, ctx) {
     if (rf & 1) {
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "section", 0);
@@ -771,26 +771,26 @@ HostRegistrationComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_M
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](310, "div", 27);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](311, "div", 38);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](312, "input", 97);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](313, "label", 98);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](312, "input", 101);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](313, "label", 102);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](314, "Daily (At least daily)");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](315, "div", 41);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](316, "input", 99);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](317, "label", 100);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](316, "input", 103);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](317, "label", 104);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](318, "Weekly (A few times per week)");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](319, "div", 41);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](320, "input", 99);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](321, "label", 100);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](320, "input", 105);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](321, "label", 106);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](322, "Monthly (A few times per month)");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](323, "div", 41);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](324, "input", 99);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](325, "label", 100);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](324, "input", 107);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](325, "label", 108);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](326, "Infrequently (Less than once per month)");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
@@ -804,28 +804,28 @@ HostRegistrationComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_M
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](330, "div", 48);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](331, "div", 27);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](332, "div", 38);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](333, "input", 101);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](334, "label", 102);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](333, "input", 109);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](334, "label", 110);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](335, "Day time hours ");
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](336, "span", 103);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](336, "span", 111);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](337, "(Any time during standard business hours (8AM to 5PM))");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](338, "div", 41);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](339, "input", 104);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](340, "label", 105);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](339, "input", 112);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](340, "label", 113);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](341, "Evening hours ");
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](342, "span", 103);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](342, "span", 111);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](343, "(Any time after standard business hours (after 5PM))");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](344, "div", 41);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](345, "input", 106);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](346, "label", 107);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](345, "input", 114);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](346, "label", 115);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](347, "24x7");
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](348, "span", 103);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](348, "span", 111);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](349, "(Approved renters will be able to access the space whenever they want)");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
@@ -841,10 +841,10 @@ HostRegistrationComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_M
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](353, "div", 25);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](354, "div", 71);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](355, "div", 27);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](356, "label", 108);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](356, "label", 116);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](357, "Fixed monthly price");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](358, "input", 109);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](358, "input", 117);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
@@ -858,17 +858,17 @@ HostRegistrationComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_M
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](364, "div", 48);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](365, "div", 27);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](366, "div", 38);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](367, "input", 110);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](368, "label", 111);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](367, "input", 118);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](368, "label", 119);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](369, "Yes, discount the first month");
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](370, "span", 103);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](370, "span", 111);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](371, "(If a renter stays two months or more)");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](372, "div", 41);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](373, "input", 112);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](374, "label", 113);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](373, "input", 120);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](374, "label", 121);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](375, "No, keep it full price");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
@@ -876,19 +876,19 @@ HostRegistrationComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_M
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](376, "h5", 114);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](376, "h5", 122);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](377, "11. Take photos of your space");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](378, "p", 66);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](379, "Add 4+ photos, get rented twice as often.");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](380, "section", 115);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](381, "div", 116);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](382, "div", 117);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](383, "div", 118);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](384, "div", 119);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](385, "div", 120);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](386, "div", 121);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](380, "section", 123);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](381, "div", 124);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](382, "div", 125);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](383, "div", 126);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](384, "div", 127);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](385, "div", 128);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](386, "div", 129);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵlistener"]("fileOver", function HostRegistrationComponent_Template_div_fileOver_386_listener($event) {
         return ctx.fileOverBase($event);
       });
@@ -896,38 +896,38 @@ HostRegistrationComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_M
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](388, "div", 119);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](389, "div", 122);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](388, "div", 127);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](389, "div", 130);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](390, "h5");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](391, "Select files");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](392, "div");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](393, "Multiple");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](394, "label", 123);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](395, "input", 124);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](396, "span", 125);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](394, "label", 131);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](395, "input", 132);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](396, "span", 133);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](397, "div");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](398, "Single");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](399, "label", 126);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](400, "input", 127);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](401, "span", 125);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](399, "label", 134);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](400, "input", 135);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](401, "span", 133);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](402, "div", 128);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](402, "div", 136);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](403, "h5");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](404, "Upload queue");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](405, "p");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](406);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](407, "div", 129);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](408, "table", 130);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](407, "div", 137);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](408, "table", 138);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](409, "thead");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](410, "tr");
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](411, "th", 131);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](411, "th", 139);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](412, "Name");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](413, "th");
@@ -945,34 +945,34 @@ HostRegistrationComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_M
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](421, "tbody");
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](422, HostRegistrationComponent_tr_422_Template, 22, 8, "tr", 132);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](422, HostRegistrationComponent_tr_422_Template, 22, 8, "tr", 140);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](423, "div");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](424, "p");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](425, "Queue progress: ");
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](426, "ngb-progressbar", 133);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](426, "ngb-progressbar", 141);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](427, "button", 134);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](427, "button", 142);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵlistener"]("click", function HostRegistrationComponent_Template_button_click_427_listener() {
         return ctx.uploader.uploadAll();
       });
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](428, "span", 135);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](428, "span", 143);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](429, " Upload all ");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](430, "button", 136);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](430, "button", 144);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵlistener"]("click", function HostRegistrationComponent_Template_button_click_430_listener() {
         return ctx.uploader.cancelAll();
       });
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](431, "span", 137);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](431, "span", 145);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](432, " Cancel all ");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](433, "button", 138);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](433, "button", 146);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵlistener"]("click", function HostRegistrationComponent_Template_button_click_433_listener() {
         return ctx.uploader.clearQueue();
       });
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](434, "span", 139);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](434, "span", 147);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](435, " Remove all ");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
@@ -984,8 +984,8 @@ HostRegistrationComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_M
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](436, "div", 140);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](437, "button", 141);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](436, "div", 148);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](437, "button", 149);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵlistener"]("click", function HostRegistrationComponent_Template_button_click_437_listener() {
         return ctx.swal.HostRegistrationSuccess();
       });
